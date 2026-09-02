@@ -1,20 +1,18 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
+import { fixedPages as onimushaFixedPages } from "@/data/pages/fixed-pages";
 import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
 import { sitePages } from "@/data/pages/site-pages";
-import { wikiPages } from "@/data/pages/wiki-pages";
+import { templateFixturePages } from "@/data/pages/template-fixtures";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
 const fixedPages: PageContent[] = [
   homePage,
-  ...wikiPages,
-  ...guidePages,
-  ...releasePages,
+  ...onimushaFixedPages,
   ...sitePages,
+  ...templateFixturePages,
 ];
 
 const pages: PageContent[] = [
