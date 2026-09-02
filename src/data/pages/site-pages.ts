@@ -112,7 +112,7 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Contact method",
         body:
-          "Add a real email address or contact form endpoint before publishing on September 3, 2026. The placeholder structure exists so the site has a complete trust-page set during pre-launch review. Once a working method is in place, link it from the hero CTA and the data-protection section on this page.",
+          "Add a real email address or contact form endpoint for the September 3, 2026 launch. The placeholder structure exists so the site has a complete trust-page set during pre-launch review. Once a working method is in place, link it from the hero CTA and the data-protection section on this page.",
       },
       {
         id: "contact-corrections",

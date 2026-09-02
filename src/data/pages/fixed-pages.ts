@@ -6,7 +6,7 @@ const LAST_REVIEWED = "2026-09-02";
 // the matching markdown in
 // site-launch/tasks/onimushawayofthesword-pro/content/locales/en-US/pages/.
 // All SEO copy, facts, intents, and recommendations are taken verbatim from
-// the content package — the modules here do not invent or rewrite any claim.
+// the approved SEO content — the modules here do not invent or rewrite any claim.
 
 export const fixedPages: PageContent[] = [
   // release-platforms — status page
