@@ -1340,8 +1340,8 @@ export const fixedPages: PageContent[] = [
     translationKey: "items-equipment",
     locale: "en-US",
     routeKind: "fixed",
-    slug: "items-equipment",
-    url: "/items-equipment",
+    slug: "items",
+    url: "/items",
     pageType: "guides",
     presentation: {
       shell: "content",
