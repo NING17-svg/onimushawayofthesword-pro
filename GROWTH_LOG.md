@@ -6,6 +6,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-02 - Adsterra integration applied
+
+- Task: Populate `src/data/ads.ts` with the six fixed Adsterra unit codes (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) for the live Onimusha: Way of the Sword site.
+- Files changed: `src/data/ads.ts`, `GROWTH_LOG.md`.
+- URLs affected: No URL or layout change; the fixed ad containers now carry their real Adsterra payloads.
+- Verification: `npm run verify` after the replacement; local validator reconciles registry, target ads.ts, and the private `~/.local/share/adsterra-integrator/runs/onimushawayofthesword-pro/{config.json,adsterra-codes.json}` evidence before enabling the registry state.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
