@@ -1,46 +1,54 @@
 import type { ThemeConfig } from "@/types/theme";
 
+// Onimusha: Way of the Sword — dark crimson-ink samurai theme. The mixed mode
+// gives Home and Hub shells the dark crimson radial atmosphere while every
+// long-form Content / Reference page sits on the warm cream-paper surface.
+// Tokens, typography, shape, density, background, decoration, and variants
+// match the V3 theme specification dated 2026-09-02.
+
 export const theme = {
-  mode: "light",
+  mode: "mixed",
   tokens: {
-    pageBg: "#f5f6f1",
-    surface1: "#ffffff",
-    surface2: "#eef2ed",
-    surface3: "#e4e9e3",
-    surfaceInverse: "#18201d",
-    textPrimary: "#18201d",
-    textMuted: "#5d6862",
-    textInverse: "#ffffff",
-    textOnAccentPrimary: "#ffffff",
-    textLink: "#2f6f5e",
-    focusRing: "#2f6f5e",
-    line: "#d8ded7",
-    lineStrong: "#7d8982",
-    accentPrimary: "#2f6f5e",
-    accentSecondary: "#b85c38",
-    accentBright: "#c49a35",
-    statusConfirmed: "#2f6f5e",
-    statusCaution: "#9b651f",
-    statusUnknown: "#69736e",
+    pageBg: "#0B0A0D",
+    surface1: "#14121A",
+    surface2: "#1C1A24",
+    surface3: "#26232E",
+    surfaceInverse: "#F6F1E8",
+    textPrimary: "#F2EBDC",
+    textMuted: "#B5AC9A",
+    textInverse: "#1A1620",
+    textOnAccentPrimary: "#FFFFFF",
+    textLink: "#D55B62",
+    focusRing: "#E5474F",
+    line: "#2A2733",
+    lineStrong: "#3D3A48",
+    accentPrimary: "#B91C2C",
+    accentSecondary: "#C8A45C",
+    accentBright: "#E5474F",
+    statusConfirmed: "#4F8F4F",
+    statusCaution: "#C8A45C",
+    statusUnknown: "#9C9893",
   },
   typography: {
-    headingFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
-    bodyFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
+    headingFamily:
+      "Manrope, 'Helvetica Neue', Arial, system-ui, sans-serif",
+    bodyFamily:
+      "'Inter', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif",
     headingWeight: 800,
   },
   shape: {
-    radius: "8px",
+    radius: "4px",
     borderWidth: "1px",
-    shadow: "0 18px 50px rgba(24, 32, 29, 0.08)",
-    hoverLift: "-2px",
+    shadow: "0 2px 8px rgba(11,10,13,0.5)",
+    hoverLift: "2px",
   },
   density: "comfortable",
-  background: { mode: "solid", overlay: 0, position: "center" },
+  background: { mode: "gradient", overlay: 0.6, position: "center top" },
   variants: {
-    home: "split-panel",
+    home: "media-hero",
     hub: "card-grid",
     content: "reading-right-rail",
     workspace: "full-width",
   },
-  decoration: { motif: "none", intensity: "low" },
+  decoration: { motif: "lines", intensity: "low" },
 } satisfies ThemeConfig;

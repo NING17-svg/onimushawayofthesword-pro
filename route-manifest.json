@@ -1,0 +1,222 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-bosses-en-us",
+    "translationKey": "bosses",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/bosses",
+    "alternates": {
+      "en-US": "/bosses"
+    }
+  },
+  {
+    "id": "fixed-characters-en-us",
+    "translationKey": "characters",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/characters",
+    "alternates": {
+      "en-US": "/characters"
+    }
+  },
+  {
+    "id": "fixed-combat-mechanics-en-us",
+    "translationKey": "combat-mechanics",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/combat",
+    "alternates": {
+      "en-US": "/combat"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-demo-en-us",
+    "translationKey": "demo",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/demo",
+    "alternates": {
+      "en-US": "/demo"
+    }
+  },
+  {
+    "id": "fixed-difficulty-settings-en-us",
+    "translationKey": "difficulty-settings",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/difficulty",
+    "alternates": {
+      "en-US": "/difficulty"
+    }
+  },
+  {
+    "id": "fixed-editions-pricing-en-us",
+    "translationKey": "editions-pricing",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/editions",
+    "alternates": {
+      "en-US": "/editions"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq-fixture",
+    "alternates": {
+      "en-US": "/faq-fixture"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides-fixture",
+    "alternates": {
+      "en-US": "/guides-fixture"
+    }
+  },
+  {
+    "id": "fixed-issen-guide-en-us",
+    "translationKey": "issen-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/issen",
+    "alternates": {
+      "en-US": "/issen"
+    }
+  },
+  {
+    "id": "fixed-items-equipment-en-us",
+    "translationKey": "items-equipment",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/items-equipment",
+    "alternates": {
+      "en-US": "/items-equipment"
+    }
+  },
+  {
+    "id": "fixed-length-en-us",
+    "translationKey": "length",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/length",
+    "alternates": {
+      "en-US": "/length"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-platforms-en-us",
+    "translationKey": "release-platforms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release",
+    "alternates": {
+      "en-US": "/release"
+    }
+  },
+  {
+    "id": "fixed-reviews-press-en-us",
+    "translationKey": "reviews-press",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/reviews",
+    "alternates": {
+      "en-US": "/reviews"
+    }
+  },
+  {
+    "id": "fixed-switch-2-version-en-us",
+    "translationKey": "switch-2-version",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/switch-2",
+    "alternates": {
+      "en-US": "/switch-2"
+    }
+  },
+  {
+    "id": "fixed-system-requirements-en-us",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-trophies-achievements-en-us",
+    "translationKey": "trophies-achievements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/trophies",
+    "alternates": {
+      "en-US": "/trophies"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki-fixture",
+    "alternates": {
+      "en-US": "/wiki-fixture"
+    }
+  }
+]
