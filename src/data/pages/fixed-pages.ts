@@ -336,7 +336,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Using the Demo as Issen Training",
         body:
-          "Because the Sasaki Ganryu fight requires clean Issen timing, the demo is effectively an Issen training room. Players who want to refine their timing before launch should focus on three habits during the demo: identify Ganryu's heavy-swing animation early, commit to the Oni Gauntlet parry on the correct frame, and chain the follow-up Issen counter immediately after the parry lands. The expanded demo's \"fearsome boss\" introduces a second timing pattern, which makes it a useful second drill once the Ganryu timing is consistent.\n\nThe [Issen guide](/issen/) covers the broader timing system, and the [combat mechanics page](/combat/) explains how Issen chains into the Oni Gauntlet system. The demo sits between those two reference pages as the practical training ground.",
+          "Because the Sasaki Ganryu fight requires clean Issen timing, the demo is effectively an Issen training room. Players who want to refine their timing before launch should focus on three habits during the demo: identify Ganryu's heavy-swing animation early, commit to the Oni Gauntlet parry on the correct frame, and chain the follow-up Issen counter immediately after the parry lands. The expanded demo's second boss — Byakue (Hundred Defilements) — introduces a second timing pattern, which makes it a useful second drill once the Ganryu timing is consistent.\n\nThe dedicated [Sasaki Ganryu demo boss page](/sasaki-ganryu/) covers the full move list (three-hit poke combo with red-glow finisher, Blade Barrage, stomp-and-slash, grab at 50% HP, helm-breaker overhead) and the dedicated counter window for each move. The [Byakue second boss page](/byakue/) covers the paper seals blood mechanic, the stand-ground counter pattern, and the 10-Issen Special Challenge unlock. The [Issen guide](/issen/) covers the broader timing system, and the [combat mechanics page](/combat/) explains how Issen chains into the Oni Gauntlet system.",
       },
       {
         id: "demo-edition-context",
@@ -369,6 +369,8 @@ export const fixedPages: PageContent[] = [
       "fixed-bosses-en-us",
       "fixed-combat-mechanics-en-us",
       "fixed-issen-guide-en-us",
+      "fixed-sasaki-ganryu-demo-boss-en-us",
+      "fixed-byakue-second-boss-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -671,7 +673,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "New Game+ and the Carnage Difficulty Loop",
         body:
-          "The largest length-extending lever is the New Game+ loop, which the Steam Community hub and the launch-window reviews describe as Carnage Difficulty. Carnage Difficulty is the New Game+ mode that reopens the campaign at a higher challenge tier and is the only confirmed way to extend playtime past the first ending without restarting from scratch on Normal.\n\nCarry-over rules shape how the New Game+ loop behaves in practice:\n\n- Carnage Difficulty carries forward unlocks, upgrades, outfits, and tutorials.\n- Carnage Difficulty does not carry forward story progress, materials, or save points.\n\nThat split matters for length. Because unlocks and outfits carry, a second run is mechanically richer — Musashi starts with stronger charms and cosmetics from the start of Chapter 1 — which can shorten some encounters but also opens higher-tier enemy behavior that lengthens boss fights. Because materials and save points do not carry, players still have to rebuild their consumable stock and find new save shrines, which adds hours back into the loop.\n\nIn practical terms, the New Game+ Carnage Difficulty loop is the difference between a single main-story run and a multi-game session, and it is the variable most likely to swing to playtime the widest.",
+          "The largest length-extending lever is the New Game+ loop, which the Steam Community hub and the launch-window reviews describe as Carnage Difficulty. Carnage Difficulty is the New Game+ mode that reopens the campaign at a higher challenge tier and is the only confirmed way to extend playtime past the first ending without restarting from scratch on Normal.\n\nCarry-over rules shape how the New Game+ loop behaves in practice:\n\n- Carnage Difficulty carries forward unlocks, upgrades, outfits, and tutorials.\n- Carnage Difficulty does not carry forward story progress, materials, or save points.\n\nThat split matters for length. Because unlocks and outfits carry, a second run is mechanically richer — Musashi starts with stronger charms and cosmetics from the start of Chapter 1 — which can shorten some encounters but also opens higher-tier enemy behavior that lengthens boss fights. Because materials and save points do not carry, players still have to rebuild their consumable stock and find new save shrines, which adds hours back into the loop. The dedicated [Carnage Difficulty page](/carnage-difficulty/) anchors the carry-over split to specific charm loadout items (Kubi Akari demo charm, Lion Dog pre-order charm, Deluxe Edition charm bundle).\n\nIn practical terms, the New Game+ Carnage Difficulty loop is the difference between a single main-story run and a multi-game session, and it is the variable most likely to swing to playtime the widest.",
       },
       {
         id: "length-side-content",
@@ -706,6 +708,7 @@ export const fixedPages: PageContent[] = [
       "fixed-combat-mechanics-en-us",
       "fixed-difficulty-settings-en-us",
       "fixed-demo-en-us",
+      "fixed-carnage-difficulty-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -814,7 +817,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Carnage Difficulty (New Game+)",
         body:
-          "Carnage Difficulty is the New Game+ tier unlocked after the first ending. It reopens the campaign at the highest challenge. The carry-over rules for Carnage Difficulty are:\n\n- Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials.\n- Carnage Difficulty does not carry story progress, materials, or save points.\n\nCarnage Difficulty differs from the four campaign-time presets because it is a New Game+ tier rather than a first-run preset. A first-run player who wants the hardest first-playthrough experience should choose the Oni preset, not Carnage Difficulty. The [length page](/length/) explains how Carnage Difficulty extends playtime past the first ending.",
+          "Carnage Difficulty is the New Game+ tier unlocked after the first ending. It reopens the campaign at the highest challenge. The carry-over rules for Carnage Difficulty are:\n\n- Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials.\n- Carnage Difficulty does not carry story progress, materials, or save points.\n\nCarnage Difficulty differs from the four campaign-time presets because it is a New Game+ tier rather than a first-run preset. A first-run player who wants the hardest first-playthrough experience should choose the Oni preset, not Carnage Difficulty. The dedicated [Carnage Difficulty New Game+ page](/carnage-difficulty/) walks through the carry-over split anchored to specific charm loadout items (Kubi Akari, Lion Dog, Deluxe Edition charms) and explains why consumable materials reset while charms carry. The [length page](/length/) explains how Carnage Difficulty extends playtime past the first ending.",
       },
       {
         id: "difficulty-choose",
@@ -842,6 +845,7 @@ export const fixedPages: PageContent[] = [
       "fixed-combat-mechanics-en-us",
       "fixed-issen-guide-en-us",
       "fixed-length-en-us",
+      "fixed-carnage-difficulty-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -911,7 +915,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Oni Gauntlet — Risk-Reward Parry and Counter",
         body:
-          "The Oni Gauntlet is a risk-reward perfect-timing parry and counter mechanic. When an enemy commits to a heavy attack, a brief Oni Gauntlet window opens during which Musashi can attempt a clean parry. A successful parry interrupts the enemy's attack, opens the Issen counter-attack window, and awards the player with a parry-combo continuation. A failed attempt punishes Musashi with heavy damage because the Oni Gauntlet is positioned as a \"do or die\" timing test rather than a passive block.\n\nThe Oni Gauntlet is the central risk-reward layer of the combat system. Players who learn the parry timing convert enemy attacks into combo opportunities; players who ignore the Oni Gauntlet face longer fights and higher damage intake. The mechanic is a deliberate risk-reward choice that rewards timing mastery and punishes passive play.",
+          "The Oni Gauntlet is a risk-reward perfect-timing parry and counter mechanic. When an enemy commits to a heavy attack, a brief Oni Gauntlet window opens during which Musashi can attempt a clean parry. A successful parry interrupts the enemy's attack, opens the Issen counter-attack window, and awards the player with a parry-combo continuation. A failed attempt punishes Musashi with heavy damage because the Oni Gauntlet is positioned as a \"do or die\" timing test rather than a passive block.\n\nThe Oni Gauntlet is the central risk-reward layer of the combat system. Players who learn the parry timing convert enemy attacks into combo opportunities; players who ignore the Oni Gauntlet face longer fights and higher damage intake. The mechanic is a deliberate risk-reward choice that rewards timing mastery and punishes passive play. The dedicated [defensive lanes page](/defensive-lanes/) walks through the four defensive lanes (Parry Main / Deflect Main / Dodge Main / Issen Focus), the red-glow stamina-drain telegraph on heavy finishers, and the late 1-2 frame parry commit on heavily telegraphed attacks.",
       },
       {
         id: "combat-issen",
@@ -961,6 +965,7 @@ export const fixedPages: PageContent[] = [
       "fixed-bosses-en-us",
       "fixed-difficulty-settings-en-us",
       "fixed-demo-en-us",
+      "fixed-defensive-lanes-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -1044,7 +1049,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Issen Application in Boss Fights",
         body:
-          "Boss fights use the same Issen system, but the timing windows are preset-dependent and the boss-specific animations vary. Sasaki Ganryu is the cleanest Issen training room before launch because his heavy-swing animations open a visible Oni Gauntlet window that maps directly onto the Issen punish. Genma Musashi, the Ifuu and Burai siblings, and other late-game bosses layer boss-specific animations on top of the same Oni Gauntlet timing system, so the same chain-Issen rhythm applies — just with longer and more varied timing windows.\n\nThe [bosses page](/bosses/) tracks the full confirmed Genma roster. The general principle is that Issen timing windows are tied to the Oni Gauntlet animation trigger, not to the boss's HP bar, so a clean parry rhythm works regardless of boss HP.",
+          "Boss fights use the same Issen system, but the timing windows are preset-dependent and the boss-specific animations vary. Sasaki Ganryu is the cleanest Issen training room before launch because his heavy-swing animations open a visible Oni Gauntlet window that maps directly onto the Issen punish. Genma Musashi, the Ifuu and Burai siblings, and other late-game bosses layer boss-specific animations on top of the same Oni Gauntlet timing system, so the same chain-Issen rhythm applies — just with longer and more varied timing windows.\n\nThe [bosses page](/bosses/) tracks the full confirmed Genma roster. The general principle is that Issen timing windows are tied to the Oni Gauntlet animation trigger, not to the boss's HP bar, so a clean parry rhythm works regardless of boss HP. The [defensive lanes page](/defensive-lanes/) covers how to pick between Parry Main, Deflect Main, Dodge Main, and Issen Focus per encounter so the Issen input lands inside the right lane.",
       },
       {
         id: "issen-demo",
@@ -1080,6 +1085,8 @@ export const fixedPages: PageContent[] = [
       "fixed-bosses-en-us",
       "fixed-demo-en-us",
       "fixed-difficulty-settings-en-us",
+      "fixed-defensive-lanes-en-us",
+      "fixed-sasaki-ganryu-demo-boss-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -1178,9 +1185,9 @@ export const fixedPages: PageContent[] = [
       {
         id: "bosses-expanded-demo",
         type: "prose",
-        heading: "Expanded Demo \"Fearsome Boss\"",
+        heading: "Expanded Demo Second Boss — Byakue",
         body:
-          "The expanded demo adds another \"fearsome boss\" to the rotation. The exact identity of the expanded demo boss is not announced as of 2026-09-02. The phrasing \"fearsome boss\" comes from Capcom's own framing and signals that the new boss is positioned at a similar or higher difficulty tier to Ganryu, not a routine mid-level enemy. Players who want the second Issen timing pattern should run the expanded demo and treat the new boss as a chain-Issen drill.",
+          "The expanded demo adds Byakue (Hundred Defilements) as a second boss to the rotation after the Sasaki Ganryu fight. Byakue is a white-furred axe-wielding Genma with a paper seals blood mechanic — more blood drawn = stronger Byakue. Capcom's own \"fearsome boss\" framing resolves to Byakue, which is the identity launch-week guides name consistently. Players who want the second Issen timing pattern should run the expanded demo and treat the new boss as a stand-ground + side-step discipline drill.\n\nThe dedicated [Byakue second boss page](/byakue/) covers the paper seals blood mechanic, the stand-ground counter pattern, and the 10-Issen Special Challenge unlock that gates a harder Byakue fight. The dedicated [Sasaki Ganryu page](/sasaki-ganryu/) covers the full move list and counter windows for the demo's first boss.",
       },
       {
         id: "bosses-hidden",
@@ -1209,6 +1216,8 @@ export const fixedPages: PageContent[] = [
       "fixed-issen-guide-en-us",
       "fixed-demo-en-us",
       "fixed-characters-en-us",
+      "fixed-sasaki-ganryu-demo-boss-en-us",
+      "fixed-byakue-second-boss-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -1689,5 +1698,564 @@ export const fixedPages: PageContent[] = [
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
     lastReviewed: LAST_REVIEWED,
+  },
+
+  // sasaki-ganryu-demo-boss — dedicated boss-fight deep dive
+  {
+    id: "fixed-sasaki-ganryu-demo-boss-en-us",
+    translationKey: "sasaki-ganryu-demo-boss",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "sasaki-ganryu",
+    url: "/sasaki-ganryu",
+    pageType: "guides",
+    presentation: {
+      shell: "content",
+      variant: "reading-right-rail",
+    },
+    h1: "Onimusha Way of the Sword Sasaki Ganryu Demo Boss — Move List and Counters",
+    seoTitle:
+      "Onimusha Way of the Sword Sasaki Ganryu Demo Boss — Move List and Counters",
+    metaDescription:
+      "Sasaki Ganryu demo boss move list: three-hit poke combo with red-glow finisher, Blade Barrage, stomp-and-slash, grab at 50% HP, helm-breaker overhead, and the dedicated counter window for each.",
+    summary:
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) demo signature boss Sasaki Ganryu has five named attack patterns: a three-hit poke combo with a red-glow stamina-drain finisher, Blade Barrage, a stomp-and-slash, a grab at roughly 50% HP, and a helm-breaker overhead. Each move has a dedicated counter window, and a Break Issen vulnerability opens once the Force/Stagger gauge is depleted.",
+    hero: {
+      eyebrow: "Sasaki Ganryu demo boss",
+      subtitle:
+        "The Sasaki Ganryu demo fight is the cleanest Issen training room before launch. He has five named attack patterns — three-hit poke combo with red-glow finisher, Blade Barrage, stomp-and-slash, grab at roughly 50% HP, and helm-breaker overhead — plus a Break Issen vulnerability that opens after the Force/Stagger gauge is depleted.",
+      ctas: [
+        { label: "Demo Guide", href: "/demo" },
+        { label: "Bosses", href: "/bosses" },
+        { label: "Issen Guide", href: "/issen" },
+      ],
+    },
+    quickAnswer:
+      "Sasaki Ganryu has five named attack patterns in the demo: a three-hit poke combo with a red-glow stamina-drain finisher, a Blade Barrage stance-break clash, a stomp-and-slash, a grab that fires at roughly 50% HP, and a helm-breaker overhead. Each move has a dedicated counter window: parry chain for the poke combo, match-and-ride for Blade Barrage, parry-or-dodge discipline for stomp-and-slash, Perfect Dodge only for the grab, Issen or parry target for the helm-breaker, and a Break Issen once the Force/Stagger gauge is depleted. The Yellow Soul healing discipline between combos keeps Musashi topped up between heavy swings.",
+    keyFacts: [
+      { label: "Boss", value: "Sasaki Ganryu, Musashi's direct rival" },
+      { label: "Setting", value: "Demo signature boss, Kiyomizu-dera Temple area" },
+      { label: "Named attacks", value: "Three-hit poke combo, Blade Barrage, stomp-and-slash, grab, helm-breaker overhead" },
+      { label: "Red-glow finisher", value: "Stamina-drain telegraph on the three-hit poke combo finisher" },
+      { label: "Grab trigger", value: "Activates at roughly 50% HP" },
+      { label: "Break Issen", value: "Opens after Force/Stagger gauge is depleted" },
+      { label: "Yellow Soul", value: "Use between combos to heal between heavy swings" },
+      { label: "Demo counter for Blade Barrage", value: "Match-and-ride the stance-break clash, then counter the recovery" },
+      { label: "Exact frame data", value: "Not announced as of 2026-09-05" },
+      { label: "Release date", value: "September 3, 2026" },
+    ],
+    modules: [
+      {
+        id: "sasaki-overview",
+        type: "prose",
+        heading: "Sasaki Ganryu as the Demo Signature Boss",
+        body:
+          "Sasaki Ganryu is the demo's signature boss and Musashi's direct rival in the full story. The fight is the cleanest place to learn the Issen rhythm before launch because every named attack has a specific counter window, and the same Force/Stagger mechanic that governs Ganryu carries over to the Ifuu and Burai dual encounter and the late-game Genma Musashi fight.\n\nPlayers who learn the Ganryu move list in the demo carry that muscle memory directly into the full game. The [demo guide](/demo/) walks through cross-store availability, the [bosses page](/bosses/) tracks the full confirmed Genma roster, and the [Issen guide](/issen/) covers the chain-Issen timing rules the Ganryu fight teaches.",
+      },
+      {
+        id: "sasaki-table",
+        type: "data-table",
+        heading: "Sasaki Ganryu named attacks and counters",
+        columns: [
+          { key: "attack", label: "Attack" },
+          { key: "telegraph", label: "Telegraph" },
+          { key: "counter", label: "Counter window" },
+        ],
+        rows: [
+          { attack: "Three-hit poke combo", telegraph: "Three sequential stabs, red-glow stamina-drain finisher", counter: "Parry chain through hits 1–3, then Issen after the finisher" },
+          { attack: "Blade Barrage", telegraph: "Multi-swing stance-break clash", counter: "Match-and-ride the clash, then counter the recovery window" },
+          { attack: "Stomp-and-slash", telegraph: "Stomp into a wide slash arc", counter: "Parry-or-dodge discipline, then punish the slash recovery" },
+          { attack: "Grab", telegraph: "Activates around 50% HP", counter: "Perfect Dodge only; parry fails" },
+          { attack: "Helm-breaker overhead", telegraph: "Two-handed overhead slam", counter: "Issen or parry target — cleanest single Issen window" },
+          { attack: "Break Issen vulnerability", telegraph: "Force/Stagger gauge depleted", counter: "Break Issen for the high-damage punish" },
+        ],
+      },
+      {
+        id: "sasaki-poke",
+        type: "prose",
+        heading: "Three-Hit Poke Combo and Red-Glow Finisher",
+        body:
+          "The three-hit poke combo is Ganryu's bread-and-butter opener. Three sequential stabs build into a final thrust that carries a red-glow stamina-drain telegraph — the finisher's red glow signals that Musashi's stamina will drain on contact. The counter window is a parry chain: clean parries on hits 1, 2, and 3 leave the red-glow finisher wide open for an Issen punish.\n\nMissing any of the first three parries drops Musashi out of the chain and forces a disengage. The red-glow finisher is the most common cause of stamina trouble in the demo, so the safe habit is to parry all three stabs and only commit to the Issen input once the red glow appears.",
+      },
+      {
+        id: "sasaki-blade-barrage",
+        type: "prose",
+        heading: "Blade Barrage — Stance-Break Clash",
+        body:
+          "Blade Barrage is Ganryu's multi-swing stance-break clash. He commits to a flurry of swings that opens a stance-break window. The dedicated counter is the match-and-ride discipline: hold position to match the clash, ride the animation, then commit to the counter during the recovery window. Trying to parry Blade Barrage like a normal string of attacks fails because the swings are too fast for the standard parry rhythm.\n\nPlayers who master Blade Barrage's match-and-ride carry the same rhythm into later duelist bosses. The [Issen guide](/issen/) explains how the recovery window maps to a chain-Issen follow-up.",
+      },
+      {
+        id: "sasaki-stomp-slash",
+        type: "prose",
+        heading: "Stomp-and-Slash",
+        body:
+          "The stomp-and-slash is Ganryu's mid-range pressure move. He stomps forward and chains into a wide slash arc. The counter window is parry-or-dodge discipline — players who are confident in the Oni Gauntlet timing can parry the slash and chain into Issen; players who prefer safety can Perfect Dodge the slash and punish the recovery.\n\nEither path is correct; the discipline is to commit to one tool before the stomp lands rather than switching mid-animation. The [defensive lanes page](/defensive-lanes/) covers the four-lane commitment rule that the stomp-and-slash is the cleanest test of.",
+      },
+      {
+        id: "sasaki-grab",
+        type: "prose",
+        heading: "Grab at 50% HP",
+        body:
+          "Ganryu's grab fires at roughly 50% HP. The grab is unparryable — attempting an Oni Gauntlet parry on the grab animation deals heavy damage. The dedicated counter is Perfect Dodge only: space Musashi just outside the grab arc, then punish the recovery with a sword combo or an Issen follow-up if the recovery window opens.\n\nThe grab is the single biggest reason the Ganryu fight punishes players who try every defensive tool at once. Commit to Perfect Dodge discipline when Ganryu's HP bar crosses the halfway mark.",
+      },
+      {
+        id: "sasaki-helm-breaker",
+        type: "prose",
+        heading: "Helm-Breaker Overhead",
+        body:
+          "The helm-breaker overhead is a two-handed overhead slam. It is the cleanest Issen window in the Ganryu fight because the slow wind-up gives Musashi enough time to read the animation, commit to the Oni Gauntlet parry, and chain into Issen on the same beat. Players who can read the helm-breaker reliably will use it as the anchor for the Ganryu rhythm.\n\nThe helm-breaker is also the recommended entry point for chain-Issen drills: a clean helm-breaker Issen often opens Ganryu into a follow-up attack, which lets a player chain into a second Issen.",
+      },
+      {
+        id: "sasaki-break-issen",
+        type: "prose",
+        heading: "Break Issen After Force/Stagger Depletion",
+        body:
+          "Once Musashi has depleted Ganryu's Force/Stagger gauge, a Break Issen vulnerability opens. The Break Issen is the high-damage punish window: it is the cleanest way to convert a fully staggered Ganryu into a chunk of HP loss. The discipline is to spend normal Issens and parries building the gauge, then commit to Break Issen the moment the gauge is empty.\n\nBreak Issen also opens after heavy parry chains — players who land three or four clean parries in a row can sometimes deplete the Force/Stagger gauge without using a dedicated stagger move. The same Break Issen rule carries over to Ifuu and Burai and to Genma Musashi.",
+      },
+      {
+        id: "sasaki-yellow-soul",
+        type: "prose",
+        heading: "Yellow Soul Healing Discipline Between Combos",
+        body:
+          "Yellow Soul is the healing resource between Ganryu's combos. The discipline is to use Yellow Soul healing in the recovery window after a heavy swing — not during a combo, where Ganryu's next attack can interrupt the heal animation. The cleanest Yellow Soul windows are the recovery frames after Blade Barrage and after the helm-breaker overhead.\n\nPlayers who treat Yellow Soul as a between-combo heal rather than an in-combo panic button keep Musashi's HP stable across the Ganryu fight without burning the heal on a mistimed input.",
+      },
+      {
+        id: "sasaki-training",
+        type: "prose",
+        heading: "Treating the Demo as Issen Training",
+        body:
+          "Launch-week guides consistently frame the Ganryu demo fight as an Issen training room rather than a one-off boss. The Force/Stagger mechanic, the red-glow stamina-drain telegraph on the poke combo finisher, the Break Issen vulnerability, and the helm-breaker overhead as the cleanest single Issen window are all reusable lessons for the full campaign.\n\nThe expanded demo adds a second boss — see the [Byakue second boss page](/byakue/) for the move list, paper seals blood mechanic, stand-ground counter pattern, and the 10-Issen Special Challenge unlock. Players who clear Ganryu and Byakue cleanly in the demo should be ready for the Ifuu and Burai dual encounter and the late-game Genma Musashi fight.",
+      },
+      {
+        id: "sasaki-fact-boundary",
+        type: "callout",
+        tone: "caution",
+        title: "Fact boundary — 2026-09-05",
+        body:
+          "Sasaki Ganryu's named attack patterns (three-hit poke combo with red-glow stamina-drain finisher, Blade Barrage stance-break clash, stomp-and-slash, grab at roughly 50% HP, helm-breaker overhead), the dedicated counter window for each (parry chain, match-and-ride stance break, parry-or-dodge discipline, Perfect Dodge only, Issen or parry target, Break Issen after Force/Stagger depletion), and the Yellow Soul healing discipline between combos are sourced to launch-week player guides. Exact frame-data windows per preset and per-boss HP scaling numbers remain not announced as of 2026-09-05.",
+      },
+    ],
+    faqIds: [
+      "onimusha-way-of-the-sword-sasaki-ganryu-attacks",
+      "onimusha-way-of-the-sword-sasaki-ganryu-grab",
+      "onimusha-way-of-the-sword-break-issen-ganryu",
+    ],
+    relatedPageIds: [
+      "fixed-demo-en-us",
+      "fixed-bosses-en-us",
+      "fixed-issen-guide-en-us",
+      "fixed-byakue-second-boss-en-us",
+      "fixed-defensive-lanes-en-us",
+      "home",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-05",
+  },
+
+  // byakue-second-boss — expanded demo second boss + Special Challenge
+  {
+    id: "fixed-byakue-second-boss-en-us",
+    translationKey: "byakue-second-boss",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "byakue",
+    url: "/byakue",
+    pageType: "guides",
+    presentation: {
+      shell: "content",
+      variant: "reading-right-rail",
+    },
+    h1: "Onimusha Way of the Sword Byakue Second Boss — Paper Seals and Special Challenge",
+    seoTitle:
+      "Onimusha Way of the Sword Byakue Second Boss — Paper Seals and Special Challenge",
+    metaDescription:
+      "Byakue (Hundred Defilements) is the expanded demo's white-furred axe-wielding Genma second boss. Paper seals make him stronger as he bleeds; the stand-ground counter pattern keeps Musashi safe; 10 Issens unlock a harder Special Challenge.",
+    summary:
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) expanded demo second boss is Byakue (Hundred Defilements), a white-furred axe-wielding Genma. Byakue grows stronger as more paper seals are broken and blood is drawn; the recommended counter pattern is stand-ground discipline with side-step dodges. Landing 10 Issens during a demo run unlocks a Special Challenge mode against a harder Byakue.",
+    hero: {
+      eyebrow: "Byakue expanded demo boss",
+      subtitle:
+        "Byakue — Hundred Defilements — is the expanded demo's second boss: a white-furred axe-wielding Genma whose paper seals blood mechanic makes him stronger as more seals break and blood is drawn. The recommended counter is the stand-ground pattern with side-step dodges, and landing 10 Issens during a demo run unlocks a harder Special Challenge Byakue fight.",
+      ctas: [
+        { label: "Demo Guide", href: "/demo" },
+        { label: "Sasaki Ganryu", href: "/sasaki-ganryu" },
+        { label: "Issen Guide", href: "/issen" },
+      ],
+    },
+    quickAnswer:
+      "Byakue is the expanded demo's second boss — a white-furred axe-wielding Genma also known as Hundred Defilements. His signature mechanic is the paper seals blood rule: more blood drawn = stronger Byakue, so breaking seals mindlessly accelerates his power curve. The recommended counter pattern is stand-ground discipline with side-step dodges around the axe swings. Landing 10 Issens during a demo run unlocks a Special Challenge mode that pits Musashi against a harder Byakue fight, harder than the standard expanded demo boss.",
+    keyFacts: [
+      { label: "Boss", value: "Byakue (Hundred Defilements)" },
+      { label: "Identity", value: "White-furred axe-wielding Genma" },
+      { label: "Setting", value: "Expanded demo, second boss after Sasaki Ganryu" },
+      { label: "Core mechanic", value: "Paper seals blood rule — more blood drawn makes Byakue stronger" },
+      { label: "Counter pattern", value: "Stand-ground discipline with side-step dodges around axe swings" },
+      { label: "Special Challenge unlock", value: "Land 10 Issens during a demo run" },
+      { label: "Special Challenge difficulty", value: "Harder than the standard expanded demo boss" },
+      { label: "Exact HP scaling", value: "Not announced as of 2026-09-05" },
+      { label: "Exact paper seal durability", value: "Not announced as of 2026-09-05" },
+      { label: "Release date", value: "September 3, 2026" },
+    ],
+    modules: [
+      {
+        id: "byakue-overview",
+        type: "prose",
+        heading: "Byakue as the Expanded Demo's Second Boss",
+        body:
+          "The expanded demo adds Byakue — Hundred Defilements — as a second boss after the Sasaki Ganryu fight. Byakue is a white-furred axe-wielding Genma who anchors the higher-difficulty half of the expanded demo. Capcom's \"fearsome boss\" framing for the expanded demo's second encounter resolves to Byakue, which is the identity launch-week guides name consistently.\n\nByakue's two defining mechanics are the paper seals blood rule and the stand-ground counter pattern. The [Sasaki Ganryu page](/sasaki-ganryu/) covers the demo's first boss, the [bosses page](/bosses/) lists the full confirmed roster, and the [Issen guide](/issen/) covers the chain-Issen discipline that feeds the 10-Issen Special Challenge unlock.",
+      },
+      {
+        id: "byakue-identity",
+        type: "prose",
+        heading: "Identity — White-Furred Axe-Wielding Genma",
+        body:
+          "Byakue is presented as a white-furred Genma wielding a heavy axe, in contrast to Ganryu's katana-style duelist kit. The axe gives Byakue longer reach per swing and a slower swing arc, which is why the recommended counter pattern emphasizes stand-ground discipline rather than aggressive parry chains. The white-furred visual is the launch-window signal players use to recognize Byakue on first sight.\n\nHis Hundred Defilements nickname is the in-fiction label for the paper seals covering his body — each seal is a separate defilement, and breaking all of them is the mechanical trigger that exposes his full power curve.",
+      },
+      {
+        id: "byakue-paper-seals",
+        type: "prose",
+        heading: "Paper Seals Blood Mechanic — Blood = Stronger",
+        body:
+          "Byakue's signature mechanic is the paper seals blood rule. He is wrapped in paper seals that constrain his Genma power; breaking seals and drawing blood releases the power underneath. The mechanical rule is straightforward: more blood drawn = stronger Byakue. The implication for the player is that aggressive play, while tempting against a slower axe-wielder, accelerates Byakue's power curve.\n\nThe recommended approach is to break seals deliberately and to choose when to commit to a damage window, rather than chaining attacks for raw damage. The paper seals blood mechanic is what makes Byakue a different skill check from Ganryu: Ganryu rewards aggressive parry chains; Byakue punishes them.\n\nExact paper seal durability numbers and exact HP scaling values are not announced as of 2026-09-05.",
+      },
+      {
+        id: "byakue-stand-ground",
+        type: "prose",
+        heading: "Stand-Ground Counter Pattern and Side-Step Discipline",
+        body:
+          "The recommended counter pattern against Byakue is stand-ground discipline with side-step dodges. Stand-ground means Musashi holds his ground to read Byakue's axe swing arc instead of running away or panic-rolling. Side-step dodges handle the slow axe swings by sidestepping around the arc rather than trying to parry the axe like a katana strike.\n\nThe discipline differs from Ganryu's parry-chain rhythm because Byakue's axe swings have longer recovery frames between attacks. Players who commit to the stand-ground read learn the side-step timing on the second or third axe swing, which opens a punish window that does not require an Oni Gauntlet parry.",
+      },
+      {
+        id: "byakue-special-challenge",
+        type: "prose",
+        heading: "10-Issen Special Challenge Unlock",
+        body:
+          "Landing 10 Issens during a demo run unlocks a Special Challenge mode that pits Musashi against a harder Byakue fight. The Special Challenge Byakue is harder than the standard expanded demo boss, which is the launching point for the harder unlock.\n\nThe 10-Issen counter increments per successful Issen, and chain-Issens across Ganryu and Byakue both count toward the unlock. Players who finish the expanded demo with a clean Ganryu and a clean Byakue should hit the 10-Issen threshold naturally. The [Issen guide](/issen/) covers the chain-Issen timing that makes the unlock achievable.",
+      },
+      {
+        id: "byakue-counter-table",
+        type: "data-table",
+        heading: "Byakue counter reference",
+        columns: [
+          { key: "scenario", label: "Scenario" },
+          { key: "rule", label: "Recommended rule" },
+          { key: "why", label: "Why" },
+        ],
+        rows: [
+          { scenario: "Paper seals intact", rule: "Commit to one slow swing punish per seal", why: "Avoids accelerating the blood = stronger curve" },
+          { scenario: "Mid-fight, paper seals breaking", rule: "Switch to stand-ground discipline", why: "Read axe swing arc before committing" },
+          { scenario: "Axe swing arc", rule: "Side-step, not parry", why: "Axe arc is too slow for parry timing, faster to sidestep" },
+          { scenario: "Combo recovery frame", rule: "Commit to sword combo or single Issen", why: "Punish the recovery without over-committing" },
+          { scenario: "10 Issens banked", rule: "Unlock Special Challenge", why: "Harder Byakue unlocks after 10 Issens in a demo run" },
+        ],
+      },
+      {
+        id: "byakue-vs-ganryu",
+        type: "prose",
+        heading: "Byakue vs Sasaki Ganryu — Two Different Skill Checks",
+        body:
+          "Byakue and Sasaki Ganryu are designed as two different skill checks. Ganryu rewards aggressive Oni Gauntlet parry chains and Break Issen timing after Force/Stagger depletion; Byakue rewards defensive stand-ground discipline and side-step dodges around the axe arc. A player who clears Ganryu cleanly still has to learn Byakue's paper seals discipline from scratch.\n\nThe two-boss progression also acts as the demo's Issen training arc: Ganryu teaches the chain-Issen rhythm, and Byakue tests whether the player can switch between aggressive Issens (Ganryu) and stand-ground discipline (Byakue) in the same demo run. The 10-Issen Special Challenge unlock is the demo's reward for passing both halves of that arc.",
+      },
+      {
+        id: "byakue-fact-boundary",
+        type: "callout",
+        tone: "caution",
+        title: "Fact boundary — 2026-09-05",
+        body:
+          "Byakue (Hundred Defilements) is the expanded demo's white-furred axe-wielding Genma second boss. The paper seals blood mechanic (more blood drawn = stronger Byakue), the stand-ground + side-step counter pattern, and the 10-Issen Special Challenge unlock that gates a harder Byakue fight are sourced to launch-week player guides. Exact Byakue HP scaling, exact paper seal durability numbers, and the full Special Challenge difficulty tuning beyond 'harder than the standard expanded demo boss' remain not announced as of 2026-09-05.",
+      },
+    ],
+    faqIds: [
+      "onimusha-way-of-the-sword-expanded-demo-second-boss",
+      "onimusha-way-of-the-sword-paper-seals-blood",
+      "onimusha-way-of-the-sword-special-challenge-issen",
+    ],
+    relatedPageIds: [
+      "fixed-demo-en-us",
+      "fixed-sasaki-ganryu-demo-boss-en-us",
+      "fixed-bosses-en-us",
+      "fixed-issen-guide-en-us",
+      "fixed-defensive-lanes-en-us",
+      "home",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-05",
+  },
+
+  // defensive-lanes — Oni Gauntlet defensive lane discipline
+  {
+    id: "fixed-defensive-lanes-en-us",
+    translationKey: "defensive-lanes",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "defensive-lanes",
+    url: "/defensive-lanes",
+    pageType: "guides",
+    presentation: {
+      shell: "content",
+      variant: "reading-right-rail",
+    },
+    h1: "Onimusha Way of the Sword Oni Gauntlet Defensive Lanes",
+    seoTitle:
+      "Onimusha Way of the Sword Oni Gauntlet Defensive Lanes and Telegraph Reading",
+    metaDescription:
+      "Onimusha Way of the Sword defensive lanes are Parry Main, Deflect Main, Dodge Main, and Issen Focus. Pick one lane per encounter, read the red-glow stamina-drain telegraph, and reserve Issen for heavily telegraphed attacks.",
+    summary:
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) combat has four defensive lanes — Parry Main, Deflect Main, Dodge Main, and Issen Focus. Pick one lane per encounter, treat the red-glow stamina-drain telegraph as the Issen commit signal, and reserve Issen for heavily telegraphed attacks instead of pressing it on every opening.",
+    hero: {
+      eyebrow: "Oni Gauntlet defensive lanes",
+      subtitle:
+        "The Oni Gauntlet is built around four defensive lanes — Parry Main, Deflect Main, Dodge Main, and Issen Focus — and the red-glow stamina-drain telegraph on heavy finishers is the signal to commit to the late 1-2 frame parry or the Issen punish. Mixing lanes mid-fight is the most common mistake against duelist bosses like Sasaki Ganryu.",
+      ctas: [
+        { label: "Combat Mechanics", href: "/combat" },
+        { label: "Issen Guide", href: "/issen" },
+        { label: "Sasaki Ganryu", href: "/sasaki-ganryu" },
+      ],
+    },
+    quickAnswer:
+      "The Oni Gauntlet has four defensive lanes — Parry Main, Deflect Main, Dodge Main, and Issen Focus — and the recommendation is to pick one lane per encounter rather than mixing lanes mid-fight. The red-glow stamina-drain telegraph on heavy finishers is the signal to commit to the late 1-2 frame parry or the Issen punish. Issen is reserved for heavily telegraphed attacks, not pressed on every opening, because pressing Issen on light attacks trades a high-damage punish for a low-value hit.",
+    keyFacts: [
+      { label: "Defensive lanes", value: "Parry Main, Deflect Main, Dodge Main, Issen Focus" },
+      { label: "Lane discipline", value: "Pick one lane per encounter, do not mix lanes mid-fight" },
+      { label: "Red-glow telegraph", value: "Stamina-drain signal on heavy finishers; gate the Issen commit" },
+      { label: "Late parry commit", value: "1-2 frame parry commit on heavily telegraphed attacks, not a wind-up reaction" },
+      { label: "Issen discipline", value: "Reserve Issen for telegraphed attacks; do not press on every opening" },
+      { label: "Most common mistake", value: "Mixing lanes mid-fight against duelist bosses" },
+      { label: "Exact frame-data windows per preset", value: "Not announced as of 2026-09-05" },
+      { label: "Exact per-lane damage numbers", value: "Not announced as of 2026-09-05" },
+      { label: "Release date", value: "September 3, 2026" },
+    ],
+    modules: [
+      {
+        id: "lanes-overview",
+        type: "prose",
+        heading: "Why the Oni Gauntlet Uses Four Defensive Lanes",
+        body:
+          "The Oni Gauntlet is built around four defensive lanes because each lane matches a different combat tempo. Parry Main is the aggressive parry-into-Issen rhythm; Deflect Main trades the Issen commit for safer deflection and lower damage intake; Dodge Main skips the Oni Gauntlet timing altogether and uses Perfect Dodge as the primary defense; Issen Focus commits to the named counter only on heavily telegraphed attacks and uses regular sword play for the rest of the fight.\n\nLaunch-week guides warn that mixing lanes mid-fight is the single biggest mistake against duelist bosses like Sasaki Ganryu. The recommendation is to pick one lane per encounter, commit to it for the full fight, and adjust only after a clean clear or a hard loss.",
+      },
+      {
+        id: "lanes-table",
+        type: "data-table",
+        heading: "Oni Gauntlet defensive lanes compared",
+        columns: [
+          { key: "lane", label: "Lane" },
+          { key: "primary", label: "Primary defense" },
+          { key: "bestFor", label: "Best for" },
+          { key: "tradeoff", label: "Tradeoff" },
+        ],
+        rows: [
+          { lane: "Parry Main", primary: "Oni Gauntlet parry chain", bestFor: "Aggressive duelist bosses like Sasaki Ganryu", tradeoff: "Failed parry = heavy damage intake" },
+          { lane: "Deflect Main", primary: "Deflection discipline", bestFor: "Wide-arc Genma that punish missed parries", tradeoff: "Lower damage output than Parry Main" },
+          { lane: "Dodge Main", primary: "Perfect Dodge", bestFor: "Slow heavy attacks like Byakue's axe swings", tradeoff: "No Issen chain, lower combo ceiling" },
+          { lane: "Issen Focus", primary: "Reserved Issen on telegraphed attacks", bestFor: "Bosses with clear heavy-finisher telegraphs", tradeoff: "Light attacks go unanswered, requires patience" },
+        ],
+      },
+      {
+        id: "lanes-parry-main",
+        type: "prose",
+        heading: "Parry Main Lane",
+        body:
+          "Parry Main is the aggressive parry-into-Issen lane. The discipline is to parry every attack that opens a parry window and chain into Issen on the recovery. Parry Main is the recommended lane for the Sasaki Ganryu demo fight because Ganryu's three-hit poke combo and helm-breaker overhead both have clean parry windows. The tradeoff is that a failed parry deals heavy damage, so Parry Main is a high-skill lane.\n\nPlayers who picked Parry Main on the Ganryu fight should keep it on duelist bosses that share the parry-chain rhythm. The [Sasaki Ganryu page](/sasaki-ganryu/) covers the parry-chain application in detail.",
+      },
+      {
+        id: "lanes-deflect-main",
+        type: "prose",
+        heading: "Deflect Main Lane",
+        body:
+          "Deflect Main trades the Issen commit for safer deflection. Instead of pressing Issen on every opening, Deflect Main players deflect attacks and follow up with regular sword combos. Deflect Main is a clean fit for encounters where missed parries are heavily punished, or where the parry window is too short for a reliable Parry Main run.\n\nDeflect Main produces lower damage output than Parry Main, but it produces a more consistent clear because the deflect input is more forgiving than the Oni Gauntlet parry input. Players who clear the demo on Deflect Main should consider Parry Main on a second playthrough to push their damage ceiling.",
+      },
+      {
+        id: "lanes-dodge-main",
+        type: "prose",
+        heading: "Dodge Main Lane",
+        body:
+          "Dodge Main uses Perfect Dodge as the primary defense. Players who pick Dodge Main skip the Oni Gauntlet timing altogether and rely on Musashi's Perfect Dodge i-frames to neutralize enemy attacks. Dodge Main is the recommended lane for the Byakue axe swings because the axe arc is too slow for a parry rhythm but rewards clean side-step reads.\n\nThe tradeoff is that Dodge Main produces no Issen chain, so the combo ceiling is lower than Parry Main or Issen Focus. The [Byakue page](/byakue/) covers the stand-ground + side-step discipline that pairs with Dodge Main.",
+      },
+      {
+        id: "lanes-issen-focus",
+        type: "prose",
+        heading: "Issen Focus Lane",
+        body:
+          "Issen Focus reserves the named counter for heavily telegraphed attacks. Players who pick Issen Focus use regular sword play for light attacks and only commit to Issen when a heavy-finisher telegraph (red-glow stamina-drain) opens. Issen Focus produces the highest per-hit damage output but the lowest attacks-per-second, because most attacks go unanswered into regular sword combos.\n\nIssen Focus is a clean fit for encounters with clear heavy-finisher telegraphs. The discipline is patience: the Issen Focus lane is the opposite of button-mashing, and a player who commits to Issen Focus on a light-attack boss will feel like the lane is not working.",
+      },
+      {
+        id: "lanes-red-glow",
+        type: "prose",
+        heading: "Red-Glow Stamina-Drain Telegraph",
+        body:
+          "The red-glow stamina-drain telegraph is the visual signal that gates the Issen commit and the late 1-2 frame parry. Heavy finishers (like the Ganryu three-hit poke combo finisher) carry a red glow on the weapon that signals a stamina-drain on contact. The red glow is the cue to commit to the Oni Gauntlet parry inside the late 1-2 frame window before impact.\n\nReading the red glow correctly is the difference between Parry Main and Issen Focus players running the same encounter. Parry Main players read the red glow as a parry commit; Issen Focus players read it as the Issen input. Both lanes share the read, but the input differs.\n\nExact red-glow attack coverage per boss is not announced as of 2026-09-05.",
+      },
+      {
+        id: "lanes-late-parry",
+        type: "prose",
+        heading: "Late 1-2 Frame Parry Commit",
+        body:
+          "The Oni Gauntlet parry is a late commit, not a wind-up reaction. Launch-week guides frame the Oni Gauntlet parry as a 1-2 frame commit before impact, which means the input lands inside the last frames of the attack animation rather than at the start of the wind-up. Trying to parry on the wind-up reaction is too early; the parry drops, and Musashi takes the hit.\n\nThe discipline is to read the animation, hold the input decision until the last 1-2 frames, and commit inside that window. The same rule applies to the helm-breaker overhead on Ganryu and to the heavy axe swings on Byakue.\n\nExact frame-data windows per preset are not announced as of 2026-09-05.",
+      },
+      {
+        id: "lanes-issen-discipline",
+        type: "prose",
+        heading: "Issen-Reserved-for-Telegraphed-Attacks Discipline",
+        body:
+          "The Issen-reserved-for-telegraphed-attacks discipline is the rule that gates Issen Focus. Pressing Issen on every opening trades a high-damage punish for a low-value hit, and it trains the wrong timing habit because light attacks do not have the recovery frames to support a clean Issen follow-up.\n\nThe clean habit is to use regular sword play on light attacks and only commit to Issen on the red-glow stamina-drain telegraph. The [Issen guide](/issen/) covers the chain-Issen timing rules and the boss-fight application.",
+      },
+      {
+        id: "lanes-fact-boundary",
+        type: "callout",
+        tone: "caution",
+        title: "Fact boundary — 2026-09-05",
+        body:
+          "Oni Gauntlet defensive lanes (Parry Main / Deflect Main / Dodge Main / Issen Focus), the recommendation to pick one lane per encounter, the red-glow stamina-drain telegraph on heavy finishers, the late 1-2 frame parry commit on heavily telegraphed attacks, and the Issen-reserved-for-telegraphed-attacks discipline are sourced to launch-week player guides. Exact frame-data windows per preset, exact per-lane damage numbers, and exact red-glow attack coverage per boss remain not announced as of 2026-09-05.",
+      },
+    ],
+    faqIds: [
+      "onimusha-way-of-the-sword-defensive-lanes",
+      "onimusha-way-of-the-sword-red-glow-telegraph",
+      "onimusha-way-of-the-sword-issen-discipline",
+    ],
+    relatedPageIds: [
+      "fixed-combat-mechanics-en-us",
+      "fixed-issen-guide-en-us",
+      "fixed-sasaki-ganryu-demo-boss-en-us",
+      "fixed-byakue-second-boss-en-us",
+      "home",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-05",
+  },
+
+  // carnage-difficulty — New Game+ carry-over rules
+  {
+    id: "fixed-carnage-difficulty-en-us",
+    translationKey: "carnage-difficulty",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "carnage-difficulty",
+    url: "/carnage-difficulty",
+    pageType: "guides",
+    presentation: {
+      shell: "content",
+      variant: "reading-right-rail",
+    },
+    h1: "Onimusha Way of the Sword Carnage Difficulty New Game+ Carry-Over",
+    seoTitle:
+      "Onimusha Way of the Sword Carnage Difficulty New Game+ Carry-Over Rules",
+    metaDescription:
+      "Carnage Difficulty New Game+ carries unlocks, upgrades, outfits, and tutorials; it does not carry story progress, materials, or save points. Unlock trigger is after the first ending. Charms like Kubi Akari and Lion Dog are part of the carried unlocks.",
+    summary:
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) Carnage Difficulty is the New Game+ tier that unlocks after the first ending. It carries unlocks, upgrades, outfits, and tutorials; it does not carry story progress, materials, or save points. Charms like the demo Kubi Akari and the pre-order Lion Dog are part of the carried unlocks rather than the dropped story progress.",
+    hero: {
+      eyebrow: "Carnage Difficulty New Game+",
+      subtitle:
+        "Carnage Difficulty is the New Game+ tier that unlocks after the first ending. It carries unlocks, upgrades, outfits, and tutorials; it does not carry story progress, materials, or save points. Charms like the Kubi Akari demo reward and the Lion Dog pre-order charm are part of the carried unlocks; consumable materials are part of the dropped category.",
+      ctas: [
+        { label: "Difficulty Settings", href: "/difficulty" },
+        { label: "Length and Playtime", href: "/length" },
+        { label: "Items & Equipment", href: "/items" },
+      ],
+    },
+    quickAnswer:
+      "Carnage Difficulty is the New Game+ tier that unlocks after the first ending. It carries four categories forward into the new run: unlocks, upgrades, outfits, and tutorials or drills. It does not carry three categories: story progress, materials, and save points. The practical implication is that charms like the Kubi Akari demo reward and the Lion Dog pre-order charm are part of the carried unlocks rather than the dropped story progress, while consumable materials reset with the new run.",
+    keyFacts: [
+      { label: "Mode", value: "Carnage Difficulty, New Game+ tier" },
+      { label: "Unlock trigger", value: "After the first ending" },
+      { label: "Carry forward (4)", value: "Unlocks, upgrades, outfits, tutorials/drills" },
+      { label: "Reset (3)", value: "Story progress, materials, save points" },
+      { label: "Charms status", value: "Carried as unlocks (Kubi Akari, Lion Dog, Deluxe Edition charms)" },
+      { label: "Consumable materials", value: "Reset with the new run" },
+      { label: "Story progression", value: "Reset (chapter progress does not carry)" },
+      { label: "Save points", value: "Reset (new save shrines must be found)" },
+      { label: "Exact per-category item counts", value: "Not announced as of 2026-09-05" },
+      { label: "Release date", value: "September 3, 2026" },
+    ],
+    modules: [
+      {
+        id: "carnage-overview",
+        type: "prose",
+        heading: "Carnage Difficulty as the New Game+ Tier",
+        body:
+          "Carnage Difficulty is the New Game+ tier that unlocks after the first ending. It reopens the campaign at the highest challenge and applies the New Game+ carry-over rules to the player's loadout. Carnage Difficulty is not a first-run preset; the first-run presets are Light, Normal, Hard, and Oni, and the [difficulty page](/difficulty/) walks through that preset ladder.\n\nThe Carnage Difficulty loop is also the largest length-extending lever after the first playthrough. The [length page](/length/) covers how the loop extends playtime past the first ending.",
+      },
+      {
+        id: "carnage-table",
+        type: "data-table",
+        heading: "Carnage Difficulty carry-over split",
+        columns: [
+          { key: "category", label: "Category" },
+          { key: "carry", label: "Carry into New Game+?" },
+          { key: "example", label: "Example items" },
+        ],
+        rows: [
+          { category: "Unlocks", carry: "Carries", example: "Kubi Akari charm, Lion Dog charm, Deluxe Edition charms" },
+          { category: "Upgrades", carry: "Carries", example: "Sword upgrades, Oni Gauntlet timing upgrades, Issen chain upgrades" },
+          { category: "Outfits", carry: "Carries", example: "Deluxe Kit cosmetics, ally outfits, Sealed Curse sword appearance" },
+          { category: "Tutorials / drills", carry: "Carries", example: "Demo drills retained, training room progress" },
+          { category: "Story progress", carry: "Does not carry", example: "Chapter progress resets; new run starts at chapter one" },
+          { category: "Materials", carry: "Does not carry", example: "Consumable materials reset with the new run" },
+          { category: "Save points", carry: "Does not carry", example: "Save shrines must be re-found in the new run" },
+        ],
+      },
+      {
+        id: "carnage-unlock",
+        type: "prose",
+        heading: "Unlock Trigger — After the First Ending",
+        body:
+          "Carnage Difficulty unlocks after the first ending. The mode is not available on a first-run save file, and it cannot be selected from the main menu until Musashi has seen the credits roll once. Players who want to start a Carnage Difficulty run need to finish the campaign at least once on any preset (Light, Normal, Hard, or Oni), then start a new save from the Carnage Difficulty option.\n\nThe unlock trigger is consistent across platforms: the first ending on Steam, PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and the Epic Games Store all unlock the Carnage Difficulty option for the same player profile.",
+      },
+      {
+        id: "carnage-carry",
+        type: "prose",
+        heading: "Four Categories That Carry — Unlocks, Upgrades, Outfits, Tutorials",
+        body:
+          "Carnage Difficulty carries four categories forward into the new run:\n\n- Unlocks. Anything unlocked through gameplay or promotions carries into the new save. The Kubi Akari charm (demo save carry-over), the Lion Dog charm (pre-order bonus), and the Deluxe Edition charm bundle are all part of this category.\n- Upgrades. Sword upgrades, Oni Gauntlet timing upgrades, and Issen chain upgrades carry into the new run. Musashi starts the Carnage Difficulty run with the upgraded kit rather than rebuilding it from scratch.\n- Outfits. Visual equipment carries: Deluxe Kit cosmetics, ally outfits from the Premium Deluxe Edition, and the Sealed Curse sword appearance are all retained.\n- Tutorials / drills. Training-room drills and demo drills carry into the new run, which is why the Carnage Difficulty player can refresh Issen timing on the same drills they used in the first campaign.\n\nThe four-carry split is the practical rule for charm loadouts: a Carnage Difficulty player starts chapter one with the Kubi Akari and Lion Dog charms already in the loadout, which removes the early-game charm tutorial from the second run.",
+      },
+      {
+        id: "carnage-reset",
+        type: "prose",
+        heading: "Three Categories That Reset — Story Progress, Materials, Save Points",
+        body:
+          "Carnage Difficulty does not carry three categories:\n\n- Story progress. Chapter progress resets; the Carnage Difficulty run starts at chapter one rather than resuming from the credits.\n- Materials. Consumable materials reset with the new run. Any consumable items, crafting materials, or stack-based gear the player accumulated during the first run do not transfer into Carnage Difficulty.\n- Save points. Save shrines must be re-found in the new run. The save-shrine map resets, so the Carnage Difficulty player has to rediscover the chapter shrines.\n\nThe three-reset split is the practical rule for consumables: the Carnage Difficulty run starts with an empty materials inventory, and the player rebuilds the consumable stock through normal play.",
+      },
+      {
+        id: "carnage-charms",
+        type: "prose",
+        heading: "Why Charms Like Kubi Akari and Lion Dog Carry",
+        body:
+          "Charms are part of the unlocks category, which is one of the four carry-forward categories. That is why the Kubi Akari charm (demo save carry-over) and the Lion Dog charm (pre-order bonus) both carry into the Carnage Difficulty run. Players who pre-ordered the Lion Dog charm and retained the demo save for the Kubi Akari charm start the Carnage Difficulty run with both charms already in the loadout.\n\nThe Deluxe Edition's extra charm bundle also carries into Carnage Difficulty because extra charms are unlocks rather than materials. The charm system is the cleanest practical demonstration of the carry-over split: charms stay, consumables reset.\n\nThe [items page](/items/) explains the charm loadout at a foundation level, and the [editions page](/editions/) covers the charm bundles per edition.",
+      },
+      {
+        id: "carnage-vs-preset",
+        type: "prose",
+        heading: "Carnage Difficulty vs First-Run Presets",
+        body:
+          "Carnage Difficulty is not a first-run preset. The first-run preset ladder is Light, Normal, Hard, and Oni, which is what the [difficulty page](/difficulty/) walks through. Carnage Difficulty is the New Game+ tier that reopens the campaign at the highest challenge after the first ending.\n\nA player who wants the hardest first-playthrough experience should choose the Oni preset, not Carnage Difficulty. Carnage Difficulty is reserved for second-and-later runs, and selecting it requires the first-ending unlock trigger.",
+      },
+      {
+        id: "carnage-fact-boundary",
+        type: "callout",
+        tone: "caution",
+        title: "Fact boundary — 2026-09-05",
+        body:
+          "Carnage Difficulty is the New Game+ tier unlocked after the first ending. It carries unlocks, upgrades, outfits, and tutorials or drills; it does not carry story progress, materials, or save points. Charms like the Kubi Akari demo reward and the Lion Dog pre-order charm are part of the carried unlocks. Exact per-category item counts, exact save shrine distribution in the Carnage Difficulty run, and any post-launch Carnage Difficulty tuning patches remain not announced as of 2026-09-05.",
+      },
+    ],
+    faqIds: [
+      "onimusha-way-of-the-sword-carnage-difficulty-unlock",
+      "onimusha-way-of-the-sword-charms-new-game-plus",
+      "onimusha-way-of-the-sword-consumables-reset",
+    ],
+    relatedPageIds: [
+      "fixed-difficulty-settings-en-us",
+      "fixed-length-en-us",
+      "fixed-items-equipment-en-us",
+      "fixed-editions-pricing-en-us",
+      "home",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-05",
   },
 ];

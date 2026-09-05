@@ -704,4 +704,132 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+
+  // sasaki-ganryu-demo-boss
+  {
+    id: "onimusha-way-of-the-sword-sasaki-ganryu-attacks",
+    question: "What attacks does Sasaki Ganryu use in the demo boss fight?",
+    answer:
+      "Sasaki Ganryu uses five named attacks: a three-hit poke combo with a red-glow stamina-drain finisher, a Blade Barrage stance-break clash, a stomp-and-slash, a grab that fires at roughly 50% HP, and a helm-breaker overhead. Each move has a dedicated counter window, and a Break Issen vulnerability opens once the Force/Stagger gauge is depleted.",
+    pageIds: ["fixed-sasaki-ganryu-demo-boss-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-sasaki-ganryu-grab",
+    question: "Can you parry Sasaki Ganryu's grab attack?",
+    answer:
+      "No. The grab fires at roughly 50% HP and is unparryable. The dedicated counter is Perfect Dodge only: space Musashi just outside the grab arc, then punish the recovery window.",
+    pageIds: ["fixed-sasaki-ganryu-demo-boss-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-break-issen-ganryu",
+    question: "When is the Break Issen vulnerability open on Sasaki Ganryu?",
+    answer:
+      "Break Issen opens once Musashi has depleted Ganryu's Force/Stagger gauge. It is the high-damage punish window and the cleanest way to convert a staggered Ganryu into a chunk of HP loss.",
+    pageIds: ["fixed-sasaki-ganryu-demo-boss-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // byakue-second-boss
+  {
+    id: "onimusha-way-of-the-sword-expanded-demo-second-boss",
+    question: "Who is the second boss in the expanded Onimusha Way of the Sword demo?",
+    answer:
+      "Byakue, also called Hundred Defilements. Byakue is a white-furred axe-wielding Genma whose paper seals blood mechanic makes him stronger as more seals break and blood is drawn.",
+    pageIds: ["fixed-byakue-second-boss-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-paper-seals-blood",
+    question: "How do the paper seals work on Byakue?",
+    answer:
+      "Byakue is wrapped in paper seals that constrain his Genma power. The rule is blood = stronger: breaking seals and drawing blood releases the power underneath, so aggressive play accelerates Byakue's power curve.",
+    pageIds: ["fixed-byakue-second-boss-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-special-challenge-issen",
+    question: "How do you unlock the Byakue Special Challenge in the demo?",
+    answer:
+      "Land 10 Issens during a demo run. The Special Challenge Byakue is harder than the standard expanded demo boss, and chain-Issens across Ganryu and Byakue both count toward the unlock.",
+    pageIds: ["fixed-byakue-second-boss-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // defensive-lanes
+  {
+    id: "onimusha-way-of-the-sword-defensive-lanes",
+    question: "What are the four defensive lanes in Onimusha Way of the Sword combat?",
+    answer:
+      "Parry Main, Deflect Main, Dodge Main, and Issen Focus. Pick one lane per encounter and commit to it for the full fight; mixing lanes mid-fight is the most common mistake against duelist bosses like Sasaki Ganryu.",
+    pageIds: ["fixed-defensive-lanes-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-red-glow-telegraph",
+    question: "What does the red-glow telegraph mean in Onimusha Way of the Sword?",
+    answer:
+      "The red glow is the stamina-drain signal on heavy finishers. It gates the Issen commit and the late 1-2 frame parry. Reading the red glow is the difference between Parry Main and Issen Focus players running the same encounter.",
+    pageIds: ["fixed-defensive-lanes-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-issen-discipline",
+    question: "Should you press Issen on every opening in Onimusha Way of the Sword?",
+    answer:
+      "No. The discipline is to reserve Issen for heavily telegraphed attacks. Pressing Issen on light attacks trades a high-damage punish for a low-value hit and trains the wrong timing habit.",
+    pageIds: ["fixed-defensive-lanes-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // carnage-difficulty
+  {
+    id: "onimusha-way-of-the-sword-carnage-difficulty-unlock",
+    question: "How do you unlock Carnage Difficulty in Onimusha Way of the Sword?",
+    answer:
+      "Carnage Difficulty unlocks after the first ending. It is not available on a first-run save file and cannot be selected from the main menu until Musashi has seen the credits roll once.",
+    pageIds: ["fixed-carnage-difficulty-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-charms-new-game-plus",
+    question: "Do charms like Kubi Akari and Lion Dog carry into New Game+?",
+    answer:
+      "Yes. Charms are part of the unlocks category, which is one of the four carry-forward categories. The Kubi Akari demo reward and the Lion Dog pre-order charm both carry into the Carnage Difficulty run.",
+    pageIds: ["fixed-carnage-difficulty-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-consumables-reset",
+    question: "Do consumable materials carry into Carnage Difficulty?",
+    answer:
+      "No. Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials, but it does not carry story progress, materials, or save points. Consumable materials reset with the new run.",
+    pageIds: ["fixed-carnage-difficulty-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 ];

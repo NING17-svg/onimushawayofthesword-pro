@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-05 - Sasaki Ganryu, Byakue, Oni Gauntlet defensive lanes, Carnage Difficulty cluster added
+
+- Task: Add four launch-week cluster deep-dive pages sourced to the public player guides.
+- Files changed: `src/data/pages/fixed-pages.ts`, `src/data/faq.ts`, `CONTENT_INDEX.md`, `GROWTH_LOG.md`.
+- URLs affected: `/sasaki-ganryu` (new), `/byakue` (new), `/defensive-lanes` (new), `/carnage-difficulty` (new). Existing `/demo`, `/bosses`, `/combat`, `/issen`, `/difficulty`, and `/length` pages gained cross-link references to the new cluster pages.
+- Content added: Sasaki Ganryu's named attack patterns (three-hit poke combo with red-glow stamina-drain finisher, Blade Barrage stance-break clash, stomp-and-slash, grab at roughly 50% HP, helm-breaker overhead) with the dedicated counter window for each, plus the Break Issen vulnerability after Force/Stagger depletion and the Yellow Soul healing discipline; Byakue (Hundred Defilements) identity as the expanded demo's white-furred axe-wielding Genma, the paper seals blood mechanic (more blood drawn = stronger Byakue), the stand-ground + side-step counter pattern, and the 10-Issen Special Challenge unlock that gates a harder Byakue fight; the four defensive lanes (Parry Main, Deflect Main, Dodge Main, Issen Focus), the red-glow stamina-drain telegraph on heavy finishers, the late 1-2 frame parry commit on heavily telegraphed attacks, and the Issen-reserved-for-telegraphed-attacks discipline; Carnage Difficulty New Game+ carry-over split (unlocks, upgrades, outfits, tutorials/drills carry; story progress, materials, save points reset) anchored to specific charm loadout items (Kubi Akari demo charm, Lion Dog pre-order charm, Deluxe Edition charm bundle) with the unlock trigger after the first ending.
+- Verification: `npm run verify` after the change; typecheck, lint, template validation, content validation, IndexNow validation, build, and rendered SEO validation all required to pass before publish.
+
 ### 2026-09-02 - Adsterra integration applied
 
 - Task: Populate `src/data/ads.ts` with the six fixed Adsterra unit codes (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) for the live Onimusha: Way of the Sword site.
