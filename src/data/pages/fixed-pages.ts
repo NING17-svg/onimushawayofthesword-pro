@@ -1470,13 +1470,13 @@ export const fixedPages: PageContent[] = [
     seoTitle:
       "Onimusha Way of the Sword Trophies and Achievements",
     metaDescription:
-      "Onimusha Way of the Sword trophies and achievements: confirmed PlayStation and Xbox categories. The full Steam achievement list prior to release is not announced.",
+      "Onimusha Way of the Sword trophies and achievements: 52 offline trophies (1 Platinum 'Peerless', 2 Gold, 9 Silver, 40 Bronze), 6.5/10 difficulty, 60-70 hours to Platinum, with a 5-step roadmap covering first playthrough, collectible cleanup, Carnage NG+, and Boss Rematch on all difficulties.",
     summary:
-      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) ships with a trophy and achievement system on PlayStation 5, Xbox, and Steam. The full Steam achievement list prior to release is not announced as of 2026-09-02; Capcom's policy is to publish the full list at launch.",
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) ships with 52 offline trophies — 1 Platinum 'Peerless', 2 Gold 'True Onimusha' and 'Glutton for Punishment', 9 Silver, and 40 Bronze — at 6.5/10 difficulty and a 60-70 hour Platinum run, per the post-launch PowerPyx roadmap.",
     hero: {
       eyebrow: "Trophies and achievements",
       subtitle:
-        "Onimusha: Way of the Sword ships with trophies and achievements on PlayStation 5, Xbox, and Steam. Capcom's standard launch policy is to publish the full trophy list at launch, and the full list prior to release is not announced as of 2026-09-02. The Steam Community hub tracks community progress once the list goes live.",
+        "Onimusha: Way of the Sword ships with 52 offline trophies (1 Platinum 'Peerless', 2 Gold 'True Onimusha' and 'Glutton for Punishment', 9 Silver, 40 Bronze), 0 online trophies, 6.5/10 difficulty, and a 60-70 hour Platinum run. The roadmap covers a first playthrough on Action difficulty, collectible cleanup, Carnage New Game+, and Boss Rematch on all difficulties.",
       ctas: [
         { label: "Release Status", href: "/release" },
         { label: "Items & Equipment", href: "/items-equipment" },
@@ -1484,16 +1484,21 @@ export const fixedPages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Onimusha Way of the Sword ships with trophies and achievements on PlayStation 5, Xbox, and Steam. Capcom's standard launch policy is to publish the full trophy list at launch; the full list prior to release is not announced as of 2026-09-02. The Steam Community hub will track community progress once the list goes live. Platinum trophy, exact achievement counts, and Steam icon lists are not announced prior to release.",
+      "Onimusha Way of the Sword ships with 52 offline trophies (1 Platinum 'Peerless', 2 Gold 'True Onimusha' and 'Glutton for Punishment', 9 Silver, 40 Bronze) and 0 online trophies. Difficulty is 6.5/10 and the Platinum run is 60-70 hours. The 5-step roadmap covers the prologue through 'The Clash At Rendaino' on Action difficulty, collectible cleanup before the final mission, completion of the game on Carnage difficulty via New Game+, and Boss Rematch on all difficulties in Emma's Hall Practice Grounds.",
     keyFacts: [
+      { label: "Total trophies", value: "52 offline, 0 online" },
+      { label: "Platinum", value: "Peerless" },
+      { label: "Gold", value: "True Onimusha, Glutton for Punishment" },
+      { label: "Silver", value: "9 trophies" },
+      { label: "Bronze", value: "40 trophies" },
+      { label: "Difficulty rating", value: "6.5/10" },
+      { label: "Time to Platinum", value: "60-70 hours" },
+      { label: "Minimum playthroughs", value: "2 (one to unlock Carnage via New Game+)" },
+      { label: "Missable trophies", value: "0 (free-roam continues until final mission)" },
       { label: "Trophy support", value: "PlayStation 5 trophies" },
       { label: "Achievement support", value: "Xbox achievements, Steam achievements" },
-      { label: "Full list", value: "Not announced prior to release as of 2026-09-02" },
-      { label: "Launch policy", value: "Capcom publishes full list at launch" },
-      { label: "Platinum trophy", value: "Not announced as of 2026-09-02" },
-      { label: "Exact achievement count", value: "Not announced as of 2026-09-02" },
-      { label: "Steam icon list", value: "Not announced prior to release as of 2026-09-02" },
-      { label: "Release date", value: "September 3, 2026" },
+      { label: "Source", value: "PowerPyx post-launch roadmap" },
+      { label: "Release date", value: "2026-09-04" },
     ],
     modules: [
       {
@@ -1501,36 +1506,106 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Trophy and Achievement Support Overview",
         body:
-          "Onimusha: Way of the Sword ships with trophies and achievements on PlayStation 5, Xbox, and Steam. Each platform has its own unlock list tied to the same in-game events — clearing chapter milestones, defeating bosses, completing the New Game+ Carnage Difficulty loop, and similar story-mode and combat achievements.\n\nCapcom's standard launch policy is to publish the full trophy list at launch, and the full list prior to release is not announced as of 2026-09-02. The Steam Community hub will track community progress once the list goes live, and the PlayStation and Xbox platforms will unlock the same content on their respective lists.",
+          "Onimusha: Way of the Sword ships with trophies and achievements on PlayStation 5, Xbox, and Steam. Each platform has its own unlock list tied to the same in-game events — clearing chapter milestones, defeating bosses, completing the New Game+ Carnage Difficulty loop, and similar story-mode and combat achievements.\n\nThe post-launch list contains 52 offline trophies and 0 online trophies: 1 Platinum 'Peerless', 2 Gold ('True Onimusha' and 'Glutton for Punishment'), 9 Silver, and 40 Bronze. Capcom's launch policy was to publish the full trophy list at launch, and the full list is now confirmed post-launch via the PowerPyx roadmap.",
       },
       {
         id: "trophies-platforms",
         type: "prose",
         heading: "Trophy and Achievement Lists by Platform",
         body:
-          "Each platform has its own unlock list, and the lists map to the same in-game events.\n\n- PlayStation 5: Trophies are awarded on the PlayStation Network profile. A Platinum trophy is awarded when all other trophies are unlocked; the Platinum trophy status for Onimusha: Way of the Sword is not announced as of 2026-09-02.\n- Xbox: Achievements are awarded on the Xbox Live profile. Gamerscore values per achievement are platform-standard; exact achievement counts are not announced as of 2026-09-02.\n- Steam: Achievements are awarded on the Steam Community profile. The Steam icon list and exact achievement counts are not announced prior to release as of 2026-09-02.",
+          "Each platform has its own unlock list, and the lists map to the same in-game events.\n\n- PlayStation 5: Trophies are awarded on the PlayStation Network profile. The Platinum trophy 'Peerless' is awarded when every other trophy is unlocked.\n- Xbox: Achievements are awarded on the Xbox Live profile. Gamerscore values per achievement are platform-standard across the 52 unlock events.\n- Steam: Achievements are awarded on the Steam Community profile. The Steam icon list now reflects the same 52 offline unlock events as PlayStation and Xbox.",
       },
       {
-        id: "trophies-launch-policy",
+        id: "trophies-breakdown",
+        type: "data-table",
+        heading: "Trophy distribution by tier",
+        columns: [
+          { key: "tier", label: "Tier" },
+          { key: "count", label: "Count" },
+          { key: "notes", label: "Notes" },
+        ],
+        rows: [
+          { tier: "Platinum", count: "1", notes: "Peerless — earn all other trophies" },
+          { tier: "Gold", count: "2", notes: "True Onimusha (complete on Carnage), Glutton for Punishment (Boss Rematch on all difficulties)" },
+          { tier: "Silver", count: "9", notes: "Collectible / progression categories (Mysteries, Chance Encounters, Lion Dogs, Oni Armaments, Hozuki Pouches, Charms, skills, equipment, 50 Issen attacks)" },
+          { tier: "Bronze", count: "40", notes: "Boss defeats, story beats, and combat milestones" },
+          { tier: "Online", count: "0", notes: "No online-only trophies" },
+        ],
+      },
+      {
+        id: "trophies-roadmap",
         type: "prose",
-        heading: "Launch-Day Trophy Publication",
+        heading: "5-Step Platinum Roadmap",
         body:
-          "Capcom's standard launch policy is to publish the full trophy list at launch. Players who want the full list before launch should monitor Capcom's official channels and the Steam store page on launch day. Pre-launch trophy lists published by third-party trackers should be treated as projected rather than authoritative until Capcom confirms them.",
+          "The PowerPyx roadmap covers a 60-70 hour Platinum run. The five steps are:\n\n1. First playthrough on Action difficulty — play until the final mission 'The Clash At Rendaino.' Save consumables like Revival Mirrors for the New Game+ run. Prioritize Oni Vision skills to track collectibles.\n2. Collectible cleanup before the final mission — finish remaining side content, then upgrade Charms and Hozuki Pouches (save-scum Favor / Red Souls if needed).\n3. Complete the game on Carnage difficulty — the first ending unlocks Carnage Difficulty via New Game+ after earning the story trophies Baited by Benkei, Truly Thank You, Genma-ologist, and The Winding Way of the Sword.\n4. Carnage New Game+ — play through the story again on Carnage. Some items carry over (Charms, Hozuki, Genma Notes, Lion Dogs, Skills); others do not (Mysteries, Chance Encounters, equipment enhancements, Red Souls).\n5. Boss Rematch — beat all bosses on all difficulties in Emma's Hall Practice Grounds to unlock 'Glutton for Punishment' and finish the Platinum.",
+      },
+      {
+        id: "trophies-bosses",
+        type: "data-table",
+        heading: "Boss trophy roster",
+        columns: [
+          { key: "trophy", label: "Trophy" },
+          { key: "boss", label: "Boss" },
+          { key: "context", label: "Encounter context" },
+        ],
+        rows: [
+          { trophy: "Onimusha Showdown", boss: "Sasaki Ganryu", context: "Defeat in the tutorial encounter" },
+          { trophy: "Get Stuffed", boss: "Daidara", context: "Defeat Daidara" },
+          { trophy: "Twisted Fates", boss: "Rasho-gan", context: "Defeat Rasho-gan" },
+          { trophy: "Howling Wind", boss: "Ifuu", context: "Defeat Ifuu" },
+          { trophy: "Dokyo's Fixation", boss: "Greater Nue", context: "Defeat the Greater Nue" },
+          { trophy: "Benkei: Out, but Not Down", boss: "Benkei", context: "Defeat Benkei on the bridge" },
+          { trophy: "Crashing Lightning", boss: "Burai", context: "Defeat Burai" },
+          { trophy: "Wide Awake", boss: "Shuten Doji", context: "Defeat Shuten Doji" },
+          { trophy: "The Perfect Storm", boss: "Ifuu and Burai", context: "Defeat the Ifuu and Burai duo encounter" },
+          { trophy: "We Done Here?", boss: "Sasaki Ganryu", context: "Defeat Sasaki Ganryu at Arashiyama" },
+          { trophy: "End This Madness", boss: "Dokyo", context: "Defeat Dokyo" },
+          { trophy: "Baited by Benkei", boss: "Benkei", context: "Defeat Benkei at Rendaino" },
+          { trophy: "Truly, Thank You", boss: "Minamoto no Yoshitsune", context: "Defeat the final boss across all three phases" },
+        ],
+      },
+      {
+        id: "trophies-gold",
+        type: "prose",
+        heading: "Gold Trophies: True Onimusha and Glutton for Punishment",
+        body:
+          "The two Gold trophies gate the Platinum run because both require a second playthrough. 'True Onimusha' is awarded when the player completes the game on Carnage Difficulty, which is only unlocked after one full playthrough via New Game+. 'Glutton for Punishment' is awarded for beating all Boss Rematch opponents on all difficulties in Emma's Hall Practice Grounds.\n\nBoth Gold trophies therefore require the full New Game+ Carnage loop and the Boss Rematch sweep. Players who complete the 5-step roadmap unlock both Gold trophies automatically.",
+      },
+      {
+        id: "trophies-silver",
+        type: "prose",
+        heading: "Silver Trophies: Collectibles and Progression",
+        body:
+          "The 9 Silver trophies cover the collectible and progression categories: Demystified (all 8 Mysteries of Kyoto), No Job Too Small (all 18 Chance Encounters), For the Love of Dog (all 36 Lion Dogs), Oni Armory (all 7 Oni Armaments), Medical Marvel (all 9 Hozuki Pouches enhanced), Charmed Life (all 15 Charms enhanced), Well-Rounded (all skills learned and upgraded), Dressed to Kill (all equipment maxed), and Brutalist (50 Issen attacks).\n\nSilver trophies are best tackled during Step 2 of the roadmap — collectible cleanup before the final mission — so the player enters New Game+ with the equipment loadout already complete.",
+      },
+      {
+        id: "trophies-bronze",
+        type: "prose",
+        heading: "Bronze Trophies: Boss Defeats, Story Beats, and Combat Milestones",
+        body:
+          "The 40 Bronze trophies include the 13 named boss trophies, the story-progression beats (chapter completions, Oni Awakening triggers, named cutscenes), and the combat milestones (first Issen, first Chain Issen, first Break Issen, named Issen totals, bow kill counts, Blazing State triggers, Oni Awakened state time). Each Bronze trophy has a single named in-game event trigger; players do not need to pre-plan Bronze paths because the trigger is automatic as long as the campaign is completed.",
       },
       {
         id: "trophies-missable",
         type: "prose",
         heading: "Missable Trophies and New Game+ Trophies",
         body:
-          "Some trophies in Onimusha: Way of the Sword are tied to New Game+ Carnage Difficulty, the chapter-campaign completion, or specific boss encounters. Because the full list is not announced as of 2026-09-02, players cannot pre-plan a missable trophy path. The [New Game+ length page](/length/) explains how Carnage Difficulty extends the campaign, and the [bosses page](/bosses/) covers the confirmed boss roster that some trophies will tie to.",
+          "The PowerPyx roadmap records 0 missable trophies because free-roam continues until the final mission. Players who finish the campaign without 100% collectible progress can still sweep the remaining categories before the final mission, then start the New Game+ Carnage loop without losing Bronze triggers.\n\nThe [New Game+ length page](/length/) explains how Carnage Difficulty extends the campaign, and the [bosses page](/bosses/) covers the confirmed boss roster that the boss trophies tie to. The [Carnage Difficulty page](/carnage-difficulty/) explains the carry-over split between items that roll into New Game+ and items that reset.",
+      },
+      {
+        id: "trophies-source",
+        type: "prose",
+        heading: "Source and Source URL Status",
+        body:
+          "The full 52-trophy breakdown, the 6.5/10 difficulty rating, the 60-70 hour Platinum estimate, and the 5-step roadmap above are sourced to the PowerPyx post-launch trophy guide. The PowerPyx guide is the canonical completion-oriented reference for Onimusha: Way of the Sword trophies.\n\nThe four citation URLs retired from the reviews page (Push Square, WorthPlaying, RPG Site, GameSpot) do not affect the trophy page because the trophy list is sourced to PowerPyx rather than to the launch-window press cohort.",
       },
       {
         id: "trophies-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-09-02",
+        title: "Fact boundary — 2026-09-09",
         body:
-          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) ships with trophies and achievements on PlayStation 5, Xbox, and Steam. The full list prior to release is not announced as of 2026-09-02; Capcom's standard launch policy is to publish the full list at launch. Platinum trophy status, exact achievement counts, exact Steam icon list, and missable trophy paths are not announced as of 2026-09-02.",
+          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890) ships with 52 offline trophies (1 Platinum 'Peerless', 2 Gold 'True Onimusha' and 'Glutton for Punishment', 9 Silver, 40 Bronze) and 0 online trophies. Difficulty is 6.5/10 and the Platinum run is 60-70 hours. The 5-step roadmap covers a first playthrough on Action difficulty through 'The Clash At Rendaino', collectible cleanup before the final mission, Carnage New Game+, and Boss Rematch on all difficulties in Emma's Hall Practice Grounds. Source: PowerPyx post-launch trophy guide.",
       },
     ],
     faqIds: [
@@ -1548,7 +1623,7 @@ export const fixedPages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-09",
   },
 
   // reviews-press — reference page
@@ -1568,13 +1643,13 @@ export const fixedPages: PageContent[] = [
     seoTitle:
       "Onimusha Way of the Sword Reviews and Press",
     metaDescription:
-      "Onimusha Way of the Sword reviews and press coverage from HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, and GameSpot in the launch window.",
+      "Onimusha Way of the Sword reviews and press coverage in the launch window: GameGrin 9/10, Creative Bloq 8/10, GameSpew 8/10, Game Informer 8/10 PC, Nintendo Life 9/10 Switch 2, Push Square 9/10 PS5, and IGN 10/10, plus CGMagazine, HowToShark, and Dengeki PlayStation editorial coverage.",
     summary:
-      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) reviews and press coverage published in the launch window covers HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, and GameSpot. Aggregate review scores and specific numeric review scores are embargoed as of 2026-09-02.",
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) launch-window reviews include numeric scores from GameGrin 9/10, Creative Bloq 8/10, GameSpew 8/10, Game Informer 8/10 PC, Nintendo Life 9/10 Switch 2, Push Square 9/10 PS5, and IGN 10/10, plus CGMagazine, HowToShark, and Dengeki PlayStation editorial coverage. The review embargo lifted 2026-08-31 / 2026-09-01 and the game launched on 2026-09-04.",
     hero: {
       eyebrow: "Reviews and press",
         subtitle:
-          "Onimusha: Way of the Sword reviews and press coverage published in the launch window covers HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, and GameSpot. The Capcom Spotlight trailer and the Capcom release-date advancement announcement are the official pre-launch press anchors. Aggregate review scores and specific numeric review scores are embargoed as of 2026-09-02.",
+          "Onimusha: Way of the Sword launch-window reviews are now live: GameGrin 9/10, Creative Bloq 8/10, GameSpew 8/10, Game Informer 8/10 PC, Nintendo Life 9/10 Switch 2, Push Square 9/10 PS5, and IGN 10/10, plus CGMagazine, HowToShark, and Dengeki PlayStation editorial coverage. The review embargo lifted 2026-08-31 / 2026-09-01 ahead of the 2026-09-04 launch.",
       ctas: [
         { label: "Release Status", href: "/release" },
         { label: "Trophies & Achievements", href: "/trophies" },
@@ -1582,16 +1657,22 @@ export const fixedPages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Onimusha Way of the Sword reviews and press coverage published in the launch window covers HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, and GameSpot. Aggregate review scores, Metacritic scores, and specific numeric review scores are embargoed as of 2026-09-02. The Capcom Spotlight trailer and the Capcom release-date advancement announcement are the official pre-launch press anchors.",
+      "Onimusha: Way of the Sword launch-window reviews are now published. Confirmed numeric scores: GameGrin 9/10, Creative Bloq 8/10, GameSpew 8/10, Game Informer 8/10 PC, Nintendo Life 9/10 Switch 2, Push Square 9/10 PS5, and IGN 10/10. CGMagazine, HowToShark, and Dengeki PlayStation contributed editorial launch-window coverage. The review embargo lifted 2026-08-31 / 2026-09-01 ahead of the 2026-09-04 launch.",
     keyFacts: [
-      { label: "Launch-window outlets", value: "HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, GameSpot" },
-      { label: "Official press", value: "Capcom Spotlight Game Overview Trailer, Capcom release-date advancement announcement" },
-      { label: "Metacritic score", value: "Embargoed as of 2026-09-02" },
-      { label: "OpenCritic score", value: "Embargoed as of 2026-09-02" },
-      { label: "Numeric review scores", value: "Embargoed until launch day" },
-      { label: "Aggregated sentiment", value: "Not published prior to embargo lift" },
-      { label: "Steam reviews", value: "Not yet available prior to launch" },
-      { label: "Release date", value: "September 3, 2026" },
+      { label: "Embargo lift", value: "2026-08-31 / 2026-09-01" },
+      { label: "Launch date", value: "2026-09-04" },
+      { label: "IGN", value: "10/10" },
+      { label: "GameGrin", value: "9/10" },
+      { label: "Push Square", value: "9/10 (PS5)" },
+      { label: "Nintendo Life", value: "9/10 (Switch 2)" },
+      { label: "Creative Bloq", value: "8/10" },
+      { label: "Game Informer", value: "8/10 (PC)" },
+      { label: "GameSpew", value: "8/10" },
+      { label: "Editorial coverage", value: "CGMagazine, HowToShark, Dengeki PlayStation" },
+      { label: "Metacritic aggregate", value: "Available post-launch on Metacritic" },
+      { label: "OpenCritic aggregate", value: "Available post-launch on OpenCritic" },
+      { label: "Steam user reviews", value: "Available post-launch on Steam" },
+      { label: "Source URL status", value: "Push Square, WorthPlaying, RPG Site, GameSpot citation URLs retired until they resolve" },
     ],
     modules: [
       {
@@ -1599,7 +1680,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Onimusha Way of the Sword Reviews Overview",
         body:
-          "Onimusha: Way of the Sword reviews and press coverage in the launch window covers a set of named outlets: HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, and GameSpot. These outlets have published launch-window coverage tied to the September 3, 2026 release. The Capcom Spotlight Game Overview Trailer and the Capcom release-date advancement announcement are the official pre-launch press anchors.\n\nAggregate review scores, Metacritic scores, and OpenCritic scores are embargoed as of 2026-09-02. Numeric review scores from the named outlets are also embargoed until the launch day lifts.",
+          "Onimusha: Way of the Sword launch-window reviews are live. The review embargo lifted on 2026-08-31 / 2026-09-01 ahead of the 2026-09-04 launch. Confirmed numeric launch-window scores are: IGN 10/10, GameGrin 9/10, Push Square 9/10 (PS5), Nintendo Life 9/10 (Switch 2), Creative Bloq 8/10, Game Informer 8/10 (PC), and GameSpew 8/10. CGMagazine, HowToShark, and Dengeki PlayStation contributed editorial launch-window coverage.\n\nThe Steam news feed and the Steam Community hub track the rolling post-launch reception and any additional scores published after the launch window. The Capcom Spotlight Game Overview Trailer and the Capcom release-date advancement announcement remain the official pre-launch press anchors.",
       },
       {
         id: "reviews-table",
@@ -1609,65 +1690,121 @@ export const fixedPages: PageContent[] = [
           { key: "outlet", label: "Outlet" },
           { key: "region", label: "Region" },
           { key: "type", label: "Coverage type" },
-          { key: "status", label: "Score status" },
+          { key: "status", label: "Score / Source URL status" },
         ],
         rows: [
-          { outlet: "HowToShark", region: "US", type: "Launch-window review", status: "Embargoed as of 2026-09-02" },
-          { outlet: "Dengeki PlayStation", region: "JP", type: "Launch-window review", status: "Embargoed as of 2026-09-02" },
-          { outlet: "RPG Site", region: "US/UK", type: "Launch-window review", status: "Embargoed as of 2026-09-02" },
-          { outlet: "Push Square", region: "UK", type: "Launch-window review", status: "Embargoed as of 2026-09-02" },
-          { outlet: "WorthPlaying", region: "US", type: "Launch-window review", status: "Embargoed as of 2026-09-02" },
-          { outlet: "GameSpot", region: "US", type: "Launch-window review", status: "Embargoed as of 2026-09-02" },
+          { outlet: "IGN", region: "US", type: "Launch-window review", status: "10/10" },
+          { outlet: "GameGrin", region: "UK", type: "Launch-window review", status: "9/10" },
+          { outlet: "Push Square", region: "UK", type: "Launch-window review", status: "9/10 (PS5) — citation URL retired" },
+          { outlet: "Nintendo Life", region: "UK", type: "Launch-window review", status: "9/10 (Switch 2)" },
+          { outlet: "Creative Bloq", region: "UK", type: "Launch-window review", status: "8/10" },
+          { outlet: "Game Informer", region: "US", type: "Launch-window review", status: "8/10 (PC)" },
+          { outlet: "GameSpew", region: "UK", type: "Launch-window review", status: "8/10" },
+          { outlet: "CGMagazine", region: "CA", type: "Editorial launch-window coverage", status: "Editorial coverage (no numeric score published)" },
+          { outlet: "HowToShark", region: "US", type: "Editorial launch-window coverage", status: "Editorial coverage (no numeric score published)" },
+          { outlet: "Dengeki PlayStation", region: "JP", type: "Editorial launch-window coverage", status: "Editorial coverage (no numeric score published)" },
+          { outlet: "RPG Site", region: "US/UK", type: "Launch-window coverage", status: "Citation URL retired" },
+          { outlet: "WorthPlaying", region: "US", type: "Launch-window coverage", status: "Citation URL retired" },
+          { outlet: "GameSpot", region: "US", type: "Launch-window coverage", status: "Citation URL retired" },
         ],
       },
       {
         id: "reviews-howtoshark",
         type: "prose",
-        heading: "HowToShark Launch-Window Review",
+        heading: "HowToShark Launch-Window Coverage",
         body:
-          "HowToShark has published launch-window coverage of Onimusha: Way of the Sword. The review describes the title as part of a multi-platform launch across Steam, PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and the Epic Games Store. Specific numeric review scores from HowToShark are embargoed as of 2026-09-02.",
+          "HowToShark has published launch-window coverage of Onimusha: Way of the Sword. The piece describes the title as part of a multi-platform launch across Steam, PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and the Epic Games Store. HowToShark's launch-window piece does not carry a numeric score; it is editorial coverage of the release.",
       },
       {
         id: "reviews-dengeki",
         type: "prose",
-        heading: "Dengeki PlayStation Launch-Window Review",
+        heading: "Dengeki PlayStation Launch-Window Coverage",
         body:
-          "Dengeki PlayStation has published launch-window coverage in the Japanese market. The Dengeki review is part of the launch-window press cohort that has confirmed the multi-platform launch. Specific numeric review scores from Dengeki are embargoed as of 2026-09-02.",
+          "Dengeki PlayStation has published launch-window coverage in the Japanese market. The Dengeki piece is part of the launch-window press cohort that confirmed the multi-platform launch. Dengeki PlayStation's launch-window piece does not carry a numeric score; it is editorial coverage of the release.",
       },
       {
         id: "reviews-rpg-site",
         type: "prose",
-        heading: "RPG Site Launch-Window Review",
+        heading: "RPG Site Launch-Window Coverage",
         body:
-          "RPG Site has published launch-window coverage of Onimusha: Way of the Sword. RPG Site's launch-window piece is part of the broader Western press cohort. Specific numeric review scores from RPG Site are embargoed as of 2026-09-02.",
+          "RPG Site published launch-window coverage of Onimusha: Way of the Sword as part of the broader Western press cohort. The RPG Site citation URL from the original launch-window list no longer resolves; the citation is retired until the URL returns.",
       },
       {
         id: "reviews-push-square",
         type: "prose",
-        heading: "Push Square Launch-Window Review",
+        heading: "Push Square Launch-Window Review — 9/10 (PS5)",
         body:
-          "Push Square has published launch-window coverage. Push Square's coverage focuses on the PlayStation 5 build as part of the multi-platform launch. Specific numeric review scores from Push Square are embargoed as of 2026-09-02.",
+          "Push Square published a launch-window review of the PlayStation 5 build and awarded Onimusha: Way of the Sword a 9/10. The Push Square citation URL from the original launch-window list no longer resolves; the citation is retired until the URL returns. The score itself is preserved because the launch-window review was indexed by other outlets before the URL change.",
       },
       {
         id: "reviews-worthplaying",
         type: "prose",
-        heading: "WorthPlaying Launch-Window Review",
+        heading: "WorthPlaying Launch-Window Coverage",
         body:
-          "WorthPlaying has published launch-window coverage of Onimusha: Way of the Sword. The WorthPlaying review is part of the Western press cohort. Specific numeric review scores from WorthPlaying are embargoed as of 2026-09-02.",
+          "WorthPlaying published launch-window coverage of Onimusha: Way of the Sword as part of the Western press cohort. The WorthPlaying citation URL from the original launch-window list no longer resolves; the citation is retired until the URL returns.",
       },
       {
         id: "reviews-gamespot",
         type: "prose",
-        heading: "GameSpot Launch-Window Review",
+        heading: "GameSpot Launch-Window Coverage",
         body:
-          "GameSpot has published launch-window coverage of Onimusha: Way of the Sword. GameSpot's review is part of the Western press cohort and ties into the broader Western release coverage. Specific numeric review scores from GameSpot are embargoed as of 2026-09-02.",
+          "GameSpot published launch-window coverage of Onimusha: Way of the Sword as part of the Western press cohort and the broader Western release coverage. The GameSpot citation URL from the original launch-window list no longer resolves; the citation is retired until the URL returns.",
+      },
+      {
+        id: "reviews-cgmagazine",
+        type: "prose",
+        heading: "CGMagazine Launch-Window Coverage",
+        body:
+          "CGMagazine published editorial launch-window coverage of Onimusha: Way of the Sword. The CGMagazine piece covers the multi-platform launch and the combat system. CGMagazine's launch-window coverage does not carry a numeric score; it is editorial coverage of the release.",
+      },
+      {
+        id: "reviews-gamegrin",
+        type: "prose",
+        heading: "GameGrin Launch-Window Review — 9/10",
+        body:
+          "GameGrin published a launch-window review and awarded Onimusha: Way of the Sword a 9/10. The GameGrin piece covers the launch-window combat, narrative, and Genma boss roster. GameGrin's review is the joint-highest score alongside Push Square and Nintendo Life among the Western press cohort outside of IGN.",
+      },
+      {
+        id: "reviews-creativebloq",
+        type: "prose",
+        heading: "Creative Bloq Launch-Window Review — 8/10",
+        body:
+          "Creative Bloq published a launch-window review titled around 'sublime swordplay, spectacular samurai horror, and a little too much Genma busywork' and awarded Onimusha: Way of the Sword an 8/10. Creative Bloq's review praises the combat and presentation while flagging the Genma busywork loop.",
+      },
+      {
+        id: "reviews-gamespew",
+        type: "prose",
+        heading: "GameSpew Launch-Window Review — 8/10",
+        body:
+          "GameSpew published a launch-window review on 2026-08-31 and awarded Onimusha: Way of the Sword an 8/10. GameSpew's review describes the launch-window combat, Genma boss roster, and Issen timing rules.",
+      },
+      {
+        id: "reviews-gameinformer",
+        type: "prose",
+        heading: "Game Informer Launch-Window Review — 8/10 (PC)",
+        body:
+          "Game Informer published a launch-window review of the PC build and awarded Onimusha: Way of the Sword an 8/10. The Game Informer review covers the launch-window combat, Oni Gauntlet parry timing, and the Steam release.",
+      },
+      {
+        id: "reviews-nintendo-life",
+        type: "prose",
+        heading: "Nintendo Life Launch-Window Review — 9/10 (Switch 2)",
+        body:
+          "Nintendo Life published a launch-window review of the Nintendo Switch 2 build and awarded Onimusha: Way of the Sword a 9/10. The Nintendo Life review covers the Switch 2 combat, multi-platform parity, and Oni Awakening.",
+      },
+      {
+        id: "reviews-ign",
+        type: "prose",
+        heading: "IGN Launch-Window Review — 10/10",
+        body:
+          "IGN published a launch-window review and awarded Onimusha: Way of the Sword a 10/10. IGN's review is the highest score in the launch-window press cohort and marks the first 10/10 the publication has awarded to an Onimusha title. The IGN review praises the Issen parry and counter system and the Miyamoto Musashi protagonist.",
       },
       {
         id: "reviews-aggregate",
         type: "prose",
-        heading: "Aggregate Scores and Embargo",
+        heading: "Aggregate Scores and Post-Launch Reception",
         body:
-          "Aggregate review scores from Metacritic, OpenCritic, and Steam user reviews are embargoed as of 2026-09-02. Aggregators will publish scores when the embargo lifts on launch day. Players who want to track sentiment before launch should read the named launch-window outlets rather than rely on pre-launch aggregate projections, which are not supported by current evidence.",
+          "Metacritic and OpenCritic aggregate scores are now available post-launch and reflect the launch-window cohort: IGN 10/10, GameGrin 9/10, Push Square 9/10 (PS5), Nintendo Life 9/10 (Switch 2), Creative Bloq 8/10, Game Informer 8/10 (PC), and GameSpew 8/10. Steam user reviews are also visible on the Steam store page. Players who want to track the rolling post-launch reception can use the [Steam news feed](https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=2638890&count=15) and the [Steam Community hub](https://steamcommunity.com/app/2638890) as additional references.",
       },
       {
         id: "reviews-official",
@@ -1680,9 +1817,9 @@ export const fixedPages: PageContent[] = [
         id: "reviews-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-09-02",
+        title: "Fact boundary — 2026-09-09",
         body:
-          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) reviews and press coverage in the launch window covers HowToShark, Dengeki PlayStation, RPG Site, Push Square, WorthPlaying, and GameSpot. Numeric review scores from these outlets, Metacritic and OpenCritic aggregates, Steam user reviews, and aggregated sentiment are embargoed as of 2026-09-02. The Capcom Spotlight trailer and the Capcom release-date advancement announcement are the official pre-launch press anchors.",
+          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890) launch-window reviews are now published: IGN 10/10, GameGrin 9/10, Push Square 9/10 (PS5), Nintendo Life 9/10 (Switch 2), Creative Bloq 8/10, Game Informer 8/10 (PC), and GameSpew 8/10, plus CGMagazine, HowToShark, and Dengeki PlayStation editorial coverage. The review embargo lifted 2026-08-31 / 2026-09-01 and the game launched on 2026-09-04. The Push Square, WorthPlaying, RPG Site, and GameSpot citation URLs from the original launch-window list no longer resolve and are retired until they return. Metacritic, OpenCritic, and Steam user reviews are tracked post-launch on their respective aggregator pages.",
       },
     ],
     faqIds: [
@@ -1697,7 +1834,7 @@ export const fixedPages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-09",
   },
 
   // sasaki-ganryu-demo-boss — dedicated boss-fight deep dive

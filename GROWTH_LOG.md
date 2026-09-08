@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-09 - Launch-window reviews and post-launch trophy roadmap published
+
+- Task: Replace the pre-launch 'embargoed as of 2026-09-02' / 'not announced as of 2026-09-02' positions on `/reviews` and `/trophies` with confirmed launch-window numeric scores and the post-launch PowerPyx trophy roadmap.
+- Files changed: `src/data/pages/fixed-pages.ts`, `src/data/faq.ts`, `CONTENT_INDEX.md`, `GROWTH_LOG.md`.
+- URLs affected: `/reviews`, `/trophies`.
+- Content added on `/reviews`: launch-window numeric scores (IGN 10/10, GameGrin 9/10, Push Square 9/10 PS5, Nintendo Life 9/10 Switch 2, Creative Bloq 8/10, Game Informer 8/10 PC, GameSpew 8/10); CGMagazine, HowToShark, and Dengeki PlayStation editorial coverage; embargo lift dates 2026-08-31 / 2026-09-01; launch date 2026-09-04; retired citation URLs flagged for Push Square, WorthPlaying, RPG Site, and GameSpot until they resolve; post-launch Metacritic and OpenCritic aggregator evidence; Steam news feed link for rolling post-launch reception.
+- Content added on `/trophies`: full 52-trophy breakdown (1 Platinum 'Peerless', 2 Gold 'True Onimusha' and 'Glutton for Punishment', 9 Silver, 40 Bronze, 0 online); 6.5/10 difficulty rating; 60-70 hours to Platinum; 5-step roadmap (first playthrough on Action through 'The Clash At Rendaino' -> collectible cleanup before the final mission -> complete the game and unlock Carnage Difficulty -> Carnage New Game+ -> Boss Rematch on all difficulties in Emma's Hall Practice Grounds); named conditions for all 13 boss trophies (Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Ifuu/Burai duo, Sasaki Ganryu at Arashiyama, Dokyo, Benkei at Rendaino, Minamoto no Yoshitsune); Silver collectible categories (Mysteries, Chance Encounters, Lion Dogs, Oni Armaments, Hozuki Pouches, Charms, skills, equipment, 50 Issen attacks); Bronze categories (boss defeats, story beats, combat milestones).
+- Verification: `npm run verify` after the change; typecheck, lint, template validation, content validation, IndexNow validation, build, and rendered SEO validation all required to pass before publish.
+
 ### 2026-09-05 - Sasaki Ganryu, Byakue, Oni Gauntlet defensive lanes, Carnage Difficulty cluster added
 
 - Task: Add four launch-week cluster deep-dive pages sourced to the public player guides.

@@ -636,7 +636,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-steam-achievements",
     question: "Does Onimusha Way of the Sword have Steam achievements?",
     answer:
-      "Yes. The Steam store page for AppID 2638890 lists Steam achievements as a confirmed feature. The full list was not publicly published as of 2026-09-02, but the achievement system is confirmed for the 2026-09-03 launch.",
+      "Yes. The Steam store page for AppID 2638890 lists Steam achievements as a confirmed feature. The post-launch list contains 52 offline achievements and 0 online achievements, mapped 1:1 to the PlayStation and Xbox trophy lists.",
     pageIds: ["fixed-trophies-achievements-en-us"],
     category: "release",
     schemaEligible: true,
@@ -646,7 +646,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-achievement-list-public",
     question: "When does the Onimusha Way of the Sword Steam achievement list go public?",
     answer:
-      "The achievement list becomes visible in the Steam client once the game ships on 2026-09-03. Capcom has not pre-published the list before launch, so the public list is the post-launch state, not the pre-launch one.",
+      "The achievement list went public on the Steam client at launch on 2026-09-04. The post-launch list contains 52 offline achievements — 1 Platinum 'Peerless', 2 Gold 'True Onimusha' and 'Glutton for Punishment', 9 Silver, and 40 Bronze.",
     pageIds: ["fixed-trophies-achievements-en-us"],
     category: "release",
     schemaEligible: true,
@@ -656,7 +656,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-achievements-new-game-plus",
     question: "Are achievements tied to New Game+ Carnage Difficulty?",
     answer:
-      "Yes. New Game+ Carnage Difficulty is one of the six category buckets the achievement list is expected to cover. Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials but not story progress, materials, or save points, so achievement triggers that depend on those do not roll over.",
+      "Yes. The Gold trophy 'True Onimusha' is awarded when the player completes the game on Carnage Difficulty, which is unlocked only via New Game+ after the first ending. Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials but not story progress, materials, or save points, so achievement triggers that depend on those do not roll over.",
     pageIds: ["fixed-trophies-achievements-en-us"],
     category: "gameplay",
     schemaEligible: true,
@@ -666,7 +666,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-trophies-parity",
     question: "Do trophies work the same on PS5 and Xbox?",
     answer:
-      "The Steam achievements ship on PC. PS5 trophies and Xbox achievements use the platform-native systems, and any cross-platform parity claim beyond the Steam list is not announced as of 2026-09-02.",
+      "The Steam achievements ship on PC. PS5 trophies and Xbox achievements use the platform-native systems and reflect the same 52 unlock events: 1 Platinum 'Peerless', 2 Gold ('True Onimusha' and 'Glutton for Punishment'), 9 Silver, and 40 Bronze.",
     pageIds: ["fixed-trophies-achievements-en-us"],
     category: "platform",
     schemaEligible: true,
@@ -678,7 +678,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-review-embargo",
     question: "When does the Onimusha Way of the Sword review embargo lift?",
     answer:
-      "The review embargo lifts on launch day, 2026-09-03. Until that point, specific numeric review scores are not announced as of 2026-09-02.",
+      "The review embargo lifted on 2026-08-31 / 2026-09-01, ahead of the 2026-09-04 launch. Launch-window numeric scores from IGN (10/10), GameGrin (9/10), Push Square (9/10 PS5), Nintendo Life (9/10 Switch 2), Creative Bloq (8/10), Game Informer (8/10 PC), and GameSpew (8/10) are now published.",
     pageIds: ["about", "fixed-reviews-press-en-us"],
     category: "release",
     schemaEligible: true,
@@ -688,7 +688,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-reviews-outlets",
     question: "Which outlets have published Onimusha Way of the Sword reviews?",
     answer:
-      "HowToShark, GameSpot, WorthPlaying, RPG Site, Dengeki PlayStation, and Push Square have launch-window press coverage linked from their outlets as of 2026-09-02; numeric scores are not extracted here because the embargo has not lifted.",
+      "Launch-window reviews with numeric scores are published by IGN (10/10), GameGrin (9/10), Push Square (9/10 PS5), Nintendo Life (9/10 Switch 2), Creative Bloq (8/10), Game Informer (8/10 PC), and GameSpew (8/10). CGMagazine, HowToShark, and Dengeki PlayStation contributed editorial launch-window coverage.",
     pageIds: ["fixed-reviews-press-en-us"],
     category: "release",
     schemaEligible: true,
@@ -698,7 +698,7 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-metacritic-score",
     question: "Is there an Onimusha Way of the Sword Metacritic score yet?",
     answer:
-      "No. The Metacritic aggregate score is not announced as of 2026-09-02; the page will be updated once the embargo lifts on 2026-09-03.",
+      "Yes. Metacritic and OpenCritic aggregate scores are available post-launch on their respective aggregator pages and reflect the launch-window press cohort.",
     pageIds: ["fixed-reviews-press-en-us"],
     category: "release",
     schemaEligible: true,
