@@ -18,12 +18,13 @@ hreflang, sitemap, and route-manifest validation.
 | `/demo` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword demo | Find demo availability, content, and reward | Release Status / Bosses / Editions | Supporting hub | Cross-links to Sasaki Ganryu and Byakue dedicated pages. |
 | `/editions` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword editions | Compare Standard, Deluxe, Premium Deluxe tiers | Release Status / Demo Guide / Characters | Supporting hub | Tiered pricing plus pre-order bonuses. |
 | `/switch-2` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword Switch 2 version | Confirm Switch 2 launch status and demo | Release Status / Demo Guide / System Requirements | Supporting hub | Performance parity is not announced. |
-| `/length` | `src/data/pages/fixed-pages.ts` | Guide | How long is Onimusha Way of the Sword | Estimate main-story and completionist playtime | Combat / Difficulty / Demo | Supporting hub | Cross-links to Carnage Difficulty page. |
+| `/length` | `src/data/pages/fixed-pages.ts` | Guide | How long is Onimusha Way of the Sword | Estimate main-story and completionist playtime | Walkthrough / Carnage Difficulty / Demo | Supporting hub | ~20-25h main story, ~33h completionist, ~33h + Carnage replay (third-party documented 2026-09-10). |
 | `/difficulty` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword difficulty settings | Pick Light, Normal, Hard, or Oni preset | Release Status / Combat / Issen | Supporting hub | Cross-links to Carnage Difficulty page. |
 | `/combat` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword combat mechanics | Learn sword play, Oni Gauntlet, Issen, Awakening | Issen / Bosses / Demo | Supporting hub | Cross-links to Defensive Lanes page. |
 | `/issen` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword Issen guide | Time the named counter after a clean parry | Combat / Bosses / Demo | Supporting hub | Cross-links to Defensive Lanes page. |
-| `/bosses` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword bosses | Confirm the Genma roster and the demo boss | Combat / Issen / Demo | Supporting hub | Cross-links to Sasaki Ganryu and Byakue dedicated pages. |
-| `/characters` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword characters | Identify Musashi, Ganryu, Ifuu, Burai, Genma Musashi | Bosses / Combat / Release | Supporting hub | No character creation. |
+| `/bosses` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword bosses | Confirm the full launch roster and per-boss anchors | Walkthrough / Sasaki Ganryu / Byakue | Supporting hub | 11-boss launch roster (Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, Minamoto no Yoshitsune). |
+| `/characters` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword characters | Identify Musashi and the full cast | Bosses / Walkthrough / Combat | Supporting hub | No character creation; full post-launch cast expanded. |
+| `/walkthrough` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword walkthrough | Plan a 22-chapter Way of the Sword run, final boss, and ending | Bosses / Length / Trophies | Cluster hub | 22-chapter arc, Clash at Rendaino pre-cleanup checklist, three-phase Minamoto no Yoshitsune, Dokyo post-credits return, True Ending third-party documented. |
 | `/items` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword items and equipment | Confirm charm loadout and armor sets | Demo Guide / Editions / Combat | Supporting hub | Kubi Akari demo charm and Lion Dog pre-order charm. |
 | `/trophies` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword trophies | Track PS5, Xbox, and Steam achievement lists | Release Status / Items / Reviews | Supporting hub | 52 offline trophies (1 Platinum 'Peerless', 2 Gold, 9 Silver, 40 Bronze); 6.5/10 difficulty; 60-70 hours to Platinum. |
 | `/reviews` | `src/data/pages/fixed-pages.ts` | Guide | Onimusha Way of the Sword reviews | Read launch-window press coverage | Release Status / Trophies / Home | Supporting hub | IGN 10/10, GameGrin 9/10, Push Square 9/10 PS5, Nintendo Life 9/10 Switch 2, Creative Bloq 8/10, Game Informer 8/10 PC, GameSpew 8/10; embargo lifted 2026-08-31 / 2026-09-01; launch 2026-09-04. |
@@ -47,22 +48,30 @@ hreflang, sitemap, and route-manifest validation.
 
 - Launch facts: `/release`, `/editions`, `/switch-2`, `/system-requirements`, `/trophies`, `/reviews`
 - Combat and mechanics: `/combat`, `/issen`, `/defensive-lanes`, `/difficulty`, `/carnage-difficulty`
-- Characters and bosses: `/characters`, `/bosses`, `/sasaki-ganryu`, `/byakue`
+- Characters and bosses: `/characters`, `/bosses`, `/sasaki-ganryu`, `/byakue`, `/walkthrough`
 - Demo and playtime: `/demo`, `/length`, `/items`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 
 ## Internal Linking Map
 
-- Homepage should link to the most current high-demand pages: `/release`, `/combat`, `/bosses`, `/demo`, `/difficulty`.
-- Demo guide should link to the Sasaki Ganryu and Byakue dedicated boss pages, plus `/bosses` and `/issen`.
-- Bosses page should link to `/sasaki-ganryu`, `/byakue`, `/combat`, and `/issen`.
+- Homepage should link to the most current high-demand pages: `/release`, `/combat`, `/bosses`, `/walkthrough`, `/demo`, `/difficulty`.
+- Demo guide should link to the Sasaki Ganryu and Byakue dedicated boss pages, plus `/bosses`, `/walkthrough`, and `/issen`.
+- Bosses page should link to `/walkthrough`, `/sasaki-ganryu`, `/byakue`, `/combat`, and `/issen`.
+- Characters page should link to `/walkthrough`, `/bosses`, and `/combat`.
+- Walkthrough page should link to `/bosses`, `/length`, `/trophies`, `/characters`, and `/carnage-difficulty`.
+- Length page should link to `/walkthrough`, `/carnage-difficulty`, and `/difficulty`.
 - Combat mechanics page should link to `/defensive-lanes`, `/issen`, and `/difficulty`.
 - Issen guide should link to `/defensive-lanes`, `/sasaki-ganryu`, and `/byakue`.
 - Difficulty settings page should link to `/carnage-difficulty` and `/length`.
-- Length page should link to `/carnage-difficulty` and `/difficulty`.
 
 ## Open Questions
 
+- 22-chapter Way of the Sword arc count and per-chapter beat list are third-party documented (launch-window guides), not first-party confirmed by Capcom as of 2026-09-10.
+- ~20-25h main story / ~33h completionist / ~33h plus Carnage replay ranges are third-party documented, not first-party confirmed by Capcom as of 2026-09-10.
+- Three-phase Minamoto no Yoshitsune final boss phase transitions, named attacks, and HP scaling values are third-party documented, not first-party confirmed by Capcom as of 2026-09-10.
+- Dokyo post-credits return attack patterns and counter windows are third-party documented, not first-party confirmed by Capcom as of 2026-09-10.
+- True Ending unlock condition is third-party documented, not first-party confirmed by Capcom as of 2026-09-10.
+- Per-boss strategy anchors for Daidara, Rasho-gan, Greater Nue, Benkei, Burai, Shuten Doji, and Dokyo are third-party documented; dedicated per-boss pages are not yet published on this site as of 2026-09-10.
 - Sasaki Ganryu exact frame-data windows per preset and per-boss HP scaling numbers are not announced as of 2026-09-05.
 - Byakue exact HP scaling, exact paper seal durability, and the full Special Challenge difficulty tuning beyond 'harder than the standard expanded demo boss' are not announced as of 2026-09-05.
 - Oni Gauntlet exact frame-data windows per preset, exact per-lane damage numbers, and exact red-glow attack coverage per boss are not announced as of 2026-09-05.

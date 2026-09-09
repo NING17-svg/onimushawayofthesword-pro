@@ -111,6 +111,7 @@ export const homePage: PageContent = {
     "fixed-issen-guide-en-us",
     "fixed-bosses-en-us",
     "fixed-characters-en-us",
+    "fixed-walkthrough-en-us",
     "fixed-items-equipment-en-us",
     "fixed-trophies-achievements-en-us",
     "fixed-reviews-press-en-us",

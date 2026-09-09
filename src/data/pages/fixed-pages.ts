@@ -278,9 +278,9 @@ export const fixedPages: PageContent[] = [
       {
         id: "demo-expanded",
         type: "prose",
-        heading: "Expanded Demo: New Area and Another Fearsome Boss",
+        heading: "Expanded Demo: New Area and Byakue (Hundred Defilements)",
         body:
-          "After the initial demo launch, Capcom released an expanded demo that added a new area and another \"fearsome boss\" to the rotation. The expanded demo keeps the original Kiyomizu-dera Temple opener and the Sasaki Ganryu fight, then layers an additional stage on top so players can chain into a second signature encounter. The phrasing \"fearsome boss\" comes from Capcom's own framing and signals that the new boss is positioned at a similar or higher difficulty tier to Ganryu, not a routine mid-level enemy.\n\nFor launch-week players, the expanded demo is the more useful version to download because it covers a second signature fight on top of the original demo content. Both versions of the demo share the same Kubi Akari charm reward, so players who only ever downloaded the original demo still qualify for the carry-over reward if they keep their save.",
+          "After the initial demo launch, Capcom released an expanded demo that adds a new area and a second signature boss to the rotation: Byakue (Hundred Defilements), a white-furred axe-wielding Genma. The expanded demo keeps the original Kiyomizu-dera Temple opener and the Sasaki Ganryu fight, then layers an additional stage on top so players can chain into Byakue. Capcom's own \"fearsome boss\" framing resolves to Byakue, which is the identity launch-week guides name consistently.\n\nByakue's signature mechanic is the paper seals blood rule — more blood drawn makes Byakue stronger — so the recommended counter pattern emphasizes stand-ground discipline and side-step dodges rather than the aggressive parry chains that worked against Ganryu. For launch-week players, the expanded demo is the more useful version to download because it covers Byakue on top of the original demo content. Both versions of the demo share the same Kubi Akari charm reward, so players who only ever downloaded the original demo still qualify for the carry-over reward if they keep their save. The [Byakue second boss page](/byakue/) covers the paper seals blood mechanic, the stand-ground counter pattern, the stand-ground + side-step discipline, and the 10-Issen Special Challenge unlock.",
       },
       {
         id: "demo-vs-full",
@@ -628,45 +628,62 @@ export const fixedPages: PageContent[] = [
     seoTitle:
       "How Long Is Onimusha Way of the Sword to Beat",
     metaDescription:
-      "Wondering how long is Onimusha Way of the Sword? Main-story length, chapter structure, and how the New Game+ Carnage Difficulty loop changes total playtime.",
+      "How long is Onimusha Way of the Sword? ~20-25h main story, ~33h completionist, ~33h 100% plus a Carnage Difficulty New Game+ replay, across a 22-chapter Way of the Sword arc.",
     summary:
-      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) is a chapter-based action-adventure. Exact main-story and completionist hours are not announced as of 2026-09-02; the New Game+ Carnage Difficulty loop is the largest length-extending lever after the first playthrough.",
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) is a 22-chapter action-adventure. Third-party launch-window coverage places the main story at ~20-25 hours, completionist at ~33 hours, and full 100% around ~33 hours plus a Carnage Difficulty New Game+ replay loop.",
     hero: {
       eyebrow: "Length and playtime",
       subtitle:
-        "Onimusha: Way of the Sword is a chapter-based action-adventure. Exact main-story and completionist hours are not announced as of 2026-09-02. The Steam Community hub and the launch-window reviews describe a campaign-length story with a meaningful New Game+ Carnage Difficulty loop.",
+        "Onimusha: Way of the Sword is a 22-chapter Way of the Sword arc. Third-party launch-window coverage places main-story playtime at ~20-25 hours, completionist at ~33 hours, and full 100% at ~33 hours plus a Carnage Difficulty New Game+ replay loop. The Steam Community hub and the launch-window reviews frame the campaign as a measured, set-piece-driven action-adventure rather than a long back-half grind.",
       ctas: [
-        { label: "Combat Mechanics", href: "/combat" },
+        { label: "Walkthrough", href: "/walkthrough" },
         { label: "Difficulty Settings", href: "/difficulty" },
-        { label: "Demo Guide", href: "/demo" },
+        { label: "Carnage Difficulty", href: "/carnage-difficulty" },
       ],
     },
     quickAnswer:
-      "Onimusha: Way of the Sword is a chapter-based action-adventure. If you are asking how long is Onimusha Way of the Sword, the honest answer is that exact main-story and completionist hours are not announced as of 2026-09-02. The Steam Community hub and the HowToShark launch-window review describe a campaign-length story with a meaningful New Game+ Carnage Difficulty loop, the most common length-extending lever after the first playthrough.",
+      "Onimusha: Way of the Sword main story runs ~20-25 hours per third-party launch-window coverage, with a completionist run around ~33 hours and a full 100% run around ~33 hours plus a Carnage Difficulty New Game+ replay. The campaign is structured as a 22-chapter Way of the Sword arc that ends at the Clash at Rendaino and unlocks the Carnage Difficulty loop after the first ending.",
     keyFacts: [
-      { label: "Structure", value: "Chapter-based action-adventure" },
-      { label: "Release date", value: "September 3, 2026" },
-      { label: "Steam AppID", value: "2638890" },
-      { label: "Main-story hours", value: "Not announced as of 2026-09-02" },
-      { label: "Completionist hours", value: "Not announced as of 2026-09-02" },
+      { label: "Structure", value: "22-chapter Way of the Sword arc" },
+      { label: "Main-story hours", value: "~20-25 hours (third-party documented, 2026-09-10)" },
+      { label: "Completionist hours", value: "~33 hours (third-party documented, 2026-09-10)" },
+      { label: "Full 100% hours", value: "~33 hours plus Carnage replay (third-party documented, 2026-09-10)" },
       { label: "New Game+ loop", value: "Carnage Difficulty" },
       { label: "Carnage carries", value: "Unlocks, upgrades, outfits, tutorials" },
       { label: "Carnage does not carry", value: "Story progress, materials, save points" },
+      { label: "Final mission", value: "Clash at Rendaino (three-phase Minamoto no Yoshitsune)" },
+      { label: "Post-credits content", value: "Dokyo return boss" },
+      { label: "Release date", value: "September 3, 2026" },
+      { label: "Steam AppID", value: "2638890" },
     ],
     modules: [
       {
         id: "length-chapters",
         type: "prose",
-        heading: "Chapter and Mission Structure",
+        heading: "22-Chapter Way of the Sword Arc",
         body:
-          "How long Onimusha: Way of the Sword takes to beat depends first on how its chapters are paced. The game is presented as a sequence of Musashi Miyamoto chapters, each moving the Genma threat and the Sasaki Ganryu rivalry forward. The Steam Community hub for AppID 2638890 frames the title as a chapter-and-mission action-adventure rather than an open-world or hub-and-side-quest structure, so the question of how long is Onimusha Way of the Sword reduces to how long each chapter lasts and how many chapters there are.\n\nTwo chapter-related mechanics also shape length:\n\n- Sword-driven boss encounters. The confirmed Genma boss roster (Sasaki Ganryu, the Genma siblings Ifuu and Burai, and Genma Musashi) anchors chapter beats, and each boss adds a distinct Issen-counter timing layer that affects how long it takes to clear the chapter on the first attempt.\n- Oni Gauntlet risk-reward decisions. The Oni Gauntlet parry-and-counter system is positioned as a risk-reward choice: a successful Oni Gauntlet speeds up a chapter by interrupting enemy combos, while a failed attempt can extend a fight and force a restart.\n\nThe chapter flow is the reason the main story reads as a measured, set-piece-driven experience rather than a long back-half grind.",
+          "Onimusha: Way of the Sword is structured as a 22-chapter Way of the Sword arc per third-party launch-window coverage. Each chapter moves Musashi through the Genma conflict, with the post-launch boss roster (Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, and Minamoto no Yoshitsune) anchoring the chapter beats. The arc ends at the Clash at Rendaino, where Musashi faces the three-phase Minamoto no Yoshitsune final boss and gates the 'Truly, Thank You' Silver trophy.\n\nThe 22-chapter count and the Clash at Rendaino as the practical point of no return are the structural anchors that the [walkthrough page](/walkthrough/) uses to lay out the arc. The chapter structure is third-party documented, not first-party confirmed by Capcom as of 2026-09-10; treat the 22-chapter count as a launch-window tracker number rather than a Capcom-published structural figure.",
       },
       {
         id: "length-main-story-factors",
         type: "prose",
-        heading: "What Changes the Main-Story Playtime",
+        heading: "Main-Story Hours — ~20-25 Hours",
         body:
-          "Most first-time players will land in the same playtime window, but a handful of choices push the campaign longer or shorter.\n\n- Difficulty preset. Light difficulty lowers enemy aggression and tends to shorten encounters because mistakes are cheaper; Oni difficulty raises aggression and lengthens boss fights because Issen timing becomes harder to land. The Difficulty page covers the full preset ladder.\n- Combat tempo. Players who learn Issen timing early — by chaining Issen counter-attacks and using the Oni Gauntlet interrupt — clear chapters faster than players who ignore the Oni Gauntlet because fights resolve in fewer exchanges.\n- Optional exploration. The community descriptions of the chapters include named locations such as Kiyomizu-dera Temple. Players who clear only the critical path move through the campaign quickly; players who explore optional paths and armor pickups spend more time per chapter.\n- Pre-order and demo carry-over. The Kubi Akari charm from the demo is a saving-and-retain mechanic, not a length-changing one, but starting the campaign with the charm in hand removes the first save-point trial that the demo otherwise taught.",
+          "Third-party launch-window coverage places the main-story run at approximately 20-25 hours across the 22-chapter Way of the Sword arc. The main-story timer covers the chapter beats from the Kiyomizu-dera Temple opening through the Clash at Rendaino, plus the post-credits Dokyo return that gates the 'End This Madness' trophy.\n\nA handful of choices push that range longer or shorter:\n\n- Difficulty preset. Light difficulty lowers enemy aggression and shortens encounters because mistakes are cheaper; Oni difficulty raises aggression and lengthens boss fights because Issen timing becomes harder to land. The [difficulty page](/difficulty/) covers the full preset ladder.\n- Combat tempo. Players who learn Issen timing early — by chaining Issen counter-attacks and using the Oni Gauntlet interrupt — clear chapters faster than players who ignore the Oni Gauntlet because fights resolve in fewer exchanges.\n- Optional exploration. Players who clear only the critical path move through the campaign quickly; players who explore optional paths and armor pickups spend more time per chapter.\n- Pre-order and demo carry-over. The Kubi Akari charm from the demo is a saving-and-retain mechanic, not a length-changing one, but starting the campaign with the charm in hand removes the first save-point trial that the demo otherwise taught.",
+      },
+      {
+        id: "length-completionist",
+        type: "prose",
+        heading: "Completionist Hours — ~33 Hours",
+        body:
+          "Third-party launch-window coverage places a completionist run at approximately 33 hours, on top of the ~20-25 hour main story. The completionist timer adds the optional collectibles (Mysteries, Chance Encounters, Lion Dogs, Oni Armaments, Hozuki Pouches, Charms, skills, equipment, 50 Issen attacks) and the optional exploration paths that the [trophies page](/trophies/) lists as Silver collectible categories.\n\nPlayers who want the ~33-hour completionist run should plan for the [Silver trophy cleanup phase](/trophies/) before the Clash at Rendaino final mission. Because the [walkthrough page](/walkthrough/) treats Clash at Rendaino as the practical point of no return, completionist cleanup belongs in the early and mid-arc chapters rather than after the final mission starts.",
+      },
+      {
+        id: "length-full-100",
+        type: "prose",
+        heading: "Full 100% — ~33 Hours Plus the Carnage Replay",
+        body:
+          "A full 100% run lands around 33 hours plus a Carnage Difficulty New Game+ replay loop. The base 33-hour figure matches the completionist run because the additional content beyond completionist sits inside the Carnage Difficulty replay rather than the first playthrough:\n\n- The Carnage Difficulty New Game+ replay adds the second full campaign at the highest challenge. Carnage Difficulty is unlocked after the first ending and reopens the 22-chapter arc at the highest tier with carry-over unlocks, upgrades, outfits, and tutorials.\n- The Boss Rematch sweep in Emma's Hall Practice Grounds adds the 'Glutton for Punishment' Gold trophy, which is awarded when Musashi clears all boss rematches on all difficulties.\n- The Carnage-mode-specific collectibles (any items that only carry into the Carnage run, not the first campaign) add their own time on top of the replay.\n\nThe 100% figure combines the ~33-hour completionist run with the Carnage Difficulty replay length, which the launch-window trackers describe as comparable to a second main-story run. The [Carnage Difficulty page](/carnage-difficulty/) covers the carry-over split that controls how long the Carnage replay takes in practice.",
       },
       {
         id: "length-new-game-plus",
@@ -687,15 +704,15 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "How Long Is Onimusha Way of the Sword in Practice",
         body:
-          "Players asking how long is Onimusha Way of the Sword on a first run should treat the answer as a range rather than a fixed number, because no public source has published exact hours as of 2026-09-02. For a player who has played through the demo and is ready for the full release, the realistic playtime picture looks like this:\n\n- Main-story run on Normal difficulty: a measured chapter, exact hours are not announced as of 2026-09-02.\n- Hard or Oni difficulty first run: longer than Normal because boss Issen windows are tighter and enemy aggression is higher; exact hours are not announced as of 2026-09-02.\n- Completionist run with optional chapter exploration and armor pickups: longer than the main-story run; exact hours are not announced as of 2026-09-02.\n- New Game+ Carnage Difficulty loop: adds a second full campaign with carry-over unlocks and higher-tier enemy behavior; exact hours are not announced as of 2026-09-02.\n\nFor players who already finished the Onimusha: Warlords or Onimusha 2: Samurai's Destiny campaigns, the new chapter structure feels like a return to the classic Onimusha pacing model: set-piece boss encounters separated by swordplay corridors, with the Oni Gauntlet adding a new layer of risk-reward timing throughout.",
+          "Players asking how long is Onimusha Way of the Sword should treat third-party launch-window numbers as the working range rather than fixed Capcom numbers, because Capcom has not published first-party playtime figures as of 2026-09-10. For a player who has played through the demo and is ready for the full release, the realistic playtime picture looks like this:\n\n- Main-story run on Normal difficulty: ~20-25 hours across the 22-chapter Way of the Sword arc.\n- Hard or Oni difficulty first run: longer than Normal because boss Issen windows are tighter and enemy aggression is higher; the main-story range shifts upward within the ~20-25 hour window.\n- Completionist run with optional chapter exploration and armor pickups: ~33 hours including the Silver trophy collectible categories.\n- Full 100% run: ~33 hours plus the Carnage Difficulty New Game+ replay, with the Boss Rematch sweep in Emma's Hall Practice Grounds adding the 'Glutton for Punishment' Gold trophy.\n\nFor players who already finished the Onimusha: Warlords or Onimusha 2: Samurai's Destiny campaigns, the new chapter structure feels like a return to the classic Onimusha pacing model: set-piece boss encounters separated by swordplay corridors, with the Oni Gauntlet adding a new layer of risk-reward timing throughout.",
       },
       {
         id: "length-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-09-02",
+        title: "Fact boundary — 2026-09-10",
         body:
-          "Onimusha: Way of the Sword is a chapter-based action-adventure (Capcom, Steam AppID 2638890, 2026-09-03). The New Game+ loop is called Carnage Difficulty; Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials and does not carry story progress, materials, or save points. The demo Kubi Akari charm carries into the full game as a save-retain mechanic. Exact main-story hours, exact completionist hours, and exact per-chapter length are not announced as of 2026-09-02.",
+          "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) is a 22-chapter Way of the Sword arc. Third-party launch-window coverage places main-story playtime at ~20-25 hours, completionist at ~33 hours, and full 100% at ~33 hours plus the Carnage Difficulty New Game+ replay. The final mission is the Clash at Rendaino (three-phase Minamoto no Yoshitsune). The New Game+ loop is called Carnage Difficulty; Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials and does not carry story progress, materials, or save points. The demo Kubi Akari charm carries into the full game as a save-retain mechanic. The 22-chapter count and the ~20-25 / ~33 / 33+ hour ranges are third-party documented, not first-party confirmed by Capcom as of 2026-09-10.",
       },
     ],
     faqIds: [
@@ -705,6 +722,7 @@ export const fixedPages: PageContent[] = [
       "onimusha-way-of-the-sword-demo-length-effect",
     ],
     relatedPageIds: [
+      "fixed-walkthrough-en-us",
       "fixed-combat-mechanics-en-us",
       "fixed-difficulty-settings-en-us",
       "fixed-demo-en-us",
@@ -712,8 +730,8 @@ export const fixedPages: PageContent[] = [
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
-    sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    sourceStatus: "placeholder",
+    lastReviewed: "2026-09-10",
   },
 
   // difficulty-settings — reference page
@@ -1107,58 +1125,71 @@ export const fixedPages: PageContent[] = [
       shell: "content",
       variant: "reading-right-rail",
     },
-    h1: "Onimusha Way of the Sword Bosses — Confirmed Genma Roster",
+    h1: "Onimusha Way of the Sword Bosses — Full Launch Roster and Strategy Anchors",
     seoTitle:
-      "Onimusha Way of the Sword Bosses — Confirmed Genma Roster",
+      "Onimusha Way of the Sword Bosses — Full Launch Roster and Strategy Anchors",
     metaDescription:
-      "Onimusha Way of the Sword boss roster covers Sasaki Ganryu, the Genma siblings Ifuu and Burai, and Genma Musashi. HP scaling, hidden bosses, and exact frame data are not announced.",
+      "Onimusha Way of the Sword full launch boss roster: Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, and a three-phase Minamoto no Yoshitsune final, with per-boss strategy anchors and trophy links.",
     summary:
-      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) features a confirmed Genma boss lineup of Sasaki Ganryu, the Genma siblings Ifuu and Burai, and Genma Musashi. Hidden bosses, exact boss HP values, and damage scaling are not announced as of 2026-09-02.",
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) post-launch roster covers Sasaki Ganryu (demo and recurring rival), Daidara, Rasho-gan, the Genma siblings Ifuu and Burai, Greater Nue, Benkei, Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), and a three-phase Minamoto no Yoshitsune final. Per-boss strategy anchors tie each encounter to its dedicated page or trophy.",
     hero: {
       eyebrow: "Bosses",
       subtitle:
-        "Onimusha: Way of the Sword ships with four confirmed boss encounters — Sasaki Ganryu, the siblings Ifuu and Burai, and Genma Musashi. The Sasaki Ganryu fight appears in the demo as the signature boss, and the expanded demo adds another \"fearsome boss.\" Hidden bosses, exact boss HP values, and damage scaling numbers are not announced as of 2026-09-02.",
+        "Onimusha: Way of the Sword ships with eleven confirmed boss encounters: Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, and the three-phase Minamoto no Yoshitsune final. Sasaki Ganryu and Byakue are the demo bosses; the rest are post-launch encounters named across the Way of the Sword arc. Hidden bosses, exact boss HP values, and damage scaling numbers are not announced as of 2026-09-10.",
       ctas: [
-        { label: "Combat Mechanics", href: "/combat" },
-        { label: "Issen Guide", href: "/issen" },
-        { label: "Demo Guide", href: "/demo" },
+        { label: "Walkthrough", href: "/walkthrough" },
+        { label: "Sasaki Ganryu", href: "/sasaki-ganryu" },
+        { label: "Byakue", href: "/byakue" },
       ],
     },
     quickAnswer:
-      "Onimusha Way of the Sword boss roster includes Sasaki Ganryu, the Genma siblings Ifuu and Burai, and Genma Musashi. Sasaki Ganryu appears in the demo as the signature boss. The expanded demo adds another \"fearsome boss.\" Hidden bosses, exact boss HP values, damage scaling per preset, and exact Issen timing frames per boss are not announced as of 2026-09-02.",
+      "Onimusha Way of the Sword full launch boss roster includes Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, and the three-phase Minamoto no Yoshitsune final at the Clash at Rendaino. Sasaki Ganryu and Byakue appear in the demo and have dedicated strategy pages; the rest are post-launch encounters named through the trophies, walkthrough, and launch-window guides. Hidden bosses, exact boss HP values, damage scaling per preset, and exact Issen timing frames per boss are not announced as of 2026-09-10.",
     keyFacts: [
-      { label: "Confirmed bosses", value: "Sasaki Ganryu, Ifuu and Burai siblings, Genma Musashi" },
-      { label: "Sasaki Ganryu", value: "Rival, demo signature boss" },
-      { label: "Ifuu and Burai", value: "Genma siblings, dual encounter" },
-      { label: "Genma Musashi", value: "Demon Musashi, tied to Oni Awakening arc" },
-      { label: "Expanded demo boss", value: "\"Fearsome boss,\" exact identity not announced as of 2026-09-02" },
-      { label: "Hidden bosses", value: "Not announced as of 2026-09-02" },
-      { label: "HP scaling per preset", value: "Not announced as of 2026-09-02" },
+      { label: "Confirmed launch roster", value: "Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, Minamoto no Yoshitsune" },
+      { label: "Demo bosses", value: "Sasaki Ganryu, Byakue (Hundred Defilements)" },
+      { label: "Dual encounter", value: "Ifuu and Burai duo" },
+      { label: "Recurring rival", value: "Sasaki Ganryu (early + Arashiyama return)" },
+      { label: "Oni lord", value: "Shuten Doji" },
+      { label: "Mythic beast", value: "Greater Nue (Dokyo's Fixation trophy)" },
+      { label: "Bridge guardian", value: "Benkei (Rendaino return)" },
+      { label: "Post-credits return", value: "Dokyo" },
+      { label: "Final boss", value: "Minamoto no Yoshitsune (three phases)" },
+      { label: "Hidden bosses", value: "Not announced as of 2026-09-10" },
+      { label: "HP scaling per preset", value: "Not announced as of 2026-09-10" },
       { label: "Release date", value: "September 3, 2026" },
     ],
     modules: [
       {
         id: "bosses-overview",
         type: "prose",
-        heading: "Onimusha Way of the Sword Boss Roster Overview",
+        heading: "Onimusha Way of the Sword Full Launch Roster Overview",
         body:
-          "Onimusha: Way of the Sword features a confirmed Genma boss lineup of four named encounters: Sasaki Ganryu, the Genma siblings Ifuu and Burai, and Genma Musashi. Sasaki Ganryu appears both as Musashi's direct rival in the story and as the signature boss in the demo. The expanded demo adds another \"fearsome boss\" with a separate identity.\n\nThe confirmed roster is four named encounters at launch. Hidden bosses, exact boss HP values per preset, and damage scaling per preset are not announced as of 2026-09-02.",
+          "Onimusha: Way of the Sword ships with eleven confirmed boss encounters across the Way of the Sword arc: Sasaki Ganryu (demo + recurring rival + Arashiyama return), Daidara, Rasho-gan, the Genma siblings Ifuu and Burai (also a duo encounter), Greater Nue, Benkei (bridge + Rendaino return), Shuten Doji, Byakue (Hundred Defilements, expanded demo second boss), Dokyo (post-credits return), and the three-phase Minamoto no Yoshitsune final at the Clash at Rendaino. Each boss has a named trophy on the [trophies page](/trophies/) and a known encounter context within the campaign.\n\nThe oldest demo-only framing — that the roster stops at Sasaki Ganryu and a vague 'fearsome boss' — no longer reflects the post-launch game. Sasaki Ganryu and Byakue are the demo bosses; the rest are post-launch encounters. Hidden bosses, exact boss HP values per preset, damage scaling per preset, and exact Issen timing frames per boss are not announced as of 2026-09-10. The [walkthrough page](/walkthrough/) anchors each boss to its phase of the 22-chapter Way of the Sword arc.",
       },
       {
         id: "bosses-table",
         type: "data-table",
-        heading: "Confirmed boss roster",
+        heading: "Full launch boss roster",
         columns: [
           { key: "boss", label: "Boss" },
-          { key: "role", label: "Role" },
-          { key: "context", label: "Story context" },
-          { key: "source", label: "Source tier" },
+          { key: "phase", label: "Arc phase" },
+          { key: "context", label: "Encounter context" },
+          { key: "trophy", label: "Trophy" },
+          { key: "strategy", label: "Strategy anchor" },
         ],
         rows: [
-          { boss: "Sasaki Ganryu", role: "Rival, demo signature boss", context: "Musashi's direct rival", source: "Confirmed by Capcom, demo, launch reviews" },
-          { boss: "Ifuu", role: "Genma sibling", context: "Dual encounter with Burai", source: "Confirmed by Capcom and launch reviews" },
-          { boss: "Burai", role: "Genma sibling", context: "Dual encounter with Ifuu", source: "Confirmed by Capcom and launch reviews" },
-          { boss: "Genma Musashi", role: "Demon Musashi", context: "Tied to Musashi's Oni Awakening arc", source: "Confirmed by Capcom and launch reviews" },
+          { boss: "Sasaki Ganryu", phase: "Demo + Early", context: "Musashi's direct rival; Kiyomizu-dera Temple demo", trophy: "Onimusha Showdown", strategy: "Dedicated page: /sasaki-ganryu/" },
+          { boss: "Daidara", phase: "Early", context: "Early Way of the Sword Genma boss", trophy: "Get Stuffed", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Rasho-gan", phase: "Early", context: "Genma antagonist on the Way of the Sword path", trophy: "Twisted Fates", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Ifuu", phase: "Mid", context: "Genma sibling, paired with Burai", trophy: "Howling Wind", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Greater Nue", phase: "Mid", context: "Mythic beast tied to Dokyo", trophy: "Dokyo's Fixation", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Benkei", phase: "Mid-Late", context: "Bridge guardian; returns at Rendaino", trophy: "Benkei: Out, but Not Down / Baited by Benkei", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Burai", phase: "Late", context: "Genma sibling, late Way of the Sword path", trophy: "Crashing Lightning", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Shuten Doji", phase: "Late", context: "Oni lord encounter before Rendaino", trophy: "Wide Awake", strategy: "Trophy on /trophies/; per-boss tactics third-party documented" },
+          { boss: "Byakue (Hundred Defilements)", phase: "Demo + Late", context: "White-furred axe-wielding Genma; expanded demo second boss", trophy: "Serves You Right (Kiyomizu-dera Temple)", strategy: "Dedicated page: /byakue/" },
+          { boss: "Sasaki Ganryu (Arashiyama)", phase: "Late", context: "Recurring rival returns at Arashiyama", trophy: "We Done Here?", strategy: "Dedicated page: /sasaki-ganryu/" },
+          { boss: "Dokyo (post-credits)", phase: "Post-credits", context: "Post-credits return after the standard ending", trophy: "End This Madness", strategy: "Third-party guide on allthings.how; per-boss tactics third-party documented" },
+          { boss: "Minamoto no Yoshitsune", phase: "Final", context: "Three-phase fight at Clash at Rendaino", trophy: "Truly, Thank You", strategy: "Walkthrough: /walkthrough/; per-boss tactics third-party documented" },
         ],
       },
       {
@@ -1166,63 +1197,121 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Sasaki Ganryu — Musashi's Rival",
         body:
-          "Sasaki Ganryu is Musashi's direct rival and the signature boss of the demo. The fight layers three systems at once: regular sword trading, Oni Gauntlet parry windows on Ganryu's named attacks, and Issen counter timing when Ganryu opens up after a heavy swing.\n\nGanryu also appears as a recurring rival in the full story, not just a one-off boss encounter. The [Issen guide](/issen/) covers the timing rhythm that the Ganryu fight teaches.",
+          "Sasaki Ganryu is Musashi's direct rival and the signature boss of the demo. The fight layers three systems at once: regular sword trading, Oni Gauntlet parry windows on Ganryu's named attacks, and Issen counter timing when Ganryu opens up after a heavy swing.\n\nGanryu appears multiple times in the campaign: the demo Kiyomizu-dera Temple fight, the early-game rival duel, and a return at Arashiyama ('We Done Here?' trophy). The [Sasaki Ganryu demo boss page](/sasaki-ganryu/) covers the full move list (three-hit poke combo with red-glow finisher, Blade Barrage, stomp-and-slash, grab at 50% HP, helm-breaker overhead) and the dedicated counter window for each move. The [Issen guide](/issen/) covers the timing rhythm that the Ganryu fight teaches.",
+      },
+      {
+        id: "bosses-daidara",
+        type: "prose",
+        heading: "Daidara — Early Way of the Sword Genma Boss",
+        body:
+          "Daidara is the early Way of the Sword Genma boss. The 'Get Stuffed' trophy is awarded on defeat. Daidara's per-boss attack pattern is third-party documented in launch-window guides but not yet published on this site as a dedicated page; treat specific move lists as third-party until Capcom publishes a first-party reference. The [walkthrough page](/walkthrough/) anchors Daidara to the early chapter phase of the 22-chapter arc.",
+      },
+      {
+        id: "bosses-rasho-gan",
+        type: "prose",
+        heading: "Rasho-gan — Genma Antagonist on the Sword Path",
+        body:
+          "Rasho-gan is a Genma antagonist encountered on the Way of the Sword path. The 'Twisted Fates' trophy is awarded on defeat. Rasho-gan's specific move list is third-party documented in launch-window guides; this site does not yet publish a dedicated per-boss page. The [walkthrough page](/walkthrough/) anchors Rasho-gan to the early arc phase.",
       },
       {
         id: "bosses-ifuu-burai",
         type: "prose",
         heading: "Ifuu and Burai — The Genma Siblings",
         body:
-          "Ifuu and Burai are confirmed Genma siblings and are positioned as a dual boss encounter. Dual encounters layer two enemy attack patterns at once, which forces Musashi to manage two Oni Gauntlet windows in parallel. The Issen timing rhythm from the Sasaki Ganryu fight carries over, but the dual-encounter pacing raises the pressure on chain-Issens across enemies.",
+          "Ifuu and Burai are confirmed Genma siblings. They appear both as individual encounters (the 'Howling Wind' trophy for Ifuu and the 'Crashing Lightning' trophy for Burai) and as a dual 'Perfect Storm' encounter later in the arc. Dual encounters layer two enemy attack patterns at once, which forces Musashi to manage two Oni Gauntlet windows in parallel. The Issen timing rhythm from the Sasaki Ganryu fight carries over, but the dual-encounter pacing raises the pressure on chain-Issens across enemies.",
       },
       {
-        id: "bosses-genma-musashi",
+        id: "bosses-greater-nue",
         type: "prose",
-        heading: "Genma Musashi — Demon Musashi",
+        heading: "Greater Nue — Mythic Beast of Dokyo's Fixation",
         body:
-          "Genma Musashi is the late-game boss tied to Musashi's Oni Awakening arc. The encounter is positioned as the narrative mirror of Musashi's own transformation, since Genma Musashi represents the Oni-corrupted version of Musashi's sword style. Exact HP values and damage scaling are not announced as of 2026-09-02; the encounter is the narrative capstone rather than a separate difficulty tier.",
+          "The Greater Nue is a mythic-beast encounter tied to Dokyo through the 'Dokyo's Fixation' trophy. The trophy name signals that the Greater Nue fight serves as a narrative and mechanical prelude to the Dokyo post-credits return, rather than a standalone beat. The Greater Nue's specific move list is third-party documented in launch-window guides but not yet published on this site as a dedicated page. The [walkthrough page](/walkthrough/) anchors the Greater Nue to the mid arc phase.",
       },
       {
-        id: "bosses-expanded-demo",
+        id: "bosses-benkei",
         type: "prose",
-        heading: "Expanded Demo Second Boss — Byakue",
+        heading: "Benkei — Bridge Guardian and Rendaino Return",
         body:
-          "The expanded demo adds Byakue (Hundred Defilements) as a second boss to the rotation after the Sasaki Ganryu fight. Byakue is a white-furred axe-wielding Genma with a paper seals blood mechanic — more blood drawn = stronger Byakue. Capcom's own \"fearsome boss\" framing resolves to Byakue, which is the identity launch-week guides name consistently. Players who want the second Issen timing pattern should run the expanded demo and treat the new boss as a stand-ground + side-step discipline drill.\n\nThe dedicated [Byakue second boss page](/byakue/) covers the paper seals blood mechanic, the stand-ground counter pattern, and the 10-Issen Special Challenge unlock that gates a harder Byakue fight. The dedicated [Sasaki Ganryu page](/sasaki-ganryu/) covers the full move list and counter windows for the demo's first boss.",
+          "Benkei is a recurring boss across the Way of the Sword arc. The 'Benkei: Out, but Not Down' trophy marks the bridge encounter, and the 'Baited by Benkei' trophy marks the Rendaino return that gates the three-phase Minamoto no Yoshitsune final. Benkei's specific move list is third-party documented in launch-window guides; this site does not yet publish a dedicated per-boss page. The [walkthrough page](/walkthrough/) anchors Benkei's two encounters to the mid and final mission phases.",
+      },
+      {
+        id: "bosses-burai",
+        type: "prose",
+        heading: "Burai — Late Genma Sibling",
+        body:
+          "Burai is the late Way of the Sword Genma sibling. The 'Crashing Lightning' trophy is awarded on defeat, and Burai later rejoins Ifuu for the 'Perfect Storm' duo encounter. Burai's individual move list is third-party documented in launch-window guides but not yet published on this site as a dedicated page. The [walkthrough page](/walkthrough/) anchors Burai to the late arc phase.",
+      },
+      {
+        id: "bosses-shuten-doji",
+        type: "prose",
+        heading: "Shuten Doji — Oni Lord",
+        body:
+          "Shuten Doji is the oni lord encountered late in the Way of the Sword arc, before the Clash at Rendaino final mission. The 'Wide Awake' trophy is awarded on defeat. Shuten Doji's specific move list is third-party documented in launch-window guides but not yet published on this site as a dedicated page. The [walkthrough page](/walkthrough/) anchors Shuten Doji to the late arc phase.",
+      },
+      {
+        id: "bosses-byakue",
+        type: "prose",
+        heading: "Byakue (Hundred Defilements) — Expanded Demo Boss",
+        body:
+          "Byakue (Hundred Defilements) is the expanded demo's second boss and the demo's stand-ground + side-step skill check. Byakue is a white-furred axe-wielding Genma whose paper seals blood mechanic makes him stronger as more seals break and blood is drawn. The 'Serves You Right' trophy is awarded on defeat at Kiyomizu-dera Temple.\n\nThe dedicated [Byakue second boss page](/byakue/) covers the paper seals blood mechanic, the stand-ground counter pattern, and the 10-Issen Special Challenge unlock that gates a harder Byakue fight. The dedicated [Sasaki Ganryu page](/sasaki-ganryu/) covers the demo's first boss and the chain-Issen rhythm that feeds the 10-Issen unlock.",
+      },
+      {
+        id: "bosses-dokyo",
+        type: "prose",
+        heading: "Dokyo — Post-Credits Return Boss",
+        body:
+          "Dokyo is the post-credits return boss. The 'End This Madness' trophy is awarded when Musashi defeats Dokyo after the credits, and a dedicated third-party guide on allthings.how walks through the Dokyo boss fight. Dokyo is the gate between the standard ending and any additional content beyond the credits.\n\nDokyo's specific move list is third-party documented; this site does not yet publish a dedicated per-boss page for Dokyo. The [walkthrough page](/walkthrough/) anchors the Dokyo post-credits return to the True Ending vs Standard Ending comparison.",
+      },
+      {
+        id: "bosses-yoshitsune",
+        type: "prose",
+        heading: "Minamoto no Yoshitsune — Three-Phase Final Boss",
+        body:
+          "Minamoto no Yoshitsune is the final boss of the Way of the Sword arc and the gate to the 'Truly, Thank You' Silver trophy. The fight has three phases per the PowerPyx trophy roadmap; exact phase transitions, named attacks, and HP-scaling values are third-party documented and not first-party confirmed as of 2026-09-10. The [walkthrough page](/walkthrough/) anchors the three-phase Yoshitsune fight to the Clash at Rendaino final mission and the pre-cleanup checklist.",
+      },
+      {
+        id: "bosses-ganryu-arashiyama",
+        type: "prose",
+        heading: "Sasaki Ganryu Returns at Arashiyama",
+        body:
+          "Ganryu returns at Arashiyama late in the Way of the Sword arc. The 'We Done Here?' trophy is awarded on defeat. The Arashiyama fight layers the same Sasaki Ganryu move list from the demo and the early-game rival duel on top of a larger arena, so the same parry-chain rhythm and helm-breaker Issen anchor apply. The dedicated [Sasaki Ganryu demo boss page](/sasaki-ganryu/) covers the move list and counter windows reused for the Arashiyama return.",
       },
       {
         id: "bosses-hidden",
         type: "prose",
         heading: "Hidden Bosses and Unannounced Encounters",
         body:
-          "Hidden bosses, exact boss HP values, damage scaling per preset, and exact Issen frame windows per boss are not announced as of 2026-09-02. The confirmed roster is the four named encounters above; any post-launch DLC boss, secret encounter, or hidden boss should be treated as unknown until Capcom confirms it. The [combat mechanics page](/combat/) covers the combat system at a foundation level.",
+          "Hidden bosses, exact boss HP values, damage scaling per preset, and exact Issen frame windows per boss are not announced as of 2026-09-10. The confirmed roster is the eleven named encounters above plus the Ifuu/Burai duo and the Benkei Rendaino return; any post-launch DLC boss, secret encounter, or hidden boss should be treated as unknown until Capcom confirms it. The [combat mechanics page](/combat/) covers the combat system at a foundation level, and the [walkthrough page](/walkthrough/) anchors each boss to its phase of the 22-chapter Way of the Sword arc.",
       },
       {
         id: "bosses-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-09-02",
+        title: "Fact boundary — 2026-09-10",
         body:
-          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) confirms four boss encounters: Sasaki Ganryu, Ifuu and Burai siblings, and Genma Musashi. The expanded demo adds another \"fearsome boss\" whose identity is not announced as of 2026-09-02. Hidden bosses, exact boss HP values per preset, damage scaling per preset, exact Issen frame windows per boss, and any post-launch DLC boss are not announced as of 2026-09-02.",
+          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) confirms an eleven-boss launch roster: Sasaki Ganryu (demo + recurring rival + Arashiyama return), Daidara, Rasho-gan, Ifuu and Burai siblings (individual + 'Perfect Storm' duo), Greater Nue, Benkei (bridge + Rendaino return), Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), and the three-phase Minamoto no Yoshitsune final. Sasaki Ganryu and Byakue have dedicated strategy pages on this site; the other bosses are anchored to the [walkthrough page](/walkthrough/) and the [trophies page](/trophies/). Hidden bosses, exact boss HP values per preset, damage scaling per preset, exact Issen frame windows per boss, and any post-launch DLC boss remain not announced as of 2026-09-10.",
       },
     ],
     faqIds: [
       "onimusha-way-of-the-sword-how-many-bosses",
       "onimusha-way-of-the-sword-first-boss",
-      "onimusha-way-of-the-sword-demo-secret-boss",
+      "onimusha-way-of-the-sword-final-boss",
       "onimusha-way-of-the-sword-demo-secret-boss",
     ],
     relatedPageIds: [
+      "fixed-walkthrough-en-us",
       "fixed-combat-mechanics-en-us",
       "fixed-issen-guide-en-us",
       "fixed-demo-en-us",
       "fixed-characters-en-us",
       "fixed-sasaki-ganryu-demo-boss-en-us",
       "fixed-byakue-second-boss-en-us",
+      "fixed-trophies-achievements-en-us",
       "home",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-10",
   },
 
   // characters — reference page
@@ -1238,100 +1327,172 @@ export const fixedPages: PageContent[] = [
       shell: "content",
       variant: "reading-right-rail",
     },
-    h1: "Onimusha Way of the Sword Characters — Musashi and the Cast",
+    h1: "Onimusha Way of the Sword Characters — Musashi and the Full Cast",
     seoTitle:
-      "Onimusha Way of the Sword Characters — Musashi and the Cast",
+      "Onimusha Way of the Sword Characters — Musashi and the Full Cast",
     metaDescription:
-      "Onimusha Way of the Sword stars Miyamoto Musashi as the fixed protagonist with Sasaki Ganryu, the Genma siblings Ifuu and Burai, and Genma Musashi in the cast.",
+      "Onimusha Way of the Sword full cast: Miyamoto Musashi, Sasaki Ganryu (rival), Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Dokyo, Genma Musashi, and the three-phase Minamoto no Yoshitsune final boss.",
     summary:
-      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) stars Miyamoto Musashi as the fixed protagonist. Sasaki Ganryu is the direct rival, the siblings Ifuu and Burai are the Genma antagonists, and Genma Musashi is tied to Musashi's Oni Awakening arc.",
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) stars Miyamoto Musashi as the fixed protagonist. The post-launch cast spans Sasaki Ganryu (rival), Daidara, Rasho-gan, the Genma siblings Ifuu and Burai, Greater Nue, Benkei, Burai, Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), Genma Musashi (Demon Musashi), and the three-phase Minamoto no Yoshitsune final boss. There is no character creation or customization system.",
     hero: {
       eyebrow: "Characters",
       subtitle:
-        "Onimusha: Way of the Sword stars Miyamoto Musashi as the fixed protagonist. Sasaki Ganryu is the rival; the Genma siblings Ifuu and Burai are antagonists; Genma Musashi is tied to Musashi's Oni Awakening arc. Musashi is a complete, written lead with no character creation or customization layer. The [bosses page](/bosses/) covers the boss-fight context for each named cast member.",
+        "Onimusha: Way of the Sword stars Miyamoto Musashi as the fixed protagonist. The post-launch cast spans Sasaki Ganryu (rival), Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), Genma Musashi (Demon Musashi), and the three-phase Minamoto no Yoshitsune final boss. Musashi is a complete, written lead with no character creation or customization layer. The [bosses page](/bosses/) covers the boss-fight context for each named cast member, and the [walkthrough page](/walkthrough/) anchors each character to its phase of the 22-chapter Way of the Sword arc.",
       ctas: [
         { label: "Bosses", href: "/bosses" },
+        { label: "Walkthrough", href: "/walkthrough" },
         { label: "Combat Mechanics", href: "/combat" },
-        { label: "Release Status", href: "/release" },
       ],
     },
     quickAnswer:
-      "Onimusha Way of the Sword stars Miyamoto Musashi as the fixed protagonist. Sasaki Ganryu is the rival and the signature demo boss. The Genma siblings Ifuu and Burai are antagonists, and Genma Musashi is the late-game boss tied to Musashi's Oni Awakening arc. There is no character creation or customization system — Musashi is a complete, written lead rather than a blank-slate character.",
+      "Onimusha Way of the Sword stars Miyamoto Musashi as the fixed protagonist. The post-launch cast covers Sasaki Ganryu (rival), the Genma siblings Ifuu and Burai, Genma Musashi (Demon Musashi, late-game boss), Daidara, Rasho-gan, Greater Nue, Benkei, Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), and the three-phase Minamoto no Yoshitsune final boss. There is no character creation or customization system — Musashi is a complete, written lead rather than a blank-slate character.",
     keyFacts: [
       { label: "Protagonist", value: "Miyamoto Musashi (fixed, no character creation)" },
-      { label: "Rival", value: "Sasaki Ganryu" },
-      { label: "Antagonists", value: "Genma siblings Ifuu and Burai" },
-      { label: "Late-game boss", value: "Genma Musashi (Demon Musashi)" },
+      { label: "Rival", value: "Sasaki Ganryu (demo + recurring + Arashiyama return)" },
+      { label: "Genma siblings", value: "Ifuu and Burai (individual + duo encounter)" },
+      { label: "Early arc Genma", value: "Daidara, Rasho-gan" },
+      { label: "Mythic beast", value: "Greater Nue (Dokyo's Fixation trophy)" },
+      { label: "Recurring warrior", value: "Benkei (bridge + Rendaino return)" },
+      { label: "Oni lord", value: "Shuten Doji" },
+      { label: "Demo second boss", value: "Byakue (Hundred Defilements)" },
+      { label: "Post-credits return", value: "Dokyo (post-final antagonist)" },
+      { label: "Demon Musashi", value: "Genma Musashi (late-game boss)" },
+      { label: "Final boss", value: "Minamoto no Yoshitsune (three phases)" },
       { label: "Oni Awakening", value: "Tied to Musashi's transformation arc" },
       { label: "Character creation", value: "Not supported" },
-      { label: "Voice cast credits", value: "Not announced beyond Capcom and launch-window coverage as of 2026-09-02" },
+      { label: "Voice cast credits", value: "Not announced beyond Capcom and launch-window coverage as of 2026-09-10" },
       { label: "Release date", value: "September 3, 2026" },
     ],
     modules: [
       {
         id: "characters-overview",
         type: "prose",
-        heading: "Onimusha Way of the Sword Cast Overview",
+        heading: "Onimusha Way of the Sword Full Cast Overview",
         body:
-          "Onimusha: Way of the Sword has a focused cast built around Miyamoto Musashi as the fixed protagonist. Musashi's role is written rather than customizable, and there is no character creation or customization system. The supporting cast is built around a clear rival-antagonist triangle: Sasaki Ganryu as the rival, the Genma siblings Ifuu and Burai as antagonists, and Genma Musashi as the late-game boss tied to Musashi's own Oni Awakening arc.\n\nThe cast is intentionally narrow. Rather than branching between playable characters, the game centers Musashi's sword play and Oni Gauntlet timing as the through-line, with the supporting cast serving as the boss-fight content and the narrative mirror for Musashi's transformation.",
+          "Onimusha: Way of the Sword has a focused cast built around Miyamoto Musashi as the fixed protagonist. Musashi's role is written rather than customizable, and there is no character creation or customization system. The post-launch cast now spans eleven named boss encounters plus the recurring Sasaki Ganryu rival arc:\n\n- Miyamoto Musashi — fixed protagonist.\n- Sasaki Ganryu — rival and demo signature boss, with an Arashiyama return.\n- Daidara — early Way of the Sword Genma boss.\n- Rasho-gan — early Genma antagonist.\n- Ifuu and Burai — Genma siblings (individual + 'Perfect Storm' duo).\n- Greater Nue — mythic beast tied to Dokyo's Fixation trophy.\n- Benkei — bridge guardian, returns at Rendaino.\n- Burai — late Genma sibling.\n- Shuten Doji — late oni lord.\n- Byakue (Hundred Defilements) — expanded demo second boss.\n- Dokyo — post-credits return.\n- Genma Musashi — Demon Musashi, late-game narrative mirror.\n- Minamoto no Yoshitsune — three-phase final boss at the Clash at Rendaino.\n\nThe supporting cast is built around a clear rival-antagonist triangle plus the post-launch boss roster. The [bosses page](/bosses/) tracks each named encounter with its dedicated strategy anchor (where available), and the [walkthrough page](/walkthrough/) ties each character to its phase of the 22-chapter Way of the Sword arc.",
       },
       {
         id: "characters-musashi",
         type: "prose",
         heading: "Miyamoto Musashi — Fixed Protagonist",
         body:
-          "Miyamoto Musashi is the single fixed protagonist of Onimusha: Way of the Sword. He is portrayed as a swordsman caught up in the Genma conflict, and his Oni Awakening transformation is the narrative bridge between his human sword style and the Oni Gauntlet system. There is no character creation or customization layer; Musashi is a complete, written lead rather than a blank-slate character.\n\nAs the protagonist, Musashi's move set — sword play, Oni Gauntlet parry, Issen counter, and Oni Awakening transformation — is the player-facing combat system. Charms augment his kit, but the protagonist's move set itself is fixed. The [combat mechanics page](/combat/) explains the four combat layers.",
+          "Miyamoto Musashi is the single fixed protagonist of Onimusha: Way of the Sword. He is portrayed as a swordsman caught up in the Genma conflict, and his Oni Awakening transformation is the narrative bridge between his human sword style and the Oni Gauntlet system. There is no character creation or customization layer; Musashi is a complete, written lead rather than a blank-slate character.\n\nAs the protagonist, Musashi's move set — sword play, Oni Gauntlet parry, Issen counter, and Oni Awakening transformation — is the player-facing combat system. Charms augment his kit, but the protagonist's move set itself is fixed. The [combat mechanics page](/combat/) explains the four combat layers, and the [walkthrough page](/walkthrough/) anchors Musashi's path through the 22-chapter Way of the Sword arc.",
       },
       {
         id: "characters-ganryu",
         type: "prose",
-        heading: "Sasaki Ganryu — Rival",
+        heading: "Sasaki Ganryu — Recurring Rival",
         body:
-          "Sasaki Ganryu is Musashi's direct rival. The rivalry is the through-line of the early chapters and the framing for the demo's signature boss fight. Ganryu is the first real skill check a player meets, and his heavy-swing animations open the cleanest Oni Gauntlet window in the demo. The [Issen guide](/issen/) covers the timing rhythm that the Ganryu fight teaches.",
+          "Sasaki Ganryu is Musashi's direct rival and the demo's signature boss. Ganryu appears three times across the campaign: the Kiyomizu-dera Temple demo fight, the early-game rival duel, and a return at Arashiyama ('We Done Here?' trophy). The recurring-rival framing is what makes Ganryu the cleanest Issen training room before launch; the same parry-chain rhythm and helm-breaker Issen anchor apply to all three encounters.\n\nThe dedicated [Sasaki Ganryu demo boss page](/sasaki-ganryu/) covers the move list and counter windows. The [Issen guide](/issen/) covers the timing rhythm that the Ganryu fights teach.",
+      },
+      {
+        id: "characters-daidara",
+        type: "prose",
+        heading: "Daidara — Early Genma Boss",
+        body:
+          "Daidara is an early Genma boss on the Way of the Sword path. The 'Get Stuffed' trophy is awarded on defeat. Daidara's specific move list is third-party documented in launch-window guides but not yet published on this site as a dedicated page; treat specific tactics as third-party until Capcom publishes a first-party reference. The [walkthrough page](/walkthrough/) anchors Daidara to the early chapter phase.",
+      },
+      {
+        id: "characters-rasho-gan",
+        type: "prose",
+        heading: "Rasho-gan — Early Genma Antagonist",
+        body:
+          "Rasho-gan is an early Genma antagonist on the Way of the Sword path. The 'Twisted Fates' trophy is awarded on defeat. Rasho-gan's specific move list is third-party documented in launch-window guides but not yet published as a dedicated page on this site. The [walkthrough page](/walkthrough/) anchors Rasho-gan to the early chapter phase.",
       },
       {
         id: "characters-ifuu-burai",
         type: "prose",
         heading: "Ifuu and Burai — Genma Siblings",
         body:
-          "Ifuu and Burai are confirmed Genma siblings. They are positioned as a dual boss encounter, which raises the combat pressure by forcing Musashi to manage two Oni Gauntlet windows in parallel. The Issen timing rhythm from the Sasaki Ganryu fight carries over, but the dual-encounter pacing complicates chain-Issens because two enemies' animations need to be tracked at once.",
+          "Ifuu and Burai are confirmed Genma siblings and appear as individual encounters (the 'Howling Wind' trophy for Ifuu and the 'Crashing Lightning' trophy for Burai) plus a 'Perfect Storm' duo encounter later in the arc. The dual encounter layers two enemy attack patterns at once, which forces Musashi to manage two Oni Gauntlet windows in parallel. The Issen timing rhythm from the Sasaki Ganryu fight carries over, but the dual-encounter pacing raises the pressure on chain-Issens across enemies.",
+      },
+      {
+        id: "characters-greater-nue",
+        type: "prose",
+        heading: "Greater Nue — Mythic Beast of Dokyo's Fixation",
+        body:
+          "The Greater Nue is a mythic-beast encounter tied to Dokyo through the 'Dokyo's Fixation' trophy. The trophy name signals that the Greater Nue fight serves as a narrative and mechanical prelude to the Dokyo post-credits return. The Greater Nue's specific move list is third-party documented in launch-window guides but not yet published as a dedicated page on this site. The [walkthrough page](/walkthrough/) anchors the Greater Nue to the mid arc phase.",
+      },
+      {
+        id: "characters-benkei",
+        type: "prose",
+        heading: "Benkei — Bridge Guardian and Rendaino Return",
+        body:
+          "Benkei is a recurring warrior across the Way of the Sword arc. The 'Benkei: Out, but Not Down' trophy marks the bridge encounter, and the 'Baited by Benkei' trophy marks the Rendaino return that gates the three-phase Minamoto no Yoshitsune final. Benkei's specific move list is third-party documented in launch-window guides but not yet published as a dedicated page on this site. The [walkthrough page](/walkthrough/) anchors Benkei's two encounters to the mid and final mission phases.",
+      },
+      {
+        id: "characters-burai",
+        type: "prose",
+        heading: "Burai — Late Genma Sibling",
+        body:
+          "Burai is the late Way of the Sword Genma sibling. The 'Crashing Lightning' trophy is awarded on defeat, and Burai later rejoins Ifuu for the 'Perfect Storm' duo encounter. Burai's individual move list is third-party documented in launch-window guides but not yet published as a dedicated page on this site. The [walkthrough page](/walkthrough/) anchors Burai to the late arc phase.",
+      },
+      {
+        id: "characters-shuten-doji",
+        type: "prose",
+        heading: "Shuten Doji — Oni Lord",
+        body:
+          "Shuten Doji is the oni lord encountered late in the Way of the Sword arc, before the Clash at Rendaino final mission. The 'Wide Awake' trophy is awarded on defeat. Shuten Doji's specific move list is third-party documented in launch-window guides but not yet published as a dedicated page on this site. The [walkthrough page](/walkthrough/) anchors Shuten Doji to the late arc phase.",
+      },
+      {
+        id: "characters-byakue",
+        type: "prose",
+        heading: "Byakue (Hundred Defilements) — Expanded Demo Boss",
+        body:
+          "Byakue (Hundred Defilements) is the expanded demo's second boss. Byakue is a white-furred axe-wielding Genma whose paper seals blood mechanic makes him stronger as more seals break and blood is drawn. The 'Serves You Right' trophy is awarded on defeat at Kiyomizu-dera Temple, and Byakue's stand-ground + side-step discipline is the demo's counter-pattern to Ganryu's parry-chain rhythm.\n\nThe dedicated [Byakue second boss page](/byakue/) covers the paper seals blood mechanic, the stand-ground counter pattern, and the 10-Issen Special Challenge unlock that gates a harder Byakue fight.",
+      },
+      {
+        id: "characters-dokyo",
+        type: "prose",
+        heading: "Dokyo — Post-Credits Return Antagonist",
+        body:
+          "Dokyo is the post-credits return antagonist. The 'End This Madness' trophy is awarded when Musashi defeats Dokyo after the credits, and a dedicated third-party guide on allthings.how walks through the Dokyo boss fight. Dokyo is the gate between the standard ending and any additional content beyond the credits.\n\nDokyo's specific move list is third-party documented; this site does not yet publish a dedicated Dokyo page. The [walkthrough page](/walkthrough/) anchors the Dokyo post-credits return to the True Ending vs Standard Ending comparison.",
       },
       {
         id: "characters-genma-musashi",
         type: "prose",
         heading: "Genma Musashi — Demon Musashi",
         body:
-          "Genma Musashi is the late-game boss tied to Musashi's Oni Awakening arc. Genma Musashi represents the Oni-corrupted version of Musashi's sword style, making the encounter a narrative mirror of Musashi's transformation. The fight is positioned as the capstone boss rather than a separate difficulty tier. Exact HP values and damage scaling are not announced as of 2026-09-02.",
+          "Genma Musashi is the late-game boss tied to Musashi's Oni Awakening arc. Genma Musashi represents the Oni-corrupted version of Musashi's sword style, making the encounter a narrative mirror of Musashi's transformation. The fight is positioned as a late-game capstone rather than a separate difficulty tier. Exact HP values and damage scaling are not announced as of 2026-09-10.",
+      },
+      {
+        id: "characters-yoshitsune",
+        type: "prose",
+        heading: "Minamoto no Yoshitsune — Three-Phase Final Boss",
+        body:
+          "Minamoto no Yoshitsune is the final boss of the Way of the Sword arc and the gate to the 'Truly, Thank You' Silver trophy. The fight has three phases per the PowerPyx trophy roadmap; exact phase transitions, named attacks, and HP-scaling values are third-party documented and not first-party confirmed as of 2026-09-10. The [walkthrough page](/walkthrough/) anchors the three-phase Yoshitsune fight to the Clash at Rendaino final mission and the pre-cleanup checklist.",
       },
       {
         id: "characters-support",
         type: "prose",
         heading: "Supporting Cast and Ally Roles",
         body:
-          "Beyond the four named Genma encounters, Onimusha: Way of the Sword includes supporting characters who appear in the chapter narrative rather than as boss fights. The Premium Deluxe Edition adds ally outfits that customize these supporting characters' looks. Specific supporting character names and full voice-cast credits beyond what Capcom and launch-window reviews have already named are not announced as of 2026-09-02.",
+          "Beyond the named boss encounters, Onimusha: Way of the Sword includes supporting characters who appear in the chapter narrative rather than as boss fights. The Premium Deluxe Edition adds ally outfits that customize these supporting characters' looks. Specific supporting character names and full voice-cast credits beyond what Capcom and launch-window reviews have already named are not announced as of 2026-09-10.",
       },
       {
         id: "characters-voice",
         type: "prose",
         heading: "Voice Cast and Localization",
         body:
-          "Capcom has published the principal cast credits through its standard channels and the launch-window reviews have named the same leads. Full voice-cast credits beyond what Capcom and launch-window reviews have already published are not announced as of 2026-09-02. Localization is English-only at launch; other language voice tracks are not announced as of 2026-09-02.",
+          "Capcom has published the principal cast credits through its standard channels and the launch-window reviews have named the same leads. Full voice-cast credits beyond what Capcom and launch-window reviews have already published are not announced as of 2026-09-10. Localization is English-only at launch; other language voice tracks are not announced as of 2026-09-10.",
       },
       {
         id: "characters-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-09-02",
+        title: "Fact boundary — 2026-09-10",
         body:
-          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) stars Miyamoto Musashi as the fixed protagonist. Sasaki Ganryu is the rival; the Genma siblings Ifuu and Burai are the dual boss encounter; Genma Musashi is the late-game boss tied to Oni Awakening. There is no character creation system. Full voice-cast credits beyond what Capcom and launch-window reviews have named and any non-English voice tracks are not announced as of 2026-09-02.",
+          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) stars Miyamoto Musashi as the fixed protagonist. The post-launch cast covers Sasaki Ganryu (demo + recurring rival + Arashiyama return), Daidara, Rasho-gan, the Genma siblings Ifuu and Burai (individual + duo), Greater Nue, Benkei (bridge + Rendaino return), Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), Genma Musashi (late-game Demon Musashi), and the three-phase Minamoto no Yoshitsune final boss. There is no character creation system. Full voice-cast credits beyond what Capcom and launch-window reviews have named and any non-English voice tracks are not announced as of 2026-09-10.",
       },
     ],
     faqIds: [
       "onimusha-way-of-the-sword-main-character",
       "onimusha-way-of-the-sword-character-creation",
       "onimusha-way-of-the-sword-musashi-voice-actor",
+      "onimusha-way-of-the-sword-full-boss-list",
     ],
     relatedPageIds: [
+      "fixed-walkthrough-en-us",
       "fixed-bosses-en-us",
       "fixed-combat-mechanics-en-us",
       "fixed-editions-pricing-en-us",
@@ -1340,7 +1501,7 @@ export const fixedPages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-10",
   },
 
   // items-equipment — reference page
@@ -2394,5 +2555,154 @@ export const fixedPages: PageContent[] = [
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
     lastReviewed: "2026-09-05",
+  },
+
+  // walkthrough — full-game Way of the Sword arc + final boss + endings
+  {
+    id: "fixed-walkthrough-en-us",
+    translationKey: "walkthrough",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "walkthrough",
+    url: "/walkthrough",
+    pageType: "guides",
+    presentation: {
+      shell: "content",
+      variant: "reading-right-rail",
+    },
+    h1: "Onimusha Way of the Sword Walkthrough — Final Boss and Ending Path",
+    seoTitle:
+      "Onimusha Way of the Sword Walkthrough — Final Boss and Ending Path",
+    metaDescription:
+      "Onimusha Way of the Sword full-game walkthrough hub: 22-chapter Way of the Sword arc, Clash at Rendaino point-of-no-return pre-cleanup checklist, three-phase Minamoto no Yoshitsune final boss, Dokyo post-credits return, and the True Ending condition (third-party documented, not first-party confirmed).",
+    summary:
+      "Onimusha: Way of the Sword (Capcom, Steam AppID 2638890) full-game walkthrough hub. The post-launch Way of the Sword arc spans 22 chapters and ends at the Clash at Rendaino final mission, where Musashi faces a three-phase Minamoto no Yoshitsune final boss and gates the 'Truly, Thank You' trophy. A Dokyo post-credits return gates the 'End This Madness' trophy, and the True Ending condition is currently best-described as third-party documented, not first-party confirmed.",
+    hero: {
+      eyebrow: "Walkthrough and endings",
+      subtitle:
+        "The Way of the Sword arc spans 22 chapters and ends at the Clash at Rendaino final mission, where Musashi faces a three-phase Minamoto no Yoshitsune final boss. The Clash at Rendaino is the practical point of no return before the standard ending, and a Dokyo post-credits return gates additional content beyond the credits. The True Ending condition is currently best-described as third-party documented, not first-party confirmed as of 2026-09-10.",
+      ctas: [
+        { label: "Bosses", href: "/bosses" },
+        { label: "Length", href: "/length" },
+        { label: "Trophies", href: "/trophies" },
+      ],
+    },
+    quickAnswer:
+      "Onimusha Way of the Sword is a 22-chapter Way of the Sword arc. The final mission is the Clash at Rendaino, where Musashi faces a three-phase Minamoto no Yoshitsune final boss. The Clash at Rendaino is the practical point of no return for the standard ending, and a Dokyo post-credits return gates the 'End This Madness' trophy beyond the credits. The True Ending condition is currently best-described as third-party documented, not first-party confirmed.",
+    keyFacts: [
+      { label: "Arc structure", value: "22-chapter Way of the Sword arc" },
+      { label: "Final mission", value: "Clash at Rendaino" },
+      { label: "Final boss", value: "Minamoto no Yoshitsune (three phases)" },
+      { label: "Standard ending trigger", value: "Defeat the three-phase Minamoto no Yoshitsune fight" },
+      { label: "Post-credits return", value: "Dokyo boss fight (End This Madness trophy)" },
+      { label: "True Ending condition", value: "Third-party documented, not first-party confirmed" },
+      { label: "New Game+ tier", value: "Carnage Difficulty, unlocked after the first ending" },
+      { label: "Pre-cleanup window", value: "Free-roam continues until the Clash at Rendaino mission" },
+      { label: "Main-story hours", value: "~20-25h (third-party documented, 2026-09-10)" },
+      { label: "Completionist hours", value: "~33h (third-party documented, 2026-09-10)" },
+      { label: "Release date", value: "September 3, 2026" },
+      { label: "Steam AppID", value: "2638890" },
+    ],
+    modules: [
+      {
+        id: "walkthrough-overview",
+        type: "prose",
+        heading: "22-Chapter Way of the Sword Arc Overview",
+        body:
+          "Onimusha: Way of the Sword is structured as a 22-chapter Way of the Sword arc per third-party launch-window coverage. The arc opens at Kiyomizu-dera Temple (also the demo's opening area), threads Musashi through the post-launch Genma boss roster (Sasaki Ganryu, Daidara, Rasho-gan, Ifuu, Greater Nue, Benkei, Burai, Shuten Doji, Byakue, Genma Musashi, Dokyo), and closes at the Clash at Rendaino final mission with a three-phase Minamoto no Yoshitsune final boss.\n\nThe 22-chapter count and the Clash at Rendaino final mission are the structural anchors that the launch-window trackers (timesaver.gg, vandal's 'el-camino-de-la-espada' guide, PowerPyx's roadmap, pixelnitro's endings guide) use to describe the arc. Capcom has not published a first-party 22-chapter count or a first-party chapter list as of 2026-09-10, so the 22-chapter framing is third-party documented. The [bosses page](/bosses/) covers each named encounter in detail, and the [length page](/length/) translates the chapter structure into ~20-25h main story, ~33h completionist, and ~33h plus Carnage Difficulty replay ranges.",
+      },
+      {
+        id: "walkthrough-flow",
+        type: "prose",
+        heading: "Chapter Flow — Early, Mid, Late, and Final Mission Phases",
+        body:
+          "Launch-window guides frame the 22-chapter arc in four phases rather than naming each chapter explicitly. The phase structure is third-party documented, not first-party confirmed by Capcom, so this walkthrough uses the phase groupings as a planning framework rather than an authoritative chapter list.\n\n- Early phase (demo + opening chapters): Kiyomizu-dera Temple demo opening, the Sasaki Ganryu early-game rival duel, Daidara, and Rasho-gan. The early phase teaches the Oni Gauntlet parry chain rhythm and Issen counter timing on the first non-demo boss encounters.\n- Mid phase: Ifuu, Greater Nue, and the first Benkei bridge encounter. The mid phase layers two named Genma siblings and a mythic beast encounter tied to Dokyo's Fixation.\n- Late phase: Burai, Shuten Doji, the Ifuu and Burai 'Perfect Storm' duo encounter, and the Sasaki Ganryu return at Arashiyama. The late phase compresses the remaining solo Genma roster and the recurring-rival return.\n- Final mission (Clash at Rendaino): Benkei returns at Rendaino (the 'Baited by Benkei' trophy) and Musashi faces the three-phase Minamoto no Yoshitsune final boss (the 'Truly, Thank You' trophy). The Clash at Rendaino is the practical point of no return for the standard ending.\n\nThe [bosses page](/bosses/) table maps each named encounter to its phase, and the [trophies page](/trophies/) lists the named trophy for every boss in the arc.",
+      },
+      {
+        id: "walkthrough-bosses",
+        type: "prose",
+        heading: "Boss Progression Across the Arc",
+        body:
+          "The post-launch boss progression threads eleven named boss encounters plus the recurring Sasaki Ganryu rival arc across the Way of the Sword arc. The launch-window guides cluster the bosses by phase:\n\n- Demo + early arc: Sasaki Ganryu (demo Kiyomizu-dera fight + early rival duel), Daidara ('Get Stuffed' trophy), Rasho-gan ('Twisted Fates' trophy).\n- Mid arc: Ifuu ('Howling Wind' trophy), Greater Nue ('Dokyo's Fixation' trophy), Benkei bridge ('Benkei: Out, but Not Down' trophy).\n- Late arc: Burai ('Crashing Lightning' trophy), Shuten Doji ('Wide Awake' trophy), Ifuu/Burai duo ('Perfect Storm' trophy), Sasaki Ganryu Arashiyama return ('We Done Here?' trophy).\n- Final mission: Benkei Rendaino return ('Baited by Benkei' trophy), three-phase Minamoto no Yoshitsune ('Truly, Thank You' trophy).\n- Post-credits: Dokyo return ('End This Madness' trophy).\n- Demo-second-boss crossover: Byakue (Hundred Defilements) at Kiyomizu-dera Temple ('Serves You Right' trophy).\n\nEach boss maps to a named trophy, and the [trophies page](/trophies/) is the cleanest reference for the named unlock per encounter. The [bosses page](/bosses/) carries the per-boss strategy anchors, with dedicated strategy pages for Sasaki Ganryu and Byakue.",
+      },
+      {
+        id: "walkthrough-rendaino",
+        type: "prose",
+        heading: "Clash at Rendaino as the Point of No Return",
+        body:
+          "The Clash at Rendaino is the final mission of the Way of the Sword arc and the practical point of no return for the standard ending. Two trophies anchor the Rendaino sequence: 'Baited by Benkei' (defeat Benkei at Rendaino) and 'Truly, Thank You' (defeat the final boss across all three phases).\n\nThe PowerPyx roadmap records that free-roam continues until the final mission, which means players can do Silver trophy collectible cleanup (Mysteries, Chance Encounters, Lion Dogs, Oni Armaments, Hozuki Pouches, Charms, skills, equipment, 50 Issen attacks) before starting the Clash at Rendaino mission. Once the Clash at Rendaino mission begins, there is no return to free-roam on that save file, which is why the pre-cleanup checklist below sits in the late arc rather than after Rendaino. The [trophies page](/trophies/) is the canonical reference for the 0 missable trophies policy and the Silver collectible categories.",
+      },
+      {
+        id: "walkthrough-checklist",
+        type: "prose",
+        heading: "Pre-Cleanup Checklist Before Clash at Rendaino",
+        body:
+          "Because free-roam continues until the Clash at Rendaino mission, the cleanest pre-cleanup discipline is to finish the optional collectibles in the early and mid arc before the final mission triggers. The pre-cleanup checklist for a completionist run is:\n\n- Mysteries of Kyoto. The 'Demystified' Silver trophy requires all 8 Mysteries of Kyoto. Mysteries are story-tied discoverable moments and are best cleared as the chapters route through Kyoto.\n- Chance Encounters. The 'No Job Too Small' Silver trophy requires all 18 Chance Encounters. Chance Encounters are optional side beats; players who skip them in the first pass lose the trophy until a second pass or Carnage replay.\n- Lion Dogs. The 'For the Love of Dog' Silver trophy requires all 36 Lion Dogs. Lion Dogs are scattered across the Kyoto map and are best swept during the late arc.\n- Oni Armaments. The 'Oni Armory' Silver trophy requires all 7 Oni Armaments. Oni Armaments are equipment-tier collectibles.\n- Hozuki Pouches. The 'Medical Marvel' Silver trophy requires all 9 Hozuki Pouches enhanced. Hozuki Pouches are medical consumables.\n- Charms. The 'Charmed Life' Silver trophy requires all 15 Charms enhanced. Charms include the Kubi Akari demo carry-over and the Lion Dog pre-order charm; remaining charms are picked up through gameplay.\n- Skills. The 'Well-Rounded' Silver trophy requires all skills learned and upgraded.\n- Equipment. The 'Dressed to Kill' Silver trophy requires all equipment maxed.\n- Issen count. The 'Brutalist' Silver trophy requires 50 Issen attacks across the campaign.\n\nThe checklist order matters: clean Mysteries and Chance Encounters as the chapters route through them, sweep Lion Dogs in the late arc, and finish Hozuki Pouches / Charms / equipment / Issen count during the free-roam window before the Clash at Rendaino mission starts. The [trophies page](/trophies/) is the canonical reference for the 0 missable trophies policy and the Silver collectible categories.",
+      },
+      {
+        id: "walkthrough-yoshitsune",
+        type: "prose",
+        heading: "Minamoto no Yoshitsune — Three-Phase Final Boss",
+        body:
+          "Minamoto no Yoshitsune is the final boss of the Way of the Sword arc and the gate to the 'Truly, Thank You' Silver trophy. Per the PowerPyx trophy roadmap, the Yoshitsune fight has three phases. Clearing all three phases is the gate to the standard ending and unlocks the Carnage Difficulty New Game+ tier.\n\nThe Yoshitsune fight uses the same combat layers as the rest of the campaign — sword play, Oni Gauntlet parry, Issen counter, and Oni Awakening transformation — but with three distinct phase transitions. Exact phase transitions, named attacks, and HP-scaling values per phase are third-party documented and not first-party confirmed by Capcom as of 2026-09-10. The [combat mechanics page](/combat/) and the [defensive lanes page](/defensive-lanes/) cover the combat system that the Yoshitsune fight draws on; the [Issen guide](/issen/) covers the Issen timing rules that the helm-breaker and other heavy-finisher telegraphs feed.\n\nA clean Yoshitsune clear rewards the 'Truly, Thank You' Silver trophy, then credits roll. After the credits, the Dokyo post-credits return gates additional content.",
+      },
+      {
+        id: "walkthrough-dokyo",
+        type: "prose",
+        heading: "Dokyo — Post-Credits Return",
+        body:
+          "After the credits roll on the standard ending, Dokyo returns as the post-credits boss fight. The 'End This Madness' trophy is awarded when Musashi defeats Dokyo. A dedicated third-party guide on allthings.how walks through the Dokyo boss fight, including its named attack patterns and counter windows.\n\nThe Dokyo post-credits return is the gate between the standard ending and any additional content beyond the credits. Once Dokyo is cleared, the Carnage Difficulty New Game+ tier is the natural follow-up because Carnage Difficulty unlocks after the first ending. The [Carnage Difficulty page](/carnage-difficulty/) covers the carry-over split that governs the Carnage replay, and the [length page](/length/) covers how the Carnage replay fits into the ~33h 100% plus Carnage range.",
+      },
+      {
+        id: "walkthrough-endings",
+        type: "prose",
+        heading: "Standard Ending vs Post-Credits Dokyo Return vs True Ending",
+        body:
+          "Onimusha: Way of the Sword has at least three ending-related beats, with a fourth (the True Ending) treated as third-party documented rather than first-party confirmed.\n\n- Standard Ending. Triggered when Musashi clears all three phases of the Minamoto no Yoshitsune fight at the Clash at Rendaino. The credits roll, and the 'Truly, Thank You' Silver trophy is awarded.\n- Post-Credits Dokyo Return. Triggers after the standard ending credits roll. Musashi faces Dokyo as the post-credits boss, and the 'End This Madness' trophy is awarded on defeat. A dedicated third-party guide on allthings.how walks through the Dokyo boss fight.\n- Carnage Difficulty Unlock. Triggers after the first ending (standard ending plus Dokyo clear). The Carnage Difficulty New Game+ tier unlocks for the same player profile across Steam, PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and the Epic Games Store.\n- True Ending. The True Ending condition is currently best-described as third-party documented, not first-party confirmed. Third-party launch-window coverage (pixelnitro.com) describes a True Ending path, but Capcom has not published a first-party confirmation of the unlock condition as of 2026-09-10. Treat specific True Ending steps as third-party until Capcom confirms them.\n\nThe endings split means a single playthrough can land in any of the first three beats depending on how far the player pushes. The True Ending remains a separate question that depends on Capcom's first-party confirmation.",
+      },
+      {
+        id: "walkthrough-carnage",
+        type: "prose",
+        heading: "Carnage Difficulty Replay After the First Ending",
+        body:
+          "Carnage Difficulty is the New Game+ tier that reopens the 22-chapter Way of the Sword arc at the highest challenge after the first ending. The replay is the largest length-extending lever after the first playthrough and the natural follow-up to the Dokyo post-credits clear.\n\nThe Carnage replay uses the same chapter structure but applies New Game+ carry-over rules:\n\n- Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials or drills.\n- Carnage Difficulty does not carry story progress, materials, or save points.\n\nThat split matters because the Kubi Akari charm (demo save carry-over), the Lion Dog charm (pre-order bonus), and the Deluxe Edition charm bundle all carry into Carnage, while consumable materials reset and save shrines must be re-found. The [Carnage Difficulty page](/carnage-difficulty/) covers the carry-over split in detail, and the [length page](/length/) explains how the Carnage replay fits into the ~33h plus Carnage replay range.\n\nFor Platinum hunters, the Boss Rematch sweep in Emma's Hall Practice Grounds adds the 'Glutton for Punishment' Gold trophy, which is awarded when Musashi clears all boss rematches on all difficulties. The [trophies page](/trophies/) covers the 5-step PowerPyx roadmap and the Platinum run timing.",
+      },
+      {
+        id: "walkthrough-source",
+        type: "prose",
+        heading: "Sources for the Walkthrough",
+        body:
+          "The 22-chapter Way of the Sword arc framing, the Clash at Rendaino as the final mission, the three-phase Minamoto no Yoshitsune fight, the Dokyo post-credits return, and the True Ending vs Standard Ending comparison are sourced to launch-window player guides:\n\n- timesaver.gg for the 22-chapter count and the ~20-25h main story / ~33h completionist / ~33h plus Carnage replay ranges.\n- vandal.elespanol.com 'el-camino-de-la-espada' guide for the Way of the Sword arc framing.\n- PowerPyx trophy roadmap for the 5-step Platinum path, the three-phase Yoshitsune fight, the Benkei Rendaino return, and the 0 missable trophies policy.\n- allthings.how for the Dokyo post-credits boss fight.\n- pixelnitro.com for the True Ending third-party documentation.\n- tposegaming.com for the ending path comparison.\n\nThe True Ending condition remains third-party documented, not first-party confirmed, as of 2026-09-10. Capcom has not published a first-party chapter list, first-party chapter-by-chapter walkthrough, or first-party True Ending unlock condition.",
+      },
+      {
+        id: "walkthrough-fact-boundary",
+        type: "callout",
+        tone: "caution",
+        title: "Fact boundary — 2026-09-10",
+        body:
+          "Onimusha Way of the Sword (Capcom, Steam AppID 2638890, 2026-09-03) is a 22-chapter Way of the Sword arc per third-party launch-window coverage. The final mission is the Clash at Rendaino, where Musashi faces a three-phase Minamoto no Yoshitsune final boss. The standard ending triggers after the three-phase Yoshitsune clear, and the Dokyo post-credits return gates the 'End This Madness' trophy beyond the credits. Carnage Difficulty unlocks after the first ending. The True Ending condition is third-party documented, not first-party confirmed by Capcom. Capcom has not published a first-party 22-chapter count, a first-party chapter list, a first-party True Ending unlock condition, or a first-party Dokyo boss fight guide as of 2026-09-10.",
+      },
+    ],
+    faqIds: [
+      "onimusha-way-of-the-sword-how-many-chapters",
+      "onimusha-way-of-the-sword-clash-at-rendaino",
+      "onimusha-way-of-the-sword-minamoto-no-yoshitsune-phases",
+      "onimusha-way-of-the-sword-dokyo-post-credits",
+      "onimusha-way-of-the-sword-true-ending",
+      "onimusha-way-of-the-sword-post-credits-content",
+      "onimusha-way-of-the-sword-final-boss",
+    ],
+    relatedPageIds: [
+      "fixed-bosses-en-us",
+      "fixed-length-en-us",
+      "fixed-trophies-achievements-en-us",
+      "fixed-characters-en-us",
+      "fixed-carnage-difficulty-en-us",
+      "fixed-demo-en-us",
+      "home",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "placeholder",
+    lastReviewed: "2026-09-10",
   },
 ];

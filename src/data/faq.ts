@@ -520,11 +520,31 @@ export const faqItems: FAQItem[] = [
     id: "onimusha-way-of-the-sword-demo-secret-boss",
     question: "Is there a secret boss in the Onimusha Way of the Sword demo?",
     answer:
-      "The expanded demo adds another \"fearsome boss\" beyond the Sasaki Ganryu duel, but the boss has not been named publicly and no secret-fight criteria have been published as of 2026-09-02.",
+      "The expanded demo adds Byakue (Hundred Defilements) as a second named boss beyond the Sasaki Ganryu duel. Byakue is the white-furred axe-wielding Genma introduced on the dedicated Byakue second boss page, and landing 10 Issens in a demo run unlocks a harder Special Challenge Byakue fight.",
     pageIds: ["fixed-bosses-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-final-boss",
+    question: "Who is the final boss in Onimusha Way of the Sword?",
+    answer:
+      "Minamoto no Yoshitsune is the final boss of the Way of the Sword arc, fought in three phases at the Clash at Rendaino. The 'Truly, Thank You' Silver trophy is awarded when Musashi clears all three phases. The post-credits return boss Dokyo is separate from the Yoshitsune fight and gates its own 'End This Madness' trophy.",
+    pageIds: ["fixed-bosses-en-us", "fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "placeholder",
+  },
+  {
+    id: "onimusha-way-of-the-sword-full-boss-list",
+    question: "What is the full boss list in Onimusha Way of the Sword?",
+    answer:
+      "The post-launch roster is Sasaki Ganryu (demo + recurring rival + Arashiyama return), Daidara, Rasho-gan, the Genma siblings Ifuu and Burai (individual + 'Perfect Storm' duo), Greater Nue, Benkei (bridge + Rendaino return), Shuten Doji, Byakue (expanded demo), Dokyo (post-credits return), and the three-phase Minamoto no Yoshitsune final. Hidden bosses and exact HP scaling per preset are not announced as of 2026-09-10.",
+    pageIds: ["fixed-bosses-en-us", "fixed-characters-en-us", "fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "placeholder",
   },
   {
     id: "onimusha-way-of-the-sword-issen-every-boss",
@@ -828,6 +848,68 @@ export const faqItems: FAQItem[] = [
     answer:
       "No. Carnage Difficulty carries unlocks, upgrades, outfits, and tutorials, but it does not carry story progress, materials, or save points. Consumable materials reset with the new run.",
     pageIds: ["fixed-carnage-difficulty-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // walkthrough
+  {
+    id: "onimusha-way-of-the-sword-how-many-chapters",
+    question: "How many chapters does Onimusha Way of the Sword have?",
+    answer:
+      "The Way of the Sword arc spans 22 chapters per third-party launch-window coverage. The final mission is the Clash at Rendaino, which serves as the practical point of no return before the three-phase Minamoto no Yoshitsune final fight. Exact per-chapter beats remain third-party documented, not first-party confirmed, as of 2026-09-10.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "placeholder",
+  },
+  {
+    id: "onimusha-way-of-the-sword-clash-at-rendaino",
+    question: "What is the Clash at Rendaino in Onimusha Way of the Sword?",
+    answer:
+      "The Clash at Rendaino is the final mission of the Way of the Sword arc. It serves as the practical point of no return because free-roam continues until the final mission, and Benkei returns at Rendaino for the 'Baited by Benkei' trophy before Musashi faces the three-phase Minamoto no Yoshitsune fight that gates the 'Truly, Thank You' trophy.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "onimusha-way-of-the-sword-minamoto-no-yoshitsune-phases",
+    question: "How many phases does the Minamoto no Yoshitsune final boss have?",
+    answer:
+      "The Minamoto no Yoshitsune final boss fight has three phases per the PowerPyx trophy roadmap. Clearing all three phases unlocks the 'Truly, Thank You' Silver trophy. Exact phase transitions and named attacks are not announced as of 2026-09-10.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "placeholder",
+  },
+  {
+    id: "onimusha-way-of-the-sword-dokyo-post-credits",
+    question: "Who is Dokyo in Onimusha Way of the Sword?",
+    answer:
+      "Dokyo is the post-credits return boss. The 'End This Madness' trophy is awarded when players defeat Dokyo, and a dedicated third-party guide on allthings.how walks through the Dokyo boss fight. Dokyo is the gate between the standard ending and any additional content beyond the credits.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "placeholder",
+  },
+  {
+    id: "onimusha-way-of-the-sword-true-ending",
+    question: "How do you unlock the True Ending in Onimusha Way of the Sword?",
+    answer:
+      "The True Ending condition in Onimusha: Way of the Sword is currently best-described as third-party documented, not first-party confirmed. Third-party launch-window guides (pixelnitro.com) describe a True Ending path, but Capcom has not published a first-party confirmation of the unlock condition as of 2026-09-10. The Dokyo post-credits return and a separate endings guide exist; treat specific True Ending steps as third-party until Capcom confirms them.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "placeholder",
+  },
+  {
+    id: "onimusha-way-of-the-sword-post-credits-content",
+    question: "Is there post-credits content in Onimusha Way of the Sword?",
+    answer:
+      "Yes. Dokyo returns as a post-credits boss fight, and the 'End This Madness' trophy is awarded when players defeat Dokyo. The Dokyo return gates additional content beyond the first ending, and the Carnage Difficulty New Game+ loop is the largest length-extending lever after the first playthrough.",
+    pageIds: ["fixed-walkthrough-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",

@@ -18,6 +18,7 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
   { href: "/release", labels: { "en-US": "Launch & platforms" } },
   { href: "/combat", labels: { "en-US": "Combat & mechanics" } },
   { href: "/characters", labels: { "en-US": "Characters & bosses" } },
+  { href: "/walkthrough", labels: { "en-US": "Walkthrough" } },
   { href: "/trophies", labels: { "en-US": "Unlocks & press" } },
 ];
 
