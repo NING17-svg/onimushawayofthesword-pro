@@ -1,0 +1,983 @@
+{
+  "schema": "v4-page-assembly",
+  "site_plan_sha256": "6fae39b8030045e05692e3f414e686fae42a67fda7178c5d65a390d75659c897",
+  "navigation": {
+    "desktop": "Grouped primary navigation across Combat / Bosses / Progression / Collectibles / Reference / Overview clusters with the current page surfaced as a guide tree",
+    "mobile": "Short chip-row of cluster groups; full nav collapsed into a single chip menu under the identity strip"
+  },
+  "ad_inventory": {
+    "schema": "adsterra-placement-inventory-v1",
+    "layout_version": "v4-horizontal-2026-10-02",
+    "adUnits": [
+      {
+        "key": "page-top-728x90",
+        "type": "Banner",
+        "size": "728x90"
+      },
+      {
+        "key": "page-top-468x60",
+        "type": "Banner",
+        "size": "468x60"
+      },
+      {
+        "key": "page-top-320x50",
+        "type": "Banner",
+        "size": "320x50"
+      },
+      {
+        "key": "home-after-entry-native-banner",
+        "type": "Native Banner"
+      },
+      {
+        "key": "home-topic-break-728x90",
+        "type": "Banner",
+        "size": "728x90"
+      },
+      {
+        "key": "home-topic-break-468x60",
+        "type": "Banner",
+        "size": "468x60"
+      },
+      {
+        "key": "home-topic-break-300x250",
+        "type": "Banner",
+        "size": "300x250"
+      },
+      {
+        "key": "home-directory-rail-160x300",
+        "type": "Banner",
+        "size": "160x300"
+      },
+      {
+        "key": "home-directory-end-468x60",
+        "type": "Banner",
+        "size": "468x60"
+      },
+      {
+        "key": "home-directory-end-320x50",
+        "type": "Banner",
+        "size": "320x50"
+      },
+      {
+        "key": "guide-native-native-banner",
+        "type": "Native Banner"
+      },
+      {
+        "key": "guide-section-break-728x90",
+        "type": "Banner",
+        "size": "728x90"
+      },
+      {
+        "key": "guide-section-break-468x60",
+        "type": "Banner",
+        "size": "468x60"
+      },
+      {
+        "key": "guide-section-break-320x50",
+        "type": "Banner",
+        "size": "320x50"
+      },
+      {
+        "key": "guide-before-faq-468x60",
+        "type": "Banner",
+        "size": "468x60"
+      },
+      {
+        "key": "guide-before-faq-320x50",
+        "type": "Banner",
+        "size": "320x50"
+      },
+      {
+        "key": "guide-rail-160x600",
+        "type": "Banner",
+        "size": "160x600"
+      },
+      {
+        "key": "guide-rail-160x300",
+        "type": "Banner",
+        "size": "160x300"
+      },
+      {
+        "key": "footer-sponsored-smartlink",
+        "type": "Smartlink"
+      }
+    ],
+    "slots": [
+      {
+        "id": "page-top",
+        "page_kind": "all",
+        "desktop": [
+          "page-top-728x90",
+          "page-top-468x60"
+        ],
+        "mobile": [
+          "page-top-320x50"
+        ]
+      },
+      {
+        "id": "home-after-entry",
+        "page_kind": "home",
+        "desktop": [
+          "home-after-entry-native-banner"
+        ],
+        "mobile": [
+          "home-after-entry-native-banner"
+        ]
+      },
+      {
+        "id": "home-topic-break",
+        "page_kind": "home",
+        "desktop": [
+          "home-topic-break-728x90",
+          "home-topic-break-468x60"
+        ],
+        "mobile": [
+          "home-topic-break-300x250"
+        ]
+      },
+      {
+        "id": "home-directory-rail",
+        "page_kind": "home",
+        "desktop": [
+          "home-directory-rail-160x300"
+        ],
+        "mobile": []
+      },
+      {
+        "id": "home-directory-end",
+        "page_kind": "home",
+        "desktop": [
+          "home-directory-end-468x60"
+        ],
+        "mobile": [
+          "home-directory-end-320x50"
+        ]
+      },
+      {
+        "id": "guide-native",
+        "page_kind": "guide",
+        "desktop": [
+          "guide-native-native-banner"
+        ],
+        "mobile": [
+          "guide-native-native-banner"
+        ]
+      },
+      {
+        "id": "guide-section-break",
+        "page_kind": "guide",
+        "desktop": [
+          "guide-section-break-728x90",
+          "guide-section-break-468x60"
+        ],
+        "mobile": [
+          "guide-section-break-320x50"
+        ]
+      },
+      {
+        "id": "guide-before-faq",
+        "page_kind": "guide",
+        "desktop": [
+          "guide-before-faq-468x60"
+        ],
+        "mobile": [
+          "guide-before-faq-320x50"
+        ]
+      },
+      {
+        "id": "guide-rail",
+        "page_kind": "guide",
+        "desktop": [
+          "guide-rail-160x600",
+          "guide-rail-160x300"
+        ],
+        "mobile": []
+      },
+      {
+        "id": "footer-sponsored",
+        "page_kind": "all",
+        "desktop": [
+          "footer-sponsored-smartlink"
+        ],
+        "mobile": [
+          "footer-sponsored-smartlink"
+        ]
+      }
+    ]
+  },
+  "layouts": [
+    {
+      "id": "home-entry",
+      "page_ids": [
+        "home"
+      ],
+      "desktop": "Compact identity strip, grouped cluster nav, 20-entry directory in Combat / Bosses / Progression / Collectibles / Reference / Overview order, single related-guides row",
+      "mobile": "Identity strip then a chip-row cluster nav, full 20-entry directory stacks below, related-guides row at the bottom",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan game identity (Edo-period Kyoto, Musashi, RE-Engine)",
+          "mobile": "Identity strip with game name and one-line subtitle; no long introduction"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation (Combat / Bosses / Progression / Collectibles / Reference / Overview)",
+          "mobile": "Short chip-row of cluster groups; sub-tree collapsed into a single chip menu"
+        },
+        {
+          "id": "directory",
+          "component": "task-entries",
+          "source": "Site Plan 20-entry homepage directory in declared order",
+          "mobile": "Single-column stack with every entry label fully visible, no clipping"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan required internal links to overview, review-scores, release-status",
+          "mobile": "Stacked list below the directory"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "home-after-entry",
+          "desktop": {
+            "anchor": "directory",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "directory",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "home-topic-break",
+          "desktop": {
+            "anchor": "directory",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "directory",
+            "edge": "inside"
+          }
+        },
+        {
+          "slot_id": "home-directory-rail",
+          "desktop": {
+            "anchor": "directory",
+            "edge": "inside"
+          }
+        },
+        {
+          "slot_id": "home-directory-end",
+          "desktop": {
+            "anchor": "directory",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "directory",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "Identity strip and cluster nav sit above the first screen of directory entries on desktop",
+        "Every one of the 20 directory entries is visible on mobile without horizontal scrolling",
+        "Cluster group headers (Combat / Bosses / Progression / Collectibles / Reference / Overview) appear in declared Site Plan order",
+        "No page-level horizontal overflow at 360 px width"
+      ]
+    },
+    {
+      "id": "hub-overview",
+      "page_ids": [
+        "bosses-hub"
+      ],
+      "desktop": "Compact identity, grouped nav, page summary, full boss card-grid with name / chapter / weakness / Issen window rows, related-guides",
+      "mobile": "Identity strip, cluster nav, summary, card-grid stacks one per row, related-guides below",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan boss-hub identity (all chapter bosses, Onimusha: Way of the Sword)",
+          "mobile": "Compact identity strip"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation",
+          "mobile": "Chip-row cluster nav"
+        },
+        {
+          "id": "summary",
+          "component": "answer-summary",
+          "source": "Site Plan bosses-hub quick answer (chapter list, Issen posture break pattern)",
+          "mobile": "Full readable width above the grid"
+        },
+        {
+          "id": "boss-grid",
+          "component": "entity-grid",
+          "source": "Site Plan bosses-hub chapter boss list (Sasaki Ganryu, Daidara, Rasho-gan, Byakue, Ifuu, Nue, Greater Nue, Dohatsu-ten, Benkei, Burai, Shuten Doji, Dokyo, Yoshitsune)",
+          "mobile": "Single-column card stack with name, chapter, weakness, Issen window rows"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan Required Internal Links from /bosses/ to /bosses/sasaki-ganryu/, /bosses/shuten-doji/, /bosses/yoshitsune/, combat-guide, weapons",
+          "mobile": "Stacked list below the grid"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-section-break",
+          "desktop": {
+            "anchor": "boss-grid",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "boss-grid",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-rail",
+          "desktop": {
+            "anchor": "summary",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "Every chapter boss from the Site Plan bosses-hub list is rendered as a card-grid entry",
+        "Boss cards show name, chapter, weakness, and Issen window as four readable rows",
+        "Card grid tolerates unequal name lengths (Sasaki Ganryu vs Greater Nue vs Dohatsu-ten) without clipping",
+        "No page-level horizontal overflow at 360 px width"
+      ]
+    },
+    {
+      "id": "boss-leaf",
+      "page_ids": [
+        "boss-sasaki-ganryu",
+        "boss-shuten-doji",
+        "boss-yoshitsune"
+      ],
+      "desktop": "Identity strip, grouped nav, answer-summary, guide-modules (steps + data-table), key-facts, faq, related-guides, right rail",
+      "mobile": "Identity strip, chip-row cluster nav, answer-summary, guide-modules, key-facts, faq, related-guides stacked in a single column",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan per-boss identity (Sasaki Ganryu / Shuten Doji / Yoshitsune)",
+          "mobile": "Compact identity strip with boss name and chapter"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation",
+          "mobile": "Chip-row cluster nav"
+        },
+        {
+          "id": "answer",
+          "component": "answer-summary",
+          "source": "Site Plan per-boss Quick Answer (weakness part, Issen window, posture break trigger)",
+          "mobile": "Full readable width above steps"
+        },
+        {
+          "id": "modules",
+          "component": "guide-modules",
+          "source": "Site Plan per-boss module combination (steps + data-table for Rikido break / Oni Armament matchup)",
+          "mobile": "Steps stack full-width; data-table scrolls inside its own container"
+        },
+        {
+          "id": "facts",
+          "component": "key-facts",
+          "source": "Site Plan per-boss Required Answers (chapter, weakness, posture trigger, Oni Armament matchup)",
+          "mobile": "Two-column key/value pairs collapse to single column"
+        },
+        {
+          "id": "faq",
+          "component": "faq",
+          "source": "Site Plan per-boss Frequently Asked (Ganryu Chapter 17 forced-loss, Shuten Doji self-heal, Yoshitsune Phase 3 unlock)",
+          "mobile": "Stacked Q/A pairs"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan per-boss cross-links (combat-guide, oni-armaments, other bosses)",
+          "mobile": "Stacked list"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-native",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-section-break",
+          "desktop": {
+            "anchor": "modules",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "modules",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-before-faq",
+          "desktop": {
+            "anchor": "faq",
+            "edge": "before"
+          },
+          "mobile": {
+            "anchor": "faq",
+            "edge": "before"
+          }
+        },
+        {
+          "slot_id": "guide-rail",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "Quick Answer is visible above the fold on desktop and the first screen on mobile",
+        "Rikido posture-break trigger is reachable in two clicks from any of the three boss pages",
+        "Wide tables (Oni Armament matchup) scroll inside their container and never push the page wider than the viewport",
+        "Right rail cross-links to combat-guide, oni-armaments and the boss-hub stay visible on desktop"
+      ]
+    },
+    {
+      "id": "combat-guide",
+      "page_ids": [
+        "combat-guide",
+        "oni-gauntlet",
+        "weapons"
+      ],
+      "desktop": "Identity strip, grouped nav, answer-summary, guide-modules (steps + tables + callouts), key-facts, faq, related-guides, right rail",
+      "mobile": "Identity strip, chip-row cluster nav, answer-summary, guide-modules, key-facts, faq, related-guides stacked single-column",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan Combat cluster identity (Issen / Parry / Deflect, Oni Gauntlet, weapon tiers)",
+          "mobile": "Compact identity strip"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation",
+          "mobile": "Chip-row cluster nav"
+        },
+        {
+          "id": "answer",
+          "component": "answer-summary",
+          "source": "Site Plan Quick Answer (Issen frame, tier-unlock list, weapon upgrade red-soul cost)",
+          "mobile": "Full readable width above modules"
+        },
+        {
+          "id": "modules",
+          "component": "guide-modules",
+          "source": "Site Plan Combat cluster module combination (steps for combat ladder, data-table for soul colors, data-table for weapon tier red-soul costs)",
+          "mobile": "Steps stack; tables scroll inside their own container"
+        },
+        {
+          "id": "facts",
+          "component": "key-facts",
+          "source": "Site Plan Combat cluster Required Answers (cannot-Issen moves, chapter gates, tier ladder)",
+          "mobile": "Two-column key/value pairs collapse to single column"
+        },
+        {
+          "id": "faq",
+          "component": "faq",
+          "source": "Site Plan Combat cluster Frequently Asked (Issen frame width, Rikido reset, red-vs-blue soul split)",
+          "mobile": "Stacked Q/A pairs"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan Combat cluster Required Internal Links (combat-guide ↔ oni-gauntlet ↔ weapons ↔ oni-armaments ↔ boss hub)",
+          "mobile": "Stacked list"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-native",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-section-break",
+          "desktop": {
+            "anchor": "modules",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "modules",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-before-faq",
+          "desktop": {
+            "anchor": "faq",
+            "edge": "before"
+          },
+          "mobile": {
+            "anchor": "faq",
+            "edge": "before"
+          }
+        },
+        {
+          "slot_id": "guide-rail",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "Quick Answer on Issen frame / tier-unlock / red-soul cost is visible above the fold on desktop and the first screen on mobile",
+        "Combat-step ladder, Oni Gauntlet tier table and weapon-tier table are reachable in one scroll each",
+        "Wide tables (soul color matrix, weapon tier costs) scroll inside their container at 360 px width",
+        "Combat ↔ Oni Gauntlet ↔ Weapons ↔ Oni Armaments cross-links remain visible in the right rail on desktop"
+      ]
+    },
+    {
+      "id": "progression-guide",
+      "page_ids": [
+        "difficulty",
+        "endings",
+        "trophies"
+      ],
+      "desktop": "Identity strip, grouped nav, answer-summary, guide-modules (steps + callouts + tables), key-facts, faq, related-guides, right rail",
+      "mobile": "Identity strip, chip-row cluster nav, answer-summary, guide-modules, key-facts, faq, related-guides stacked single-column",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan Progression cluster identity (Difficulty, Endings, Trophies)",
+          "mobile": "Compact identity strip"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation",
+          "mobile": "Chip-row cluster nav"
+        },
+        {
+          "id": "answer",
+          "component": "answer-summary",
+          "source": "Site Plan Progression cluster Quick Answer (Carnage irreversible, one fixed ending, 52-trophy Peerless roadmap)",
+          "mobile": "Full readable width above modules"
+        },
+        {
+          "id": "modules",
+          "component": "guide-modules",
+          "source": "Site Plan Progression cluster module combination (steps to switch at Spirit Mirror, data-table for NG+ carry-over, trophy list table, callout for Chapter 22 point of no return)",
+          "mobile": "Steps and callouts stack; tables scroll inside their own container"
+        },
+        {
+          "id": "facts",
+          "component": "key-facts",
+          "source": "Site Plan Progression cluster Required Answers (Carnage chapters, trophy counts, point-of-no-return rule)",
+          "mobile": "Two-column key/value pairs collapse to single column"
+        },
+        {
+          "id": "faq",
+          "component": "faq",
+          "source": "Site Plan Progression cluster Frequently Asked (Carnage reversibility, true-ending debunk, missable rule)",
+          "mobile": "Stacked Q/A pairs"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan Progression cluster Required Internal Links (difficulty ↔ endings ↔ trophies ↔ combat-guide ↔ boss-yoshitsune)",
+          "mobile": "Stacked list"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-native",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-section-break",
+          "desktop": {
+            "anchor": "modules",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "modules",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-before-faq",
+          "desktop": {
+            "anchor": "faq",
+            "edge": "before"
+          },
+          "mobile": {
+            "anchor": "faq",
+            "edge": "before"
+          }
+        },
+        {
+          "slot_id": "guide-rail",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "Irreversible Carnage warning and Chapter 22 point-of-no-return callout are visible above the fold on every Progression page",
+        "Trophy list table (52 rows) and NG+ carry-over table scroll inside their container at 360 px width",
+        "Difficulty ↔ Endings ↔ Trophies cross-links remain visible in the right rail on desktop",
+        "True-ending debunk callout is reachable in one click from the Endings page"
+      ]
+    },
+    {
+      "id": "collectibles-list",
+      "page_ids": [
+        "collectibles",
+        "genma-notes",
+        "oni-armaments"
+      ],
+      "desktop": "Identity strip, grouped nav, answer-summary, wide-reference table (collectibles 11-category list / Genma Notes per-area list / Oni Armaments 7+ roster), guide-modules, key-facts, related-guides, right rail",
+      "mobile": "Identity strip, chip-row cluster nav, answer-summary, wide-reference table scrolls inside its own pane, guide-modules, key-facts, related-guides stacked single-column",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan Collectibles cluster identity (274 collectibles, 11 categories; 23 Genma Notes; 7 Oni Armaments)",
+          "mobile": "Compact identity strip"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation",
+          "mobile": "Chip-row cluster nav"
+        },
+        {
+          "id": "answer",
+          "component": "answer-summary",
+          "source": "Site Plan Collectibles cluster Quick Answer (11 categories, note #23 post-game, blue-soul Oni Armament roster)",
+          "mobile": "Full readable width above the table"
+        },
+        {
+          "id": "modules",
+          "component": "guide-modules",
+          "source": "Site Plan Collectibles cluster module combination (data-table for 11-category list / 23 per-area Genma Notes / 7 Oni Armaments)",
+          "mobile": "Tables scroll inside their own horizontally-scrollable container"
+        },
+        {
+          "id": "facts",
+          "component": "key-facts",
+          "source": "Site Plan Collectibles cluster Required Answers (per-category count, Oni Vision unlock requirement)",
+          "mobile": "Two-column key/value pairs collapse to single column"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan Collectibles cluster Required Internal Links (collectibles ↔ genma-notes ↔ trophies ↔ oni-armaments ↔ weapons)",
+          "mobile": "Stacked list"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-native",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-section-break",
+          "desktop": {
+            "anchor": "modules",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "modules",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-rail",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "11-category collectibles table, 23-note per-area Genma Notes list, and 7+ Oni Armaments roster all stay inside a horizontally-scrollable pane at 360 px width",
+        "Quick Answer on category counts, note #23 post-game rule, and Oni Armament blue-soul fuel is visible above the fold",
+        "Collectibles ↔ Genma Notes ↔ Oni Armaments ↔ Trophies cross-links remain visible in the right rail on desktop"
+      ]
+    },
+    {
+      "id": "reference-overview",
+      "page_ids": [
+        "overview",
+        "release-status",
+        "system-requirements",
+        "characters",
+        "demo-reward",
+        "platform-performance",
+        "review-scores"
+      ],
+      "desktop": "Identity strip, grouped nav, answer-summary, guide-modules, key-facts, related-guides, right rail",
+      "mobile": "Identity strip, chip-row cluster nav, answer-summary, guide-modules, key-facts, related-guides stacked single-column",
+      "regions": [
+        {
+          "id": "identity",
+          "component": "identity-hero",
+          "source": "Site Plan Reference + Overview cluster identity (overview / release-status / system-requirements / characters / demo-reward / platform-performance / review-scores)",
+          "mobile": "Compact identity strip"
+        },
+        {
+          "id": "primary-nav",
+          "component": "grouped-navigation",
+          "source": "Site Plan Primary Navigation",
+          "mobile": "Chip-row cluster nav"
+        },
+        {
+          "id": "answer",
+          "component": "answer-summary",
+          "source": "Site Plan Reference + Overview cluster Quick Answer (2026-09-04 launch + Switch 2 2026-09-25 / spec table / cast roster / Kubi Akari / 4K-60 vs Switch 2 30 / Famitsu 34/40 + Metacritic 85-86)",
+          "mobile": "Full readable width above modules"
+        },
+        {
+          "id": "modules",
+          "component": "guide-modules",
+          "source": "Site Plan Reference + Overview cluster module combination (data-table for spec, characters table, platform comparison table, scores table; callout for Demo save-transfer rule)",
+          "mobile": "Tables scroll inside their own container; callouts stack"
+        },
+        {
+          "id": "facts",
+          "component": "key-facts",
+          "source": "Site Plan Reference + Overview cluster Required Answers (release windows, Min/Rec specs, character chapter debuts, Kubi Akari effect, per-platform frame rate, score sources)",
+          "mobile": "Two-column key/value pairs collapse to single column"
+        },
+        {
+          "id": "related",
+          "component": "related-guides",
+          "source": "Site Plan Reference + Overview cluster Required Internal Links (overview ↔ release-status ↔ system-requirements ↔ platform-performance ↔ demo-reward ↔ combat-guide ↔ difficulty)",
+          "mobile": "Stacked list"
+        }
+      ],
+      "ad_placements": [
+        {
+          "slot_id": "page-top",
+          "desktop": {
+            "anchor": "$header",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "$header",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-native",
+          "desktop": {
+            "anchor": "answer",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "answer",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "guide-before-faq",
+          "desktop": {
+            "anchor": "facts",
+            "edge": "after"
+          },
+          "mobile": {
+            "anchor": "facts",
+            "edge": "after"
+          }
+        },
+        {
+          "slot_id": "footer-sponsored",
+          "desktop": {
+            "anchor": "$footer",
+            "edge": "inside"
+          },
+          "mobile": {
+            "anchor": "$footer",
+            "edge": "inside"
+          }
+        }
+      ],
+      "acceptance": [
+        "Per-platform frame-rate table, characters roster table and review scores table all stay inside a horizontally-scrollable pane at 360 px width",
+        "Demo save-transfer / Kubi Akari reward callout is reachable in one click from the Demo-reward page",
+        "Overview / release-status / system-requirements / platform-performance cross-links remain visible in the right rail on desktop"
+      ]
+    }
+  ]
+}
