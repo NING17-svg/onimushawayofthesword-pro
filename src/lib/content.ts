@@ -1,24 +1,20 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
+import { fixedPages } from "@/data/pages/fixed-pages";
 import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
 import { sitePages } from "@/data/pages/site-pages";
-import { wikiPages } from "@/data/pages/wiki-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
-const fixedPages: PageContent[] = [
+const fixedPagesList: PageContent[] = [
   homePage,
-  ...wikiPages,
-  ...guidePages,
-  ...releasePages,
   ...sitePages,
+  ...fixedPages,
 ];
 
 const pages: PageContent[] = [
-  ...fixedPages,
+  ...fixedPagesList,
   ...buildEntityPages(entityFamilies),
 ];
 
@@ -96,11 +92,6 @@ function compareUrls(left: PageContent, right: PageContent): number {
   return left.url < right.url ? -1 : 1;
 }
 
-/**
- * Returns a small, deterministic set of content pages for a locale's homepage.
- * Trust pages and tools are intentionally excluded so this is driven only by
- * editorial review dates on actual indexable content pages.
- */
 export function getRecentUpdates(
   locale: string,
   limit = 5,

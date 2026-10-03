@@ -2,54 +2,73 @@ import type { FAQItem } from "@/types/content";
 
 export const faqItems: FAQItem[] = [
   {
-    id: "what-is-this-site",
-    question: "What is this guide site for?",
+    id: "what-is-onimusha-way-of-the-sword",
+    question: "What is Onimusha: Way of the Sword?",
     answer:
-      "This site is a launch-ready guide hub template. Replace the placeholder copy with verified facts for the selected game before publishing.",
-    pageIds: ["home", "faq", "about"],
+      "Onimusha: Way of the Sword is a 2026 Capcom single-player third-person sword-combat action game set in Edo-period Kyoto, starring Miyamoto Musashi. It is a 2026 standalone soft-reboot and not a continuation of the 2001-2006 Onimusha series (Warlords, Onimusha 2, Onimusha 3, Dawn of Dreams).",
+    pageIds: ["fixed-home", "fixed-overview"],
     category: "site",
     schemaEligible: true,
-    sourceStatus: "internal",
+    sourceStatus: "official",
   },
   {
     id: "is-official",
-    question: "Is this an official game website?",
+    question: "Is this site official?",
     answer:
-      "No. This template is designed for an unofficial guide or wiki site. Official facts should be sourced from the game's publisher, developer, or store pages.",
-    pageIds: ["home", "faq", "about"],
+      "No. This is an unofficial fan guide. Game facts are sourced from the official Capcom product page, Steam store page, news.xbox.com combat guide, PowerPyx trophy roadmap, Onimusha Wiki and Fextralife. We do not represent Capcom, Sony, Microsoft, Nintendo, or Valve.",
+    pageIds: ["fixed-home", "about"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "internal",
   },
   {
     id: "release-date-known",
-    question: "Where should release date information come from?",
+    question: "When did Onimusha: Way of the Sword launch?",
     answer:
-      "Use only official store pages, publisher announcements, developer posts, or official press materials for release timing.",
-    pageIds: ["release-date", "faq"],
+      "Onimusha: Way of the Sword launched worldwide on 2026-09-04 on PS5, Xbox Series X|S, and Steam. The Switch 2 version launched on 2026-09-25. The original Demo (Steam / PlayStation) and the extended Switch 2 demo (Kiyomizu + Oni Refuge, with Ganryy + Daidara + Byakue) shipped earlier in 2026.",
+    pageIds: ["fixed-release-status", "fixed-home"],
     category: "release",
     schemaEligible: true,
-    sourceStatus: "placeholder",
+    sourceStatus: "official",
   },
   {
     id: "platforms-known",
-    question: "Which platforms should be listed?",
+    question: "Which platforms is Onimusha: Way of the Sword available on?",
     answer:
-      "List only platforms confirmed by official sources. If the platform list is incomplete, say it is pending instead of guessing.",
-    pageIds: ["release-date", "faq", "wiki"],
+      "PS5, Xbox Series X|S, PC (Steam AppID 2638890) and Switch 2. PC minimum specs are i5-8400 / GTX 1660 / 16 GB / 50 GB SSD with DLSS 4.5 / FSR 3.1, and the game supports DualSense, keyboard, and mouse.",
+    pageIds: ["fixed-system-requirements", "fixed-platform-performance"],
     category: "platform",
     schemaEligible: true,
-    sourceStatus: "placeholder",
+    sourceStatus: "official",
   },
   {
-    id: "guide-depth",
-    question: "How detailed should V1 guides be?",
+    id: "what-is-issen",
+    question: "What is the Issen counter window?",
     answer:
-      "V1 should provide a clean structure and safe starter guidance. Deep walkthroughs, item tables, maps, and build advice belong to later content work.",
-    pageIds: ["guides", "faq"],
+      "The standard Issen counter window is roughly 6 frames at 60 FPS (about 0.1 seconds). The visual cue is the enemy's weapon glowing white right as it reaches Musashi's hitbox. A successful Issen triggers a brief hit-stop and slow-motion animation, which is your cue to start a Chain Issen or back off.",
+    pageIds: ["fixed-combat-guide", "fixed-home"],
     category: "gameplay",
     schemaEligible: true,
-    sourceStatus: "internal",
+    sourceStatus: "official",
+  },
+  {
+    id: "can-carnage-be-reverted",
+    question: "Can the Carnage difficulty be reverted?",
+    answer:
+      "No. The Carnage pick at the Spirit Mirror is irreversible in the same playthrough. Story and Action can be swapped freely; once you pick Carnage you cannot return to Action in that save. Carnage-specific trophies carry into NG+; the rest of the 52-trophy list stays on Story/Action.",
+    pageIds: ["fixed-difficulty", "fixed-trophies"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "demo-save-transfer",
+    question: "Does the demo save transfer to the full game?",
+    answer:
+      "No. Demo saves do not carry over to the full version. The Demo / Switch 2 extended demo rewards the Kubi Akari charm once redeemed on the title screen; the extended demo also unlocks Byakue (the standalone boss fight) after 10 Issen counters at the title screen.",
+    pageIds: ["fixed-demo-reward"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
   },
 ];
-

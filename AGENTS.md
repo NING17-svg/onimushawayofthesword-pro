@@ -2,7 +2,7 @@
 
 ## Project Snapshot
 
-`example.com` is a generated game guide site. After launch, treat the generated project as a live content property, not as the central workflow repo or a template.
+`onimushawayofthesword.pro` is a generated Capcom fan guide for Onimusha: Way of the Sword (2026). After launch, treat the generated project as a live content property, not as the central workflow repo or a template. This is an unofficial fan site; game facts come from the official Capcom product page, Steam store page (AppID 2638890), news.xbox.com Capcom combat guide, Onimusha Wiki, PowerPyx, Fextralife, GameRant, Famitsu Cross Review (34/40) and Metacritic.
 
 The site uses Next.js App Router, TypeScript, data-driven content in `src/data`, generated metadata, JSON-LD, sitemap, robots, and Next.js static export deployed through Cloudflare Workers Static Assets. Production guide sites must not route ordinary page requests through an OpenNext or other Worker JS runtime.
 
@@ -57,7 +57,7 @@ A growth-relevant task is not complete until `GROWTH_LOG.md` is updated.
 - `npm run validate:public-content` protects the public/internal rendering boundary and optional modules; current launch tasks additionally run central validate_content_assembly.py after route validation.
 - `npm run validate:content` checks page count, URLs, FAQ references, and related-page references.
 - `npm run validate:rendered-seo` checks sitemap, canonical metadata, hreflang/x-default, route-manifest alignment, FAQ schema, robots alignment, GA4/Bing wiring, and the fixed AdSense ownership trio.
-- `npm run indexnow:submit -- --submit --site-url https://example.com --url https://example.com/changed-page` submits only the live URLs changed by the current update. It prints one line and a remote submission failure does not roll back or block an otherwise verified publish.
+- `npm run indexnow:submit -- --submit --site-url https://onimushawayofthesword.pro --url https://onimushawayofthesword.pro/changed-page` submits only the live URLs changed by the current update. It prints one line and a remote submission failure does not roll back or block an otherwise verified publish.
 - `npm run routes:manifest` prints the final fixed, tool, entity-Hub, and entity-detail routes; use `-- --output route-manifest.json` when Builder/Verifier needs a machine-readable file.
 - `npm run verify` runs the broader local validation chain.
 

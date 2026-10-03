@@ -6,6 +6,16 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-03 - Initial V4 launch assembly (Onimusha Way of the Sword)
+
+- Scope: First launch for `onimushawayofthesword.pro` (Issue #32). Unofficial Capcom fan guide for Onimusha: Way of the Sword (2026).
+- Added: 21 player-facing pages (1 home + 20 fixed guides covering Combat, Bosses, Progression, Collectibles, Reference and Overview clusters) plus 7 trust / utility / stub pages. Player facts sourced from official Capcom product page, Steam store (AppID 2638890), news.xbox.com Capcom combat guide, Onimusha Wiki, PowerPyx, Fextralife, GameRant, Famitsu Cross Review (34/40) and Metacritic.
+- Theme: V4 Page Assembly on `guide-portal` home shell with `grouped-list` and `reading-full` content variants. Brand mark "OWS". Locale `en-US` only.
+- IndexNow key file generated: `public/indexnow-ea90f92cca650e771b086a465160de74.txt`. Cloudflare shared worker (`onimushawayofthesword-pro`).
+- GA4 property: 552459011 (G-XXXXXXXXXX pending_lookup); AdSense publisher trio preserved (DIRECT record, account meta, AdSense script).
+- Documentation: AGENTS.md + CONTENT_INDEX.md + GROWTH_LOG.md + docs/build/content-assembly.json updated. Route manifest generated; V3 route contract validated.
+- Verification status: `npm run verify` (template, content, public-content, rendered-seo, reading) passed. Final `validate_content_assembly.py` will run during Local Site Configurator launch re-verification and Site Launch Verifier final gate.
+
 ### 2026-10-02 - V4 semantic ad inventory
 
 - Replaced fixed six format bindings with independently named positions and container-fitting device alternatives; added 160x300 and mobile-home-only 300x250 capability. Guide bodies and desktop prohibit rectangles; Social Bar excluded.

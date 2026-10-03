@@ -1,0 +1,199 @@
+{
+  "schema_version": "builder-content-assembly-v1",
+  "site_id": "onimushawayofthesword-pro",
+  "site_plan_sha256": "6fae39b8030045e05692e3f414e686fae42a67fda7178c5d65a390d75659c897",
+  "content_package_sha256": "d5957bbfae777a6c0d4f79c43d58b3120a0bdd692a493d8dbbdead86e934e3b4",
+  "collection_materials_sha256": "77b9cf8ef39e1b75019bbc6bf3fdc097b5e8ab4bec2136662f32430cef39895e",
+  "writer_artifacts_sha256": "fed5d6f49a9363a025fb85a2dfa4407c1f7a89e4051c4977127c0a7b1863a725",
+  "items": [
+    {
+      "locale": "en-US",
+      "surface": "home",
+      "id": "home",
+      "routes": [
+        "/"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "overview",
+      "routes": [
+        "/onimusha-way-of-the-sword"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "release-status",
+      "routes": [
+        "/onimusha-way-of-the-sword-release-date"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "system-requirements",
+      "routes": [
+        "/onimusha-way-of-the-sword-system-requirements"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "combat-guide",
+      "routes": [
+        "/onimusha-way-of-the-sword-combat-guide"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "oni-gauntlet",
+      "routes": [
+        "/oni-gauntlet"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "bosses-hub",
+      "routes": [
+        "/bosses"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "boss-sasaki-ganryu",
+      "routes": [
+        "/bosses/sasaki-ganryu"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "boss-shuten-doji",
+      "routes": [
+        "/bosses/shuten-doji"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "boss-yoshitsune",
+      "routes": [
+        "/bosses/yoshitsune"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "weapons",
+      "routes": [
+        "/onimusha-way-of-the-sword-weapons"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "oni-armaments",
+      "routes": [
+        "/oni-armaments"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "difficulty",
+      "routes": [
+        "/onimusha-way-of-the-sword-difficulty"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "endings",
+      "routes": [
+        "/onimusha-way-of-the-sword-endings"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "characters",
+      "routes": [
+        "/onimusha-way-of-the-sword-characters"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "collectibles",
+      "routes": [
+        "/onimusha-way-of-the-sword-collectibles"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "genma-notes",
+      "routes": [
+        "/onimusha-way-of-the-sword-genma-notes-locations"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "trophies",
+      "routes": [
+        "/onimusha-way-of-the-sword-trophy-guide"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "demo-reward",
+      "routes": [
+        "/onimusha-way-of-the-sword-demo-reward"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "platform-performance",
+      "routes": [
+        "/onimusha-way-of-the-sword-platform-performance"
+      ],
+      "images": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "fixed",
+      "id": "review-scores",
+      "routes": [
+        "/onimusha-way-of-the-sword-review"
+      ],
+      "images": []
+    }
+  ]
+}

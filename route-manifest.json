@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fixed-home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-bosses-hub",
+    "translationKey": "bosses-hub",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/bosses",
+    "alternates": {
+      "en-US": "/bosses"
+    }
+  },
+  {
+    "id": "fixed-boss-sasaki-ganryu",
+    "translationKey": "boss-sasaki-ganryu",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/bosses/sasaki-ganryu",
+    "alternates": {
+      "en-US": "/bosses/sasaki-ganryu"
+    }
+  },
+  {
+    "id": "fixed-boss-shuten-doji",
+    "translationKey": "boss-shuten-doji",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/bosses/shuten-doji",
+    "alternates": {
+      "en-US": "/bosses/shuten-doji"
+    }
+  },
+  {
+    "id": "fixed-boss-yoshitsune",
+    "translationKey": "boss-yoshitsune",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/bosses/yoshitsune",
+    "alternates": {
+      "en-US": "/bosses/yoshitsune"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq-stub",
+    "alternates": {
+      "en-US": "/faq-stub"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "fixed-oni-armaments",
+    "translationKey": "oni-armaments",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oni-armaments",
+    "alternates": {
+      "en-US": "/oni-armaments"
+    }
+  },
+  {
+    "id": "fixed-oni-gauntlet",
+    "translationKey": "oni-gauntlet",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/oni-gauntlet",
+    "alternates": {
+      "en-US": "/oni-gauntlet"
+    }
+  },
+  {
+    "id": "fixed-overview",
+    "translationKey": "overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword"
+    }
+  },
+  {
+    "id": "fixed-characters",
+    "translationKey": "characters",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-characters",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-characters"
+    }
+  },
+  {
+    "id": "fixed-collectibles",
+    "translationKey": "collectibles",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-collectibles",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-collectibles"
+    }
+  },
+  {
+    "id": "fixed-combat-guide",
+    "translationKey": "combat-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-combat-guide",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-combat-guide"
+    }
+  },
+  {
+    "id": "fixed-demo-reward",
+    "translationKey": "demo-reward",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-demo-reward",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-demo-reward"
+    }
+  },
+  {
+    "id": "fixed-difficulty",
+    "translationKey": "difficulty",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-difficulty",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-difficulty"
+    }
+  },
+  {
+    "id": "fixed-endings",
+    "translationKey": "endings",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-endings",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-endings"
+    }
+  },
+  {
+    "id": "fixed-genma-notes",
+    "translationKey": "genma-notes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-genma-notes-locations",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-genma-notes-locations"
+    }
+  },
+  {
+    "id": "fixed-platform-performance",
+    "translationKey": "platform-performance",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-platform-performance",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-platform-performance"
+    }
+  },
+  {
+    "id": "fixed-release-status",
+    "translationKey": "release-status",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-release-date",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-release-date"
+    }
+  },
+  {
+    "id": "fixed-review-scores",
+    "translationKey": "review-scores",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-review",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-review"
+    }
+  },
+  {
+    "id": "fixed-system-requirements",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-system-requirements",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-system-requirements"
+    }
+  },
+  {
+    "id": "fixed-trophies",
+    "translationKey": "trophies",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-trophy-guide",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-trophy-guide"
+    }
+  },
+  {
+    "id": "fixed-weapons",
+    "translationKey": "weapons",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/onimusha-way-of-the-sword-weapons",
+    "alternates": {
+      "en-US": "/onimusha-way-of-the-sword-weapons"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki-stub",
+    "alternates": {
+      "en-US": "/wiki-stub"
+    }
+  }
+]

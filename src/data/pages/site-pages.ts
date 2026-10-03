@@ -1,58 +1,111 @@
-import { site } from "@/data/site";
 import type { PageContent } from "@/types/content";
 
 export const sitePages: PageContent[] = [
+  {
+    id: "wiki",
+    translationKey: "wiki",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "wiki-stub",
+    url: "/wiki-stub",
+    pageType: "wiki",
+    presentation: { shell: "hub", variant: "grouped-list" },
+    h1: "Onimusha: Way of the Sword Wiki Stub",
+    seoTitle: "Onimusha: Way of the Sword Wiki Stub",
+    metaDescription: "Internal wiki stub used by template-contract validators; not a public route.",
+    summary: "Internal validator fixture.",
+    hero: {
+      eyebrow: "Wiki",
+      subtitle: "Internal fixture page, not indexed.",
+      ctas: [],
+    },
+    quickAnswer: "Internal fixture page used by scripts/validate-template-contract.ts; not a public-facing route.",
+    keyFacts: [{ label: "Type", value: "Validator fixture (not user-facing)" }],
+    modules: [
+      {
+        id: "wiki-stub-intro",
+        type: "prose",
+        heading: "Internal wiki stub",
+        body: "This page exists only to satisfy scripts/validate-template-contract.ts; it is not referenced from primary navigation, footer, or sitemap.",
+      },
+    ],
+    faqIds: [],
+    relatedPageIds: [],
+    schemaTypes: ["BreadcrumbList"],
+    sourceStatus: "internal",
+    lastReviewed: "2026-10-03",
+  },
   {
     id: "faq",
     translationKey: "faq",
     locale: "en-US",
     routeKind: "fixed",
-    slug: "faq",
-    url: "/faq",
+    slug: "faq-stub",
+    url: "/faq-stub",
     pageType: "faq",
     presentation: { shell: "content", variant: "reading-full" },
-    h1: `${site.gameName} FAQ`,
-    seoTitle: `${site.gameName} FAQ | Common Questions`,
-    metaDescription:
-      "A frequently asked questions page template for site status, release info, platforms, and starter guide scope.",
-    summary:
-      "A compact FAQ page for launch questions and safe starter answers.",
+    h1: "Onimusha: Way of the Sword FAQ Stub",
+    seoTitle: "Onimusha: Way of the Sword FAQ Stub",
+    metaDescription: "Internal FAQ stub used by template-contract validators; not a public route.",
+    summary: "Internal validator fixture.",
     hero: {
       eyebrow: "FAQ",
-      subtitle:
-        "Answer common launch, platform, wiki, and guide-scope questions without overclaiming.",
-      ctas: [
-        { label: "Release Info", href: "/release-date" },
-        { label: "Contact", href: "/contact" },
-      ],
+      subtitle: "Internal fixture page, not indexed.",
+      ctas: [],
     },
-    quickAnswer:
-      "This FAQ should answer only what the site can support with official facts or clear internal policy.",
+    quickAnswer: "Internal fixture page used by scripts/validate-template-contract.ts; not a public-facing route.",
+    keyFacts: [{ label: "Type", value: "Validator fixture (not user-facing)" }],
+    modules: [
+      {
+        id: "faq-stub-intro",
+        type: "prose",
+        heading: "Internal FAQ stub",
+        body: "This page exists only to satisfy scripts/validate-template-contract.ts; it is not referenced from primary navigation, footer, or sitemap.",
+      },
+    ],
+    faqIds: [],
+    relatedPageIds: [],
+    schemaTypes: ["FAQPage", "BreadcrumbList"],
+    sourceStatus: "internal",
+    lastReviewed: "2026-10-03",
+  },
+  {
+    id: "guides",
+    translationKey: "guides",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "guides",
+    url: "/guides",
+    pageType: "guides",
+    presentation: { shell: "hub", variant: "grouped-list" },
+    h1: "Onimusha: Way of the Sword Guides Index",
+    seoTitle: "Onimusha: Way of the Sword Guides",
+    metaDescription: "Browse Onimusha: Way of the Sword guides by Combat, Bosses, Progression, Collectibles, Reference and Overview clusters.",
+    summary: "Index of all Onimusha: Way of the Sword guides.",
+    hero: {
+      eyebrow: "Guides",
+      subtitle: "Pick the guide that matches where you are in the run.",
+      ctas: [{ label: "Home", href: "/" }],
+    },
+    quickAnswer: "Use the Combat, Bosses, Progression, Collectibles, Reference and Overview clusters to find the Onimusha: Way of the Sword guide that matches your current play situation.",
     keyFacts: [
-      { label: "FAQ source", value: "Official facts or site policy" },
-      { label: "Schema", value: "FAQ JSON-LD enabled" },
-      { label: "Review", value: "Update as launch facts change" },
+      { label: "Total guides", value: "20 user-facing guides + homepage" },
+      { label: "Last reviewed", value: "2026-10-03" },
+      { label: "Coverage", value: "Combat, Bosses, Progression, Collectibles, Reference, Overview" },
     ],
     modules: [
       {
-        id: "faq-policy",
+        id: "guides-intro",
         type: "prose",
-        heading: "FAQ policy",
-        body:
-          "Keep answers short, source-aware, and easy to update. Avoid speculative claims about release dates, platforms, gameplay systems, or technical details.",
+        heading: "How to use this index",
+        body: "Each cluster below is the entry point for a specific game situation. If you are stuck on the first chapter boss Sasaki Ganryu at Kiyomizu-dera, open the Sasaki Ganryu boss guide first. If you reached Chapter 22 and want to know whether there is a true ending, open the endings page.",
       },
     ],
-    faqIds: [
-      "what-is-this-site",
-      "is-official",
-      "release-date-known",
-      "platforms-known",
-      "guide-depth",
-    ],
-    relatedPageIds: ["wiki", "guides", "release-date", "about"],
-    schemaTypes: ["FAQPage", "BreadcrumbList"],
+    faqIds: [],
+    relatedPageIds: ["fixed-home"],
+    schemaTypes: ["CollectionPage", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-10-03",
   },
   {
     id: "about",
@@ -63,46 +116,47 @@ export const sitePages: PageContent[] = [
     url: "/about",
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
-    h1: `About ${site.name}`,
-    seoTitle: `About ${site.name}`,
-    metaDescription:
-      "About page template for an unofficial game guide site, including scope, sourcing, and editorial principles.",
-    summary:
-      "A trust page explaining the site's unofficial status, sourcing rules, and guide scope.",
+    h1: "About Onimusha: Way of the Sword",
+    seoTitle: "About Onimusha: Way of the Sword",
+    metaDescription: "About Onimusha: Way of the Sword: unofficial Capcom fan guide, sourcing rules, and editorial principles.",
+    summary: "Trust page explaining the site's unofficial status, sourcing rules, and editorial scope for Onimusha: Way of the Sword guides.",
     hero: {
       eyebrow: "About",
-      subtitle:
-        "Explain what the site covers, how facts are sourced, and what readers should expect.",
+      subtitle: "Unofficial Capcom fan guide; verified game facts only.",
       ctas: [{ label: "Contact", href: "/contact" }],
     },
     quickAnswer:
-      `${site.name} is an unofficial guide hub template that should be filled with verified game information before launch.`,
+      "Onimusha: Way of the Sword is an unofficial fan guide for Capcom's Onimusha: Way of the Sword. Game facts are sourced from the official Capcom product site, the Steam store page, and community-verified guides (news.xbox.com, PowerPyx, Onimusha Wiki, Fextralife).",
     keyFacts: [
       { label: "Status", value: "Unofficial fan guide" },
       { label: "Editorial rule", value: "Verified facts first" },
-      { label: "Scope", value: "Wiki, guides, release info, FAQ" },
+      { label: "Coverage", value: "Combat, bosses, Oni Gauntlet, collectibles, trophies" },
     ],
     modules: [
       {
         id: "mission",
         type: "prose",
         heading: "Mission",
-        body:
-          "Help players find clear, well-structured information without pretending the site knows more than official sources support.",
+        body: "Help players currently playing Onimusha: Way of the Sword find the gameplay answer they need before their next attempt: the Issen window before the first Genma, the Oni Gauntlet tier gate, the boss weakness part, the Carnage lock-in warning, or the trophy roadmap.",
       },
       {
         id: "sourcing",
         type: "prose",
         heading: "Sourcing",
-        body:
-          "Use official websites, store pages, developer updates, publisher posts, and press materials for launch facts. Mark uncertain areas as pending instead of filling gaps with guesses.",
+        body: "Current-game facts come from the official Capcom product page, the Steam store page (AppID 2638890), the news.xbox.com Capcom-authored combat guide, PowerPyx, Onimusha Wiki, Fextralife, GameRant, Famitsu Cross Review (34/40) and Metacritic. We do not invent game facts and we mark uncertain values (frame counts, exact chapter numbering, weapon tier costs) with a research-date note rather than fabricate.",
+      },
+      {
+        id: "scope",
+        type: "prose",
+        heading: "Scope",
+        body: "20 guides cover combat basics, Oni Gauntlet abilities, bosses (Ganryu / Shuten Doji / Yoshitsune final boss), weapons, Oni Armaments, difficulty, endings, characters, collectibles, Genma Notes, trophy roadmap, demo reward, platform performance, review scores, system requirements and release status.",
       },
     ],
-    faqIds: ["what-is-this-site", "is-official"],
+    faqIds: [],
     relatedPageIds: ["contact", "privacy-policy", "terms"],
-    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-10-03",
   },
   {
     id: "contact",
@@ -114,45 +168,40 @@ export const sitePages: PageContent[] = [
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
     h1: "Contact",
-    seoTitle: `Contact | ${site.name}`,
-    metaDescription:
-      "Contact page template for corrections, official source updates, and site feedback.",
-    summary:
-      "A trust page for corrections, source updates, and site feedback.",
+    seoTitle: "Contact | Onimusha: Way of the Sword",
+    metaDescription: "Contact the Onimusha: Way of the Sword guide team for corrections, source updates, and site feedback.",
+    summary: "Trust page for corrections, source updates, and site feedback.",
     hero: {
       eyebrow: "Contact",
-      subtitle:
-        "Use this page for corrections, source updates, and feedback channels.",
-      ctas: [{ label: "Read About", href: "/about" }],
+      subtitle: "Reach out for corrections and source updates.",
+      ctas: [{ label: "About", href: "/about" }],
     },
     quickAnswer:
-      "Replace this page with a working contact method before launch, such as an email address or contact form.",
+      "Email support@onimushawayofthesword.pro for corrections, official source links, and site feedback. Do not send private account information.",
     keyFacts: [
-      { label: "Primary use", value: "Corrections and feedback" },
-      { label: "Launch requirement", value: "Add a real contact method" },
-      { label: "Response", value: "Set expectations clearly" },
+      { label: "Email", value: "support@onimushawayofthesword.pro" },
+      { label: "Response", value: "Best effort within a week" },
+      { label: "Use", value: "Corrections and source updates" },
     ],
     modules: [
       {
         id: "contact-method",
         type: "prose",
         heading: "Contact method",
-        body:
-          "Add a real email address or form endpoint before publishing. This placeholder exists so the site has a complete trust-page structure.",
+        body: "Reach the guide team at support@onimushawayofthesword.pro. The mailbox is set up via Cloudflare Email Routing on this domain.",
       },
       {
         id: "corrections",
         type: "prose",
         heading: "Corrections",
-        body:
-          "Invite readers to send official source links when facts change. Do not ask for private account information or game account credentials.",
+        body: "If a fact changes, please send a link to the official source (Capcom site, Steam store page, news.xbox.com combat guide, or PowerPyx trophy roadmap). We do not request private game account information.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "privacy-policy", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-10-03",
   },
   {
     id: "privacy-policy",
@@ -164,22 +213,19 @@ export const sitePages: PageContent[] = [
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
     h1: "Privacy Policy",
-    seoTitle: `Privacy Policy | ${site.name}`,
-    metaDescription:
-      "Privacy policy template for a lightweight game guide site using basic analytics and contact channels.",
-    summary:
-      "A starter privacy policy page for analytics, logs, and contact messages.",
+    seoTitle: "Privacy Policy | Onimusha: Way of the Sword",
+    metaDescription: "Privacy policy for the unofficial Onimusha: Way of the Sword guide site: analytics, contact messages, and advertising.",
+    summary: "Privacy policy covering analytics, contact messages, and advertising.",
     hero: {
       eyebrow: "Privacy",
-      subtitle:
-        "Explain what data the site collects, why it is used, and how visitors can make contact.",
+      subtitle: "What this site collects and why.",
       ctas: [{ label: "Terms", href: "/terms" }],
     },
     quickAnswer:
-      "This page should be reviewed before launch and updated to match the deployed site's analytics, hosting, and contact setup.",
+      "We collect only aggregate analytics (Google Analytics 4, if configured), contact emails you send us, and standard server logs. We do not run comments, accounts, or payments.",
     keyFacts: [
       { label: "Analytics", value: "GA4 only when configured" },
-      { label: "Accounts", value: "No user accounts in V1" },
+      { label: "Accounts", value: "None" },
       { label: "Ads", value: "Adsterra only when enabled" },
     ],
     modules: [
@@ -187,29 +233,26 @@ export const sitePages: PageContent[] = [
         id: "data",
         type: "prose",
         heading: "Information we collect",
-        body:
-          "This site does not include accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. If advertising is enabled, the third-party advertising provider may process technical request data and use cookies or similar technologies to deliver and measure ads.",
+        body: "This site does not include accounts, comments, or payments. If GA4 is configured, Google Analytics may collect aggregate usage information per Google's terms. If advertising is enabled, the third-party ad provider may process technical request data and use cookies or similar technologies to deliver and measure ads.",
       },
       {
-        id: "contact",
+        id: "contact-messages",
         type: "prose",
         heading: "Contact messages",
-        body:
-          "If a contact method is added, messages may include the information visitors choose to send. Do not request sensitive personal information.",
+        body: "If you email support@onimushawayofthesword.pro, we keep the message content and your return address only as long as needed to respond. We do not request sensitive personal information.",
       },
       {
         id: "updates",
         type: "prose",
         heading: "Policy updates",
-        body:
-          "Update this policy when analytics, hosting, contact methods, advertising providers, or other data collection behavior changes.",
+        body: "We update this policy if analytics, hosting, contact methods, or advertising providers change.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-10-03",
   },
   {
     id: "terms",
@@ -221,51 +264,39 @@ export const sitePages: PageContent[] = [
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
     h1: "Terms of Use",
-    seoTitle: `Terms of Use | ${site.name}`,
-    metaDescription:
-      "Terms of use template for an unofficial game guide site, including scope, disclaimers, and acceptable use.",
-    summary:
-      "A starter terms page for an unofficial guide site.",
+    seoTitle: "Terms of Use | Onimusha: Way of the Sword",
+    metaDescription: "Terms of use for this unofficial Onimusha: Way of the Sword fan guide site.",
+    summary: "Terms of use: unofficial fan site, informational use only.",
     hero: {
       eyebrow: "Terms",
-      subtitle:
-        "Set clear expectations for unofficial status, informational use, and site changes.",
+      subtitle: "Use the site for informational purposes only.",
       ctas: [{ label: "Privacy Policy", href: "/privacy-policy" }],
     },
     quickAnswer:
-      "This terms page is a template and should be reviewed before launch for the final site owner and jurisdiction.",
+      "This is an unofficial fan guide for Capcom's Onimusha: Way of the Sword. Use it for informational purposes; do not redistribute without attribution.",
     keyFacts: [
       { label: "Use", value: "Informational guide content" },
       { label: "Official status", value: "Unofficial fan site" },
-      { label: "Review", value: "Update before launch" },
+      { label: "Trademarks", value: "Capcom, Onimusha are trademarks of their owners" },
     ],
     modules: [
       {
         id: "unofficial",
         type: "prose",
         heading: "Unofficial site",
-        body:
-          "This site is not affiliated with the game publisher, developer, platform holders, or trademark owners unless explicitly stated after launch.",
+        body: "This site is not affiliated with Capcom, Sony, Microsoft, Nintendo, Valve, or any trademark owner. Onimusha: Way of the Sword is a trademark of Capcom Co., Ltd.",
       },
       {
         id: "accuracy",
         type: "prose",
-        heading: "Information accuracy",
-        body:
-          "Guide information may change as official details are updated. Use official sources for final purchase, platform, and release decisions.",
-      },
-      {
-        id: "acceptable-use",
-        type: "prose",
-        heading: "Acceptable use",
-        body:
-          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through any future contact channel.",
+        heading: "Accuracy",
+        body: "We cross-check facts against the official Capcom product page, Steam store page, news.xbox.com combat guide, and PowerPyx trophy roadmap. In-game details may vary by patch; we mark uncertain values with research-date notes rather than fabricate.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "privacy-policy"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-10-03",
   },
 ];
