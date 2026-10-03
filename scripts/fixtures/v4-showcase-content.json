@@ -1,0 +1,126 @@
+{
+  "rivage": {
+    "source": "/Users/ningshiqi/.codex/worktrees/rivage-v4/rivagegame-xyz/src/data/pages/page_walkthrough.ts",
+    "sha256": "14e1745838f5e3cfec5d06be2fdda530c438ff53013f872df45146e41e594d3d",
+    "h1": "Rivage Walkthrough: Parts 1-4 and the Chess Board Endgame",
+    "quickAnswer": "Choose Parts 1–4 or the Chess Board in the contents below. The Wooden Clock codes and Chess Board arrangement vary between runs: follow your own clues, not screenshot numbers.",
+    "modules": [
+      {
+        "id": "loop-context",
+        "type": "prose",
+        "heading": "Loop Context: K9, Batteries, and the Hub",
+        "body": "You start each loop at the hub area with the K9 companion. K9 carries the dog tag persistence between Parts 1-4, so keep K9 alive - if the tag is lost, the hub endgame branches differently. Batteries found across Parts 2 and 4 unlock the train travel segment that lets you revisit prior Parts without restarting. Use this walkthrough by jumping to the Part header you are stuck on; everything else can stay out of sight."
+      },
+      {
+        "id": "part-1",
+        "type": "steps",
+        "heading": "Part 1: Pod Bay Stardust Login and Miranda's Laptop",
+        "items": [
+          {
+            "title": "Read the laptop clue",
+            "body": "Pick up Miranda's laptop from the workstation desk and read the security note on the screen. The note gives the Pod Bay login sequence you need for the Stardust terminal."
+          },
+          {
+            "title": "Scan and sign in",
+            "body": "Take the barcode sticker off the laptop dock and carry it to the Pod Bay scanner. Scan the barcode at the Pod Bay door, then type the Stardust login sequence into the terminal: username STARDUST, then the password string from Miranda's note."
+          },
+          {
+            "title": "Confirm the Pod Bay unlock",
+            "body": "Once the Pod Bay unlocks, the train travel segment becomes available from the hub and the Part 1 K9 tag is registered for persistence."
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "type": "steps",
+        "heading": "Part 2: Garage Chain Rail Detector, Star Map, and Cubik Cube",
+        "items": [
+          {
+            "title": "Find the detector",
+            "body": "Enter the Garage through the bay door. The Chain Rail Detector is the floor panel between the two tool carts - stand on it and look up at the ceiling track to see which chain link is missing."
+          },
+          {
+            "title": "Match the cube to the Star Map",
+            "body": "Pick up the Star Map from the wall locker: it labels each star you need for the Cubik Cube. Solve the Cubik Cube on the workbench by aligning the six faces so the star symbols match the Star Map reference."
+          },
+          {
+            "title": "Unlock the bay and collect batteries",
+            "body": "Place the solved Cube on the Chain Rail Detector: the panel will trip and open the bay to the train travel segment. Pick up the batteries from the unlocked bay before leaving so the train stays powered for later Parts."
+          }
+        ]
+      }
+    ]
+  },
+  "how-to-fish": {
+    "source": "site-launch/tasks/how-to-fish-xyz/content/locales/en-US/pages/boss-fights.md",
+    "sha256": "a8e35f06cb1dce72d2c988424dbcfc0160e52c1e91865a2bce417aabaf70fd0c",
+    "h1": "How to Fish: Bosses by island",
+    "quickAnswer": "How to Fish bosses guard each of the 5 island hubs and must be defeated to unlock the next island. The lineup runs from the Lighthouse Island opening encounter through the Forest Island pufferfish Boss and on to the Volcano Island final Boss. Recommended weapon tier scales with island order, so players should plan the weapon upgrade path before committing to the Desert Island and Rocks Island gates. This reference covers each Boss, the fight pattern, and the weapon tier to bring.",
+    "modules": [
+      {
+        "id": "boss-0",
+        "type": "prose",
+        "heading": "How to Fish bosses by island",
+        "body": "How to Fish ships with a 5-Boss lineup that mirrors the 5-island progression described on the Steam store page and in the launch-window reviews from Game8 and gamingpromax. Each Boss sits at the island gate and blocks forward progress until defeated, which means the Boss order is also the island order: Lighthouse, Forest, Desert, Rocks, Volcano.\n\n### The 5-Boss lineup\n\nThe lineup includes the Lighthouse Island opening encounter, the Forest Island pufferfish Boss (the canonical pufferfish boss referenced in launch search clusters), the Desert Island gate Boss, the Rocks Island gate Boss, and the Volcano Island final Boss. Review coverage groups the five as one progression pillar rather than optional side content."
+      },
+      {
+        "id": "boss-1",
+        "type": "prose",
+        "heading": "Lighthouse Island Boss",
+        "body": "The Lighthouse Island Boss is the first major encounter and gates the path from the starter island to Forest Island. Game8's launch review positions the Lighthouse Boss as a tutorial-tier test of weapon control and physics timing, so players who arrive with fists and knife tier can clear it but will struggle without the basic knife tier unlocked."
+      },
+      {
+        "id": "boss-2",
+        "type": "prose",
+        "heading": "Forest Island Boss (pufferfish)",
+        "body": "The Forest Island Boss is the pufferfish Boss, an oversized fish accompanied by a smaller pufferfish escort wave. The Steam store page ties the Forest Island gate to this pufferfish encounter, and gamingpromax notes that explosive splash damage turns the escort wave into a chain shot opportunity. Recommended weapon tier is gun tier, with explosives as the highest payoff option when the upgrade path allows it."
+      },
+      {
+        "id": "boss-3",
+        "type": "prose",
+        "heading": "Desert Island Boss",
+        "body": "The Desert Island Boss gates the path from Forest Island to Rocks Island. The encounter rewards range-based combat and movement, and Game8's launch review notes that the desert arena favors long sight lines. Recommended weapon tier is gun tier, with sniper tier as the upgrade target before committing to the gate clear."
+      }
+    ]
+  },
+  "tears-of-metal": {
+    "source": "site-launch/tasks/tearsofmetal-pro/content/locales/en-US/pages/heroes-characters.md",
+    "sha256": "b949ceae58f53fdcb7d712ca67c17bf1bab010e1ed389a7c3ee5ca06039e9d37",
+    "h1": "The three Tears of Metal heroes at a glance",
+    "quickAnswer": "Browse the recorded character notes and selection criteria below.",
+    "modules": [
+      {
+        "id": "answer-1",
+        "type": "prose",
+        "heading": "The three Tears of Metal heroes at a glance",
+        "body": "The launch roster of Tears of Metal heroes is three playable characters, confirmed by Paper Cult X, the Gamespress Ruadh reveal, the Steam store page, and the Steam Deck HQ review. Each hero has a distinct weapon kit and a distinct playstyle that maps to a different role inside a co-op party.\n\n- Wallace: broadsword-and-shield bruiser, the easiest entry point for new players.\n- Brienne: twin-blade duelist, the highest-mobility launch hero.\n- Ruadh Stonecrusher: heavy stone maul tank, the third hero added with the latest character trailer.\n\nPer-hero detail pages for Wallace, Brienne, and Ruadh Stonecrusher are generated from the `heroes` entity family at `/heroes/{slug}`. Each detail page uses the shared summary template and lists the hero's signature weapon, role, and unlock path."
+      },
+      {
+        "id": "answer-2",
+        "type": "prose",
+        "heading": "Wallace: the broadsword bruiser",
+        "body": "Wallace is the recommended first hero for most players in Early Access because his broadsword arc is forgiving and his defensive options are the most reliable of the three launch heroes. Steam Deck HQ describes Wallace as the bruiser lane who anchors the front of a co-op party, while Brienne and Ruadh benefit from players who already understand the Emblem and Charm systems.\n\n### Signature weapon and moveset\n\nWallace fights with a one-handed broadsword and a shield, with a kit that includes wide horizontal slashes, an uppercut launcher, and a parry that staggers most early enemies. The shield bash is the cleanest stagger tool in the game, which makes Wallace the safest hero to learn the game's parry timing on.\n\n### How Wallace fits in co-op\n\nIn a four-player session, Wallace is the front-line anchor who holds enemy attention while Brienne or Ruadh players burst down elites and bosses. Solo, Wallace handles the full campaign without forcing the player to lean on Charm stacking the way Brienne does, which makes him the most self-sufficient launch hero."
+      }
+    ]
+  },
+  "aion-2": {
+    "source": "site-launch/tasks/aion-two-wiki/content/locales/en-US/pages/classes.md",
+    "sha256": "b7ae5f82976411ec31ed973f9779148ca64190c70c52fadd6361115910597c71",
+    "h1": "AION 2 classes and role archetypes",
+    "quickAnswer": "Browse the recorded character notes and selection criteria below.",
+    "modules": [
+      {
+        "id": "answer-1",
+        "type": "prose",
+        "heading": "AION 2 classes and role archetypes",
+        "body": "The Steam store description for AION 2 confirms class-based MMORPG combat as a launch pillar, and the Steam Community hub plus r/aion discussions surface the seven roles that US players will choose from at launch: assassin, gladiator, cleric, templar, chanter, ranger, and sorceress. Role archetypes are reasonable inferences from the original 2009 AION class system (legacy reference): assassin and ranger sit in the melee or ranged DPS column, gladiator and templar cover the tank archetype, cleric and chanter handle healer and support duties, and sorceress fills the ranged magical DPS slot.\n\nThe Steam Community hub adds pre-launch class speculation but does not publish per-class skill trees, animations, or stat curves. NCWest has not published a class-design document on the Steam store page as of 2026-09-20. Per-class skill specifics and gender-lock status must wait for dated media, beta footage, or an official NCWest class page before they can be cited as current-game fact."
+      },
+      {
+        "id": "answer-2",
+        "type": "prose",
+        "heading": "How to choose your AION 2 class",
+        "body": "The selection framework below uses only the seven role names confirmed by the community plus the role archetypes inferred from the original 2009 AION system. Each class maps to a question US players actually ask when choosing a starting character, and the answers stay neutral until dated media is published.\n\n- Assassin: stealth melee DPS, single-target burst, suited to players who want fast open-world PvP duels.\n- Gladiator: front-line melee, high durability, the classic tank pick for group dungeons and Abyss sieges.\n- Cleric: healer and support, the backbone of any party composition and a safe pick for new players.\n- Templar: defensive support with off-heal capabilities, often slotted into tank or hybrid groups.\n- Chanter: support caster with party buffs and sustained damage, popular in organized PvP groups.\n- Ranger: ranged physical DPS, kite-friendly open-world pick with strong solo leveling potential.\n- Sorceress: ranged magical DPS, high burst damage, glass-cannon archetype that rewards positioning.\n\nFor deeper progression paths after you pick a class, see the [leveling guide](/guides/leveling) for quest and dungeon priority, the [PvP basics](/guides/pvp-basics) guide for class viability in Abyss faction fights, and the [Abyss factions](/guides/abyss-factions) guide for the Elyos vs Asmo split that frames most PvP encounters."
+      }
+    ]
+  }
+}

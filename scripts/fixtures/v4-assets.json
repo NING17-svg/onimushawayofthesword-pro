@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rivage-scene",
+    "src": "/examples/rivage.jpg",
+    "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/6a8aef20e8fecd3e8bb59abc17891f06653a96c1/ss_6a8aef20e8fecd3e8bb59abc17891f06653a96c1.1920x1080.jpg?t=1790704490",
+    "alt": "Rivage gameplay scene from its Steam listing",
+    "width": 1920,
+    "height": 1080,
+    "sourcePage": "https://store.steampowered.com/app/4094660/",
+    "credit": "Exnilo Studio",
+    "usage": "Local template preview only; gameplay scene, not an annotated solution",
+    "pageIds": [
+      "showcase-rivage"
+    ],
+    "fallback": "hide"
+  },
+  {
+    "id": "how-to-fish-scene",
+    "src": "/examples/how-to-fish.jpg",
+    "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/48f6817fe466a7c9666605527558bf1fac48d0d2/ss_48f6817fe466a7c9666605527558bf1fac48d0d2.1920x1080.jpg?t=1788788717",
+    "alt": "How to Fish gameplay scene from its Steam listing",
+    "width": 1920,
+    "height": 1080,
+    "sourcePage": "https://store.steampowered.com/app/4001890/",
+    "credit": "Dazed Games",
+    "usage": "Local template preview only; gameplay scene, not an annotated solution",
+    "pageIds": [
+      "showcase-how-to-fish"
+    ],
+    "fallback": "hide"
+  }
+]

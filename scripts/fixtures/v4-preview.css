@@ -1,0 +1,14 @@
+/* Self-hosted SIL OFL fonts; licenses are beside the files. No runtime font CDN. */
+@font-face { font-family: "Barlow Condensed"; src: url("/fonts/barlowcondensed/BarlowCondensed-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Cinzel"; src: url("/fonts/cinzel/Cinzel[wght].ttf") format("truetype"); font-style: normal; font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "Space Grotesk"; src: url("/fonts/spacegrotesk/SpaceGrotesk[wght].ttf") format("truetype"); font-style: normal; font-weight: 300 700; font-display: swap; }
+
+/* These refinements belong only to the named game demos. */
+.preview-tears-of-metal .site-theme { --section-gap: 32px; }
+.preview-tears-of-metal .home-hero .hero-copy h1 { font-size: clamp(48px, 5.7vw, 82px); letter-spacing: -.01em; }
+.preview-aion-2 .home-hero .hero-copy h1 { font-size: clamp(36px, 4vw, 58px); letter-spacing: -.025em; }
+.preview-tears-of-metal .content-module > h2 { font-size: 32px; letter-spacing: 0; }
+.preview-aion-2 .content-module > h2 { font-size: 25px; }
+@media (max-width: 560px) {
+  .preview-aion-2 .home-hero .hero-copy h1 { font-size: 34px; }
+}

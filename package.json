@@ -1,0 +1,54 @@
+{
+  "name": "onimushawayofthesword-pro",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "validate:template": "tsx scripts/validate-template-contract.ts",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "validate:rendered-seo": "tsx scripts/validate-rendered-seo.ts",
+    "validate:indexnow": "tsx scripts/test-indexnow.ts",
+    "indexnow:setup": "tsx scripts/indexnow.ts setup",
+    "indexnow:submit": "tsx scripts/indexnow.ts submit",
+    "routes:manifest": "tsx scripts/print-route-manifest.ts",
+    "verify": "npm run typecheck && npm run lint && npm run validate:template && npm run validate:ads && npm run validate:content && npm run validate:public-content && npm run validate:indexnow && npm run build && npm run validate:rendered-seo && npm run validate:reading && npm run validate:v4 && npm run validate:v4:components",
+    "preview": "npm run build && wrangler dev",
+    "validate:reading": "tsx --tsconfig scripts/tsconfig.tests.json scripts/test-reading-layout.tsx",
+    "validate:v4": "tsx --tsconfig scripts/tsconfig.tests.json scripts/test-v4-composition.tsx",
+    "validate:v4:components": "tsx --tsconfig scripts/tsconfig.tests.json scripts/test-v4-components.tsx && npm run validate:v4:directory",
+    "validate:v4:directory": "tsx --tsconfig scripts/tsconfig.tests.json scripts/test-reference-directory.tsx",
+    "showcase:v4": "tsx --tsconfig scripts/tsconfig.tests.json scripts/export-v4-showcase.tsx",
+    "validate:ads": "tsx --tsconfig scripts/tsconfig.tests.json scripts/test-ad-placement.tsx",
+    "validate:public-content": "tsx --tsconfig scripts/tsconfig.tests.json scripts/test-public-content-noise.tsx"
+  },
+  "dependencies": {
+    "next": "15.5.18",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.5.18",
+    "tsx": "^4.20.5",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.101.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.10",
+    "wrangler": {
+      "esbuild": "^0.28.1"
+    },
+    "miniflare": {
+      "ws": "^8.21.0"
+    }
+  }
+}

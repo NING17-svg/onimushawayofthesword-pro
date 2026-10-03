@@ -1,0 +1,27 @@
+import React from "react";
+import assert from "node:assert/strict";
+import { renderToStaticMarkup } from "react-dom/server";
+import { adInventory } from "../src/data/ads";
+import { AdModuleSequence } from "../src/components/ads/AdModuleSequence";
+import { selectAdUnit, validateAdInventory } from "../src/lib/ad-placement";
+import type { AdInventory } from "../src/types/ads";
+
+const inventory = adInventory as AdInventory;
+assert.deepEqual(validateAdInventory(inventory), []);
+assert.equal(selectAdUnit(inventory, "page-top", "desktop", 740)?.size, "728x90");
+assert.equal(selectAdUnit(inventory, "page-top", "desktop", 700)?.size, "468x60");
+assert.equal(selectAdUnit(inventory, "page-top", "desktop", 300), null);
+assert.equal(selectAdUnit(inventory, "page-top", "mobile", 350)?.size, "320x50");
+assert.equal(selectAdUnit(inventory, "home-topic-break", "mobile", 350)?.size, "300x250");
+assert.equal(selectAdUnit(inventory, "guide-rail", "mobile", 390), null);
+assert.notEqual(selectAdUnit(inventory, "page-top", "desktop", 800)?.key, selectAdUnit(inventory, "home-topic-break", "desktop", 800)?.key);
+const broken = structuredClone(inventory);
+broken.slots.find((slot) => slot.id === "home-topic-break")!.page_kind = "guide";
+assert.ok(validateAdInventory(broken).length);
+assert.equal(selectAdUnit(broken, "home-topic-break", "mobile", 350), null);
+const modules = [{ id: "whole-answer", type: "prose" as const, heading: "Answer", body: "Retained answer.\n\nSecond paragraph." }];
+const output = renderToStaticMarkup(<AdModuleSequence modules={modules} anchors={[{ after: "whole-answer", slot: "guide-section-break" }]} />);
+assert.ok(output.indexOf("Second paragraph.") < output.indexOf('data-ad-position="guide-section-break"'));
+assert.throws(() => renderToStaticMarkup(<AdModuleSequence modules={modules} anchors={[{ after: "missing", slot: "guide-section-break" }]} />), /Missing ad chapter anchor/);
+assert.ok(!output.includes("<script") && !output.includes("<iframe"));
+console.log("Ad placement validation passed: container fit, distinct bindings, rectangle policy, intact chapter anchors and empty server render.");
