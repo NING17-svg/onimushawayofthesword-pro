@@ -75,6 +75,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Not this game?",
         "body": "If you came looking for Onimusha: Warlords (2001), Onimusha 2: Samurai's Destiny (2002), Onimusha 3: Demon Siege (2004), or Onimusha: Dawn of Dreams (2006), this is not that game. Those Sengoku-era titles star Samanosuke Akechi, Jubei Yagyu, or Soki Yuki in an Oda Nobunaga storyline. Onimusha Way of the Sword is a 2026 standalone soft reboot with a young Miyamoto Musashi, the Oni Lady in his gauntlet, and an Edo-period Kyoto setting centered on Yoshitsune; the previous games are intentionally not referenced."
       }
+    ,
+        {
+        "id": "overview-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Onimusha Way of the Sword is a 2026 single-player sword-combat action game from Capcom, built on the RE Engine that powered Resident Evil Village and Dragon's Dogma 2, set in an early Edo-period Kyoto overrun by a supernatural force called Malice.\n\nThe spirit bound to Musashi's gauntlet is Shizuka Gozen, also referred to in promotional material as the Oni Lady (鬼の佳人, Oni no Kajin). She has no physical body, so she speaks to Musashi from inside the gauntlet during combat, exploration, and investigation\n\nThis is a soft reboot, not a sequel. Kadowaki told CNET at Gamescom 2025 that the team \"didn't really want to necessarily make it a connected series, a title connected to the past installments, but make it a new Onimusha,\" and Nihei confirmed the team \"rebuilt the Onimusha universe from scratch\" with no storyline connections to earlier entries."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -157,6 +164,13 @@ export const fixedPages: PageContent[] = [
         "heading": "If you played the demo",
         "body": "The Demo and Switch 2 extended demo reward (Kubi Akari charm) does not transfer demo save progress into the full game. See the [demo to full version reward](/onimusha-way-of-the-sword-demo-reward/) page for the reward, save-transfer rule, and the Byakue unlock condition from the title screen."
       }
+    ,
+        {
+        "id": "release-status-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Onimusha Way of the Sword launched simultaneously across PS5, Xbox Series X|S, Steam on PC, and Nintendo Switch 2 on Friday, September 4, 2026.\n\nThere is no paid Season Pass, story DLC, or multi-DLC roadmap for Onimusha Way of the Sword as of October 3, 2026."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -409,6 +423,13 @@ export const fixedPages: PageContent[] = [
         "heading": "When Oni Awakening unlocks",
         "body": "Oni Awakening is story-locked and cannot be obtained earlier through skill points. It unlocks during “The Demon on the Mount,” specifically inside the third and final phase of the [Shuten Doji boss fight](/bosses/shuten-doji/).\n\n- Activation: press L3 + R3 (click both sticks) when the Awakening Gauge fills. Purple souls are the fuel.\n- During Awakening, incoming damage drains the Awakening Gauge instead of Musashi's health, the Issen window widens, and any souls generated while awakened are auto-absorbed.\n- Oni Armaments are unavailable while transformed; fight with swords only.\n- “Onimusha Onslaught” (R1) consumes the remaining gauge for massive damage. Save it for when the gauge is nearly empty.\n\nThe recommended loop is Parry, build Blazing State, generate Blue Souls, fuel Oni Armaments, produce Purple Souls, fill the Awakening Gauge, then transform. In the final Yoshitsune fight, Phase 3 is gated entirely on Awakening uptime because only Oni Awakening hits move Yoshitsune's HP in that phase; the Still Water armament is the best Purple Soul generator and is picked up during “In the Light of an Icy Moon” at the narrow path northeast of the Arashiyama - Swamp map.\n\nFor the full combat ladder behind the parry timing that fills these gauges, see the [combat basics guide](/onimusha-way-of-the-sword-combat-guide/), and for the blue-soul Oni Armament roster that feeds the Oni Power Gauge, see the [Oni Armaments list](/oni-armaments/)."
       }
+    ,
+        {
+        "id": "oni-gauntlet-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "| I | Prologue (auto, bonds to Musashi after the Genma ambush) | Heavy sword combo, Absorb Red Souls while attacking |\n| II | End of Act 2, after the Rashomon Gate boss | Magic absorption so parried spells can be reflected back; claws sharpen and glow brighter |\n| III | End of Act 3, after the Fushimi Inari boss | Demon Summoning finisher with a screen-clearing crimson aura |\n| IV | End of Act 5, mid-game mini-boss chain | Enhanced Issen damage plus multi-target parry; gauntlet reshapes with a demon-face motif |\n| V | Final Act at Honno-ji (also reachable through the \"Careful What You Wish For\" quest after Rasho-gan at Hachidai Rikison Shrine) | Oni Strength: Destroy, the one-shot stagger finisher on staggered bosses; full gauntlet transformation |\n\n| Red | Long-term progression currency | Spirit Mirrors under Enhance Equipment/Abilities; both Basic Skills (Power Stones) and Oni Special Skills (Oni Stones) trees; weapon tiers 1-5 and armor refinements\n\nOni Awakening is story-locked and cannot be obtained earlier through skill points. It unlocks during \"The Demon on the Mount,\" specifically inside the third and final phase of the [Shuten Doji boss fight](/bosses/shuten-doji/)."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -579,6 +600,13 @@ export const fixedPages: PageContent[] = [
         "heading": "The Arashiyama rematch (final Ganryu)",
         "body": "The Arashiyama rematch happens during “In the Light of an Icy Moon.” Ganryu's Phase 2 adds a left-hand grab (press Circle just before it lands; it cannot be blocked) and the altered form keeps Gioh's flower warnings as an ongoing interrupt target for the Oni Bow. The same Rikido-break workflow applies: deflect, push to walls, take the Break Issen window, and prefer Purple targets so your Awakening Gauge stays topped up for the [Yoshitsune final boss](/bosses/yoshitsune/) that comes next.\n\nIf you have the Still Water [Oni Armament](/oni-armaments/) from the same mission's swamp chest, equip it here. Its on-hit Purple Soul generation fills the Awakening Gauge between Ganryu's phases, so you walk into Shana-oh Castle with the gauge already warm. For the timing drill behind every parry and Issen in this fight, see the [combat basics guide](/onimusha-way-of-the-sword-combat-guide/)."
       }
+    ,
+        {
+        "id": "boss-sasaki-ganryu-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "The frame Musashi's fans call the Ganryu tsuba is actually his Countering Stance: when Ganryu plants both swords and his blade glows blue-white, he is set to instantly counter any normal attack. Two-handed swings are reflected back at multiplied strength, so do not throw R1 mash strings into him.\n\nNo published current-game guide gives a fixed number of Chain Issens needed to break Ganryu's Rikido bar. Chain Issen itself is a crowd-clearing chaining tool with a realistic three-target cap; it is not the primary Rikido-break trigger. The Rikido bar empties through Deflects and Parries:\n\n\"To Live is to Suffer\" is the 17th story mission per IGN's numbering. The location is Yasaka Pagoda, eastern Kyoto, north and east of Rokudo Temple. A panicked woman warns Musashi about a tall long-haired murderer near the pagoda; Musashi recognizes the description as Sasaki Ganryu. Inside, corpses and dead samurai guards confirm the threat, and Musashi confronts Ganryu absorbing a man's soul."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -837,6 +865,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Are there NG+-only weapon tiers?",
         "body": "There is no NG+-only Proficiency tier on the standard ladder. What New Game+ adds is one katana appearance reward and a carry-over rule, not a new upgrade track:\n\n- Bishamon Sword (katana appearance) — unlocked after completing the campaign on Carnage, which itself becomes selectable only after finishing the story on Story or Action and starting NG+. The Bishamon Sword is equipped from Spirit Mirror > Change Appearance and is the rare cosmetic that comes with real combat benefits: +25% damage to sword attacks and a noticeably wider parry and Issen timing window, close to how it feels during Oni Awakening. It is a callback to Onimusha: Warlords' Bishamon Sword Dark Realm reward and gates the gold “True Onimusha” trophy.\n- NG+ carry rules — Oni Armaments carry over (you re-own all seven); katana Proficiency, Gauntlet upgrades, Clothing upgrades, Red Souls, and the Tamahagane / Fine Silk Cloth material stockpiles all reset. To get the Bishamon Sword you effectively re-run Carnage as a fresh-economy playthrough rather than extending a maxed first save.\n\nPractical prep before any finale: spend Red Souls on permanent upgrades (Charms, Hozuki Pouches, Oni Gauntlet skill-tree nodes), finish all Oni Armaments, Charms, Lion Dogs, and Mysteries of Kyoto, then save manually before accepting Ono no Takamura's final-mission prompt. The cleanup pass is far cheaper than redoing the economy in NG+. For the 52-trophy list including “Oni Armory,” “Dressed to Kill,” and “True Onimusha,” see the [trophy roadmap](/onimusha-way-of-the-sword-trophy-guide/)."
       }
+    ,
+        {
+        "id": "weapons-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "| Armament | Form | Mission / Chapter | How to obtain | Difficulty to miss |\n| --- | --- | --- | --- | --- |\n| The Two Celestials | Twin blades | \"The Stage is Set at Kiyomizu\" (Ch. 2) | Chest behind the red-thread puzzle in NE Kiyomizu-dera after the second Thread Genma | Story-locked |\n| Wind-Whipper | Naginata (twin-bladed) | \"The Oni's Apprentice\" (Ch. 4) | Story reward from Takamura after the training sequence | Story-locked |\n\n| Proficiency | Levels | Per-level cost (representative) |\n| --- | --- | --- |\n| Proficiency 1 | 1-10 | Starts at default; L2 = 1 Whetstone + 1 Iron; L3-L5 = 2 Whetstone + 1 Iron; L6 = 1 Tamahagane checkpoint; L7-L10 = 2 Whetstone + 1 Iron + 1 Tempered Iron |\n| Proficiency 2 | 1-10 | L1-L4 = 2 Iron + 1 Tempered Iron; L5 = 2 Iron + 2 Tempered Iron + 2 Tamahagane; L6-L10 = 2 Iron + 1 Tempered Iron |\n\nThere is no NG+-only Proficiency tier on the standard ladder. What New Game+ adds is one katana appearance reward and a carry-over rule, not a new upgrade track:"
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -913,6 +948,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Are any Oni Armaments NG+ only?",
         "body": "No. All seven are obtainable in a single playthrough. The Oni Armory trophy is listed in PowerPyx and 2UpSkill trophy guides as completable without starting NG+. None of the seven are locked to a Carnage or New Game+ run.\n\nThe one weapon reward that IS tied to NG+ is not an Oni Armament — it is the Bishamon Sword katana appearance, earned by completing the campaign on Carnage. The Bishamon Sword is a regular katana skin with +25% sword damage and a wider parry/Issen timing window, and it gates the gold “True Onimusha” trophy. Do not confuse it with an Oni Armament; the Oni Armory trophy requires the seven side-arms listed above, not the Bishamon Sword.\n\nWestern guides count seven Oni Armaments. Some Chinese community sources count twelve by including intermediate fusion results from the Oni Armament upgrade tree — that count split is flagged as unconfirmed in the game-check brief, so the seven-name list above is the safe canonical roster. For per-boss recommendations on which armament to bring, see the [boss hub](/bosses/) and the [Yoshitsune final boss guide](/bosses/yoshitsune/) for how Still Water drives the Awakening-damage window in Phase 3."
       }
+    ,
+        {
+        "id": "oni-armaments-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "| # | Oni Armament | Form | Mission | Map location | How to obtain | Missable? |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | The Two Celestials | Twin blades | \"The Stage is Set at Kiyomizu\" | Kiyomizu-dera Temple | Follow the spider threads, defeat the second Thread Genma, open the red-vine-wrapped chest | Story-locked |\n\nEvery published source describes activation as a full-gauge drain rather than a per-armament numeric cost. The mechanic is shared across all seven armaments:\n\nNo. All seven are obtainable in a single playthrough. The Oni Armory trophy is listed in PowerPyx and 2UpSkill trophy guides as completable without starting NG+. None of the seven are locked to a Carnage or New Game+ run."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -995,6 +1037,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Does Carnage change the ending?",
         "body": "No. The game has one fixed ending, and clearing the campaign on Carnage replays the same ending and post-credits scene without unlocking a different cinematic, alternate narrative branch, or “true ending” variant. The post-credits scene plays the same way regardless of difficulty.\n\nWhat Carnage completion DOES give the player is meta-reward content, not story divergence:\n\n- The Bishamon Sword katana appearance — +25% sword damage, wider Issen timing window — a callback to Onimusha: Warlords' Dark Realm reward\n- The gold “True Onimusha” trophy, which is named for difficulty-mastery flavor but is a completion trophy, not an ending-unlock trophy\n- Faster/harder clear times that Carnage-mode speedrun communities track, with no narrative consequence\n\nThe 52-trophy list has zero ending-variant trophies. No trophy is unlocked by “beating the game on Carnage and seeing a different cinematic.” Aggregator guides that claim Carnage unlocks a true ending contradict the released-game trophy list and should be treated as misinformation. The endgame is the same on Story, Action, and Carnage; see the [endings page](/onimusha-way-of-the-sword-endings/) for the full post-credits scene breakdown."
       }
+    ,
+        {
+        "id": "difficulty-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Carnage is the third and hardest difficulty and is not selectable from the start. There are two unlock paths documented in published guides:\n\nNo, Carnage is one-way within a save. Multiple guides use the same rule in slightly different words: once Carnage is selected you cannot switch back to Story or Action on that save. The design intent is to commit to the higher challenge for the duration of that run.\n\nCarries over to NG+:\n\nNo. The game has one fixed ending, and clearing the campaign on Carnage replays the same ending and post-credits scene without unlocking a different cinematic, alternate narrative branch, or \"true ending\" variant. The post-credits scene plays the same way regardless of difficulty."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -1077,6 +1126,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Does Carnage unlock a secret ending?",
         "body": "No. Carnage difficulty does not unlock a secret ending, true ending, or alternate cinematic. The game has a single fixed ending plus a single fixed post-credits scene on every difficulty tier (Story, Action, Carnage). Clearing the campaign on Carnage replays the same finale with no narrative divergence.\n\nStructural proof that Carnage is not an ending gate:\n\n- The 52-trophy list has zero ending-variant trophies. No trophy is unlocked by beating the game on Carnage and seeing a different cinematic. The gold “True Onimusha” trophy is a difficulty-completion trophy, named for difficulty-mastery flavor, not because it unlocks a true ending.\n- No guide documents any choice, side quest, collectible, or difficulty setting that produces a different ending. The 2024 pre-release “true ending” interview hint is the same debunked claim flagged in the released-game record.\n- Aggregator guides claiming Carnage unlocks the true ending contradict the released-game trophy list and have been called out by walkthrough sites as misinformation.\n\nWhat Carnage completion does give the player:\n\n- The Bishamon Sword katana appearance — +25% sword damage, wider parry/Issen timing window — equipped from Spirit Mirror > Change Appearance. This is the franchise's most famous “ultimate weapon” reskin but it is a meta-reward, not a story unlock.\n- The gold “True Onimusha” trophy, gating difficulty-mastery completion.\n- Faster/harder clear times that Carnage-mode speedrun communities track.\n\nThe endgame plays the same way on Story, Action, and Carnage. If a spoiler-friendly recap is needed, quote Okuni's kabuki-dance line at the Shijo riverbank or the post-credits Musashi-puts-the-Gauntlet-back-on beat rather than any “Musashi revived by Samanosuke” beat, which is from the 2024 announcement trailer and is not what the released game's post-credits scene actually contains."
       }
+    ,
+        {
+        "id": "endings-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Onimusha: Way of the Sword has one fixed campaign ending plus a single fixed post-credits scene. There is no branching finale, no secret ending, and no alternate cinematic tied to difficulty, collectible completion, or side-quest outcome. The 52-trophy list contains zero ending-variant trophies.\n\nThe point of no return is the final main mission \"The Clash at Rendaino\" (sometimes numbered as Chapter 22 by Western guides; the Chinese community lists 23 chapters — treat the exact chapter number as research-date, verify in-game). It is triggered when Musashi speaks with Ono no Takamura at Rokudo-chinnoji Temple (Rakuto, eastern Kyoto) to accept the finale.\n\nThe post-credits scene is short, fixed, and set at Rokudo-chinnoji Temple, where Takamura served as the underworld gatekeeper. It functions as a sequel-setup coda rather than a different ending:\n\nNo. Carnage difficulty does not unlock a secret ending, true ending, or alternate cinematic. The game has a single fixed ending plus a single fixed post-credits scene on every difficulty tier (Story, Action, Carnage). Clearing the campaign on Carnage replays the same finale with no narrative divergence."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -1247,6 +1303,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Cross-links to per-category guides",
         "body": "For the per-area Genma Note locations and the post-final-boss note #23 pickup, see [Genma Notes locations](/onimusha-way-of-the-sword-genma-notes-locations/). For the trophy requirements and the 0-missable claim, see [Trophy guide](/onimusha-way-of-the-sword-trophy-guide/). For the system spec question (SSD mandatory on PC, no HDD fallback), see [System requirements](/onimusha-way-of-the-sword-system-requirements/)."
       }
+    ,
+        {
+        "id": "collectibles-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "| # | Category | What it covers |\n|---|----------|----------------|\n| 1 | Mysteries of Kyoto | 8 optional investigations unlocked after \"What Lurks in the Shadows\" (Nijo-jo Castle). Tracked under Curious Cases → Observations; rewards materials plus a Charm on completion. |\n| 2 | Chance Encounters | 18 optional side missions split into 8 Combat Requests, 5 Ace Archer Trials, and 5 Hidden Treasure Hunts. 8 of the 18 reward a Charm. |\n\n| # | Category | Count | Trophy |\n|---|----------|-------|--------|\n| 1 | Mysteries of Kyoto | 8 | Demystified (Silver) |\n| 2 | Chance Encounters | 18 | No Job Too Small (first one also Life-Saver) |\n| 3 | Lion Dogs | 36 | For the Love of Dog |\n| 4 | Oni Armaments | 7 | Oni Armory |\n| 5 | Hozuki Pouches | 9 | Medical Marvel (Silver) |\n| 6 | Charms | 15 | Charmed Life |\n| 7 | Genma Notes | 23 | Genma-ologist |\n| 8 | Power Stones | 54 | Well-Rounded |\n| 9 | Oni Stones | 54 | Well-Rounded |\n| 10 | Fine Silk Cloths | 25 | Dressed to Kill |\n| 11 | Tamahagane | 25 | Dressed to Kill |\n|   | **TOTAL** | **274** | — |\n\n| Category | Unlock chapter | Key gates |\n|----------|-----------------|----------|\n| Mysteries of Kyoto | After \"What Lurks in the Shadows\" (Nijo-jo Castle) | All 8 simultaneously available once \"The Demon on the Mount\" (Mount Oe) finishes. |\n| Chance Encounters | After \"The Curse of Kiyomizu-zaka Slope\" | 2 unlock with the system; the rest trickle in after Bloodbath on the Bridge, A Tempest at the Temple, To Live is to Suffer, Okuni's Kabuki Dance, The Demon on the Mount, and In the Light of an Icy Moon. |\n| Lion Dogs | Pawprint icons appear after \"What Lurks in the Shadows\" | Some spawn only after their area's final boss is defeated (Mount Oe ones after Shuten-Doji; Arashiyama ones after Dokyo). |"
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -1411,6 +1474,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Cross-links to related guides",
         "body": "For the Story / Action / Carnage rule (and NG+ carry-over detail), see [Difficulty & Carnage lock-in](/onimusha-way-of-the-sword-difficulty/). For the Issen / Parry / Deflect timing ladder, see [Combat guide](/onimusha-way-of-the-sword-combat-guide/). For the 274-item collectible list behind most of the silver trophies, see [Collectibles guide](/onimusha-way-of-the-sword-collectibles/)."
       }
+    ,
+        {
+        "id": "trophies-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Onimusha Way of the Sword ships with 52 trophies: 1 Platinum, 2 Gold, 9 Silver, and 40 Bronze. Platinum (\"Peerless\") requires every other trophy. Realistic time-to-platinum sits at 60–70 hours across at least two playthroughs (Carnage unlocks only after the first clear).\n\nTrophies tied to Carnage:\n- True Onimusha (Gold) — the explicit \"complete the game on Carnage\" trophy.\n- Glutton for Punishment (Gold) — \"beat every Boss Rematch opponent (across every difficulty setting).\" The top Boss Rematch tier (Oni-Slayer) requires Carnage-level competence; clearing the highest tier auto-counts lower tiers.\n- Second Helping (Bronze) — \"beat an opponent in Boss Rematch mode.\" Practically attainable on Action once Boss Rematch unlocks post-story, but guides recommend doing the full Boss Rematch sweep during the Carnage playthrough.\n\nBoss Rematch trophies:\n- Second Helping (Bronze) — beat an opponent in Boss Rematch mode. Entry-level trophy that unlocks the mode's use.\n- Glutton for Punishment (Gold) — beat every Boss Rematch opponent across every difficulty setting. This is the gating trophy for 100% completion of the Boss Rematch roster.\n\nNo trophies in Onimusha Way of the Sword are permanently missable. The reasoning and the safety-net checklist are:\n1. The only Point of No Return is the final mission \"The Clash at Rendaino.\" The game explicitly warns you before crossing it.\n2. After completing the story, selecting Continue from the title screen drops the player back to just before the final mission, with the entire Kyoto map still open."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -1493,6 +1563,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Cross-links to related guides",
         "body": "For the launch-date / patch status of the full game, see [Release status](/onimusha-way-of-the-sword-release-date/). For the Oni Gauntlet upgrades that the Kubi Akari Charm benefits, see [Oni Gauntlet abilities & unlock order](/oni-gauntlet/). For the chapter-by-chapter Byakue encounter and other story-mandatory bosses, see the [boss hub](/bosses/)."
       }
+    ,
+        {
+        "id": "demo-reward-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Demo story progress does NOT carry over to the full game of Onimusha Way of the Sword. The player's demo run — chapters played, red souls earned, equipment upgraded, level — resets to zero in the full release.\n\nThe reward that triggers is the Charm: Kubi Akari. It is a Charms-category trinket added to the player's inventory in the full game as a \"demo save bonus.\" All sources agree on this single reward; no other in-game unlock is tied to the demo save.\n\nByakue (\"The Hundred Defilements\") is unlocked as a DEMO-only special challenge, not in the full game. The unlock is triggered inside the demo itself, with a new menu option appearing on the demo's title screen."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -1575,6 +1652,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Cross-links to related guides",
         "body": "For the full PC minimum / recommended specs and the Steam Deck status, see [System requirements](/onimusha-way-of-the-sword-system-requirements/). For the global and Switch 2 launch dates, see [Release status](/onimusha-way-of-the-sword-release-date/). For how the controller mapping and input-feel differ across PlayStation, Xbox, and Switch 2 layouts, see [Combat guide](/onimusha-way-of-the-sword-combat-guide/)."
       }
+    ,
+        {
+        "id": "platform-performance-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "| Platform | Performance mode | Quality mode | Other notes |\n|----------|------------------|--------------|-------------|\n| PS5 | 4K (dynamic ~1440p–4K via upscaling) at 60 FPS | Near-native 4K at 30–40 FPS, with a 40 FPS cap option for 120Hz displays | Performance mode can be uncapped to push 60–90 FPS on VRR displays. No in-game ray tracing toggle on base PS5. |\n| Xbox Series X | Mirrors PS5 exactly (4K / 60 Performance; near-4K / 30–40 Quality) | Same as PS5 | Same VRR uncapping behavior. |\n| PS5 Pro | PSSR2 upscaling (2304×1296 → 4K) at 60+ FPS | Exclusive ray-traced reflections toggle with no performance penalty | Capable of 90+ FPS uncapped with VRR. |\n| Xbox Series S | 1080p / 60 Performance | 1080p / 30–50 Quality | Lower base resolution than Series X. |\n| Steam (PC) | 1080p / 60 Recommended (medium settings) | 1080p / 30 Minimum (low settings) | DLSS 4.5 (NVIDIA) / FSR 3.1 (AMD) upscaling; frame-generation toggle supported. |\n\nYes. SSD is mandatory for both Minimum and Recommended tiers on PC. Both Steam spec rows list \"50 GB SSD\" with no HDD fallback, so a hard drive alone will not run the game.\n\nNo. Switch 2 is locked at 30 FPS in both TV (docked) and handheld modes. The confirmed targets are 1080p docked / 900p handheld at 30 FPS, with an optional 30–40 FPS variable-rate option. This is the weakest of the platform modes — PS5 and Xbox Series X target 4K / 60 (Performance) or 4K / 30–40 (Quality), Xbox Series S targets 1080p / 60 (Performance) or 1080p / 30–50 (Quality), and Switch 2 stays at 30 FPS regardless of mode."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [
@@ -1663,6 +1747,13 @@ export const fixedPages: PageContent[] = [
         "heading": "Why the spread between 7/10 and 10/10?",
         "body": "The single cleanest framing the roundup aggregators converge on: critics are near-unanimous that the combat is exceptional, but split on whether the game's structure justifies its length. The 10/10 reviews read the cutscene volume and the open-world pacing as auteur-driven staging. The 7/10 reviews read the same content as padding. Everything else in the score spread flows downstream of that disagreement.\n\nTwo side notes that help a buyer place a score. First, the Switch 2 version is the highest-scoring platform despite its 30 fps ceiling — the [platform performance page](/onimusha-way-of-the-sword-platform-performance/) covers the resolution and frame-rate per platform. Second, Onimusha Way of the Sword sold more than 1 million copies on launch day and won Best Gameplay and Best PlayStation Game at Gamescom 2026 per the roundup aggregators, which is the commercial / awards context that the score table sits inside.\n\nThe single fixed ending and post-credits Okuni scene are not a review-scores concern and are not part of any review's reasoning. The pre-release “true ending” search-result framing is not a current-game fact and does not affect any score on this page."
       }
+    ,
+        {
+        "id": "review-scores-player-content-review",
+        "type": "prose",
+        "heading": "Quick reference",
+        "body": "Onimusha Way of the Sword launched September 4, 2026 on PS5, Xbox Series X|S, Nintendo Switch 2, and PC to overwhelmingly positive Western and Japanese reviews, anchored by Famitsu 34/40 (9/9/8/8), a franchise-first IGN 10/10, GameSpot 8/10, a Metacritic PS5 consensus of 85-86 with Switch 2 as the highest-scoring platform at 89-90, and an OpenCritic average of about 85-86 with 95% of critics recommending the game and a \"Mighty\" tier placement (top 5% of scored titles).\n\nIssen, parry and deflect combat. Near-universal praise. Multiple outlets call the deflection-based system the most precise and satisfying of Capcom's 2026 action slate. The frame window, the four-layer Block / Parry / Deflect / Issen ladder, and the Rikido posture bar are the mechanics that every high-scoring review leads with. Walk the [combat guide](/onimusha-way-of-the-sword-combat-guide/) for the timing window and the boss application.\nBoss fights. Repeatedly called some of the best of the year. Sasaki Ganryu at Kiyomizu-dera and Benkei at Rendaino are highlighted as standout encounters. The per-boss weakness patterns live on the [boss hub](/onimusha-way-of-the-sword-bosses/) — the same reviews praise the boss-rush finale gauntlet as the structural high point of the campaign.\nMiyamoto Musashi as a protagonist. Reviewers consistently praise his charm, presence, and personality, and call out the modeling on the late actor Toshiro Mifune as the visual reference. This is also the reason the cutscenes land — Musashi's screen presence carries the long stretches between fights. See the [characters page](/onimusha-way-of-the-sword-characters/) for the full cast and where each one first appears."
+        }
     ],
     "faqIds": [],
     "relatedPageIds": [

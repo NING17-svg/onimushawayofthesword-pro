@@ -88,3 +88,9 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Builder records current SHA-bound Writer/Collector answer and required-image mappings. The central gate checks every current manifest HTML, answer excerpts/context links and necessary local/built/live assets. Homepage platform/release/pricing facts belong on approved independent routes.
 - Validation covers rendering boundaries, short lookup/entry-only pages, types/lint, static build, SEO metadata/sitemap, reading structure and V4 composition. Python regressions reject lost answers/images, hidden/non-body substitutions, stale inputs and claimed completion without local plus canonical live checks. Writer/Collector/Theme/Planner contract regressions passed.
 - Maintenance branch only: no scheduler resumed, historical deployment, live visual or revenue result. Actual game facts, image meaning and computed visibility still require semantic and desktop/mobile visual acceptance.
+
+## 2026-10-04 — Launch content assembly repair
+
+- Added visible answer excerpts and context links from the current Writer package to the homepage and affected guide pages, preserving the existing routes and page roles.
+- Rendered the homepage directory excerpt as a table and replaced internal review labels with reader-facing headings.
+- Local static build, page content, public-content, reading-layout, and SHA-bound content assembly checks passed. Publication and live-route verification remain with the Builder launch run.

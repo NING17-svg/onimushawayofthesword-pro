@@ -190,7 +190,13 @@ export const homePage: PageContent = {
       "heading": "Match the entry to where you are right now",
       "body": "Use the cluster groups as quick lookup labels, not as hard categories. If you are stuck on the first chapter boss Sasaki Ganryu at Kiyomizu-dera, open the Sasaki Ganryu boss guide first, then skim the combat guide if you have not practiced the Issen timing window yet. If you just unlocked the Oni Gauntlet and a new tier icon is greyed out, open the Oni Gauntlet abilities page. If you reached Chapter 22 and are unsure if there is a true ending, open the endings page, then the Yoshitsune final boss guide."
     }
-  ],
+,
+      {
+            "id": "home-player-content-review",
+            "type": "prose",
+            "heading": "Browse the guide directory",
+            "body": "| Topic | Guide | Route |\n| --- | --- | --- |\n| Combat | Combat guide (Issen, Parry, Deflect) | /onimusha-way-of-the-sword-combat-guide/ |\n\nStart with the Combat cluster if you are still learning Issen, Parry, and Deflect timing, then jump to the group that matches where you are in the run.\n\nStuck on the first chapter boss, Sasaki Ganryu at Kiyomizu-dera, and cannot break his posture: jump to the [Sasaki Ganryu boss guide](/bosses/sasaki-ganryu/) first"
+      }  ],
   "faqIds": [],
   "relatedPageIds": [
     "fixed-overview",
