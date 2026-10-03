@@ -14,8 +14,8 @@ export const homePage: PageContent = {
   },
   "h1": "Onimusha Way of the Sword Player Guides and Walkthroughs",
   "seoTitle": "Onimusha Way of the Sword Player Guides and Walkthroughs",
-  "metaDescription": "Browse 20 ordered Onimusha Way of the Sword guides grouped by Combat, Bosses, Progression, Collectibles, Reference, and Overview. Pick the entry that matches your current play situation.",
-  "summary": "Browse 20 ordered Onimusha Way of the Sword guides grouped by Combat, Bosses, Progression, Collectibles, Reference, and Overview. Pick the entry that matches your current play situation.",
+  "metaDescription": "Browse 20 ordered Onimusha Way of the Sword guides grouped by Combat, Bosses, Progression, Collectibles, Lore, and Overview. Pick the entry that matches your current play situation.",
+  "summary": "Browse 20 ordered Onimusha Way of the Sword guides grouped by Combat, Bosses, Progression, Collectibles, Lore, and Overview. Pick the entry that matches your current play situation.",
   "hero": {
     "eyebrow": "Player guides hub",
     "subtitle": "Player homepage directory to locate the right guide for the current play situation",
@@ -138,7 +138,7 @@ export const homePage: PageContent = {
           ]
         },
         {
-          "title": "Reference",
+          "title": "Lore",
           "items": [
             {
               "label": "Characters",

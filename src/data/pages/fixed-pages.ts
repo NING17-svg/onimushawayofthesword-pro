@@ -37,14 +37,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword: A 2026 Soft Reboot with a New Cast",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -133,14 +125,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Launched Worldwide on September 4, 2026",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -223,14 +207,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword PC System Requirements",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -319,14 +295,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Combat Guide: Issen, Parry, Deflect",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -415,14 +383,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Oni Gauntlet tier unlocks, soul colors, and Awakening timing",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -499,14 +459,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Every chapter boss, with Issen windows and best Oni Armament",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -595,14 +547,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Sasaki Ganryu: how to break his posture and survive the Yasaka Pagoda loss",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -685,14 +629,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Shuten Doji at Mount Oe: back crystal, enrage break, gourd denial",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -781,14 +717,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Yoshitsune at Shana-oh Castle: 3 phases, purple souls, Still Water",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -877,14 +805,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword weapons and upgrade tiers",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -967,14 +887,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Oni Armaments list: locations and blue-soul fuel",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1051,14 +963,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Difficulty, Carnage, and what carries into New Game+",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1089,7 +993,7 @@ export const fixedPages: PageContent[] = [
         "id": "does-carnage-change-the-ending",
         "type": "prose",
         "heading": "Does Carnage change the ending?",
-        "body": "No. The game has one fixed ending, and clearing the campaign on Carnage replays the same ending and post-credits scene without unlocking a different cinematic, alternate narrative branch, or “true ending” variant. The post-credits scene plays the same way regardless of difficulty.\n\nWhat Carnage completion DOES give the player is meta-reward content, not story divergence:\n\n- The Bishamon Sword katana appearance — +25% sword damage, wider Issen timing window — a callback to Onimusha: Warlords' Dark Realm reward\n- The gold “True Onimusha” trophy, which is named for difficulty-mastery flavor but is a completion trophy, not an ending-unlock trophy\n- Faster/harder clear times that Carnage-mode speedrun communities track, with no narrative consequence\n\nThe 52-trophy list has zero ending-variant trophies. No trophy is unlocked by “beating the game on Carnage and seeing a different cinematic.” AI-generated aggregator guides claiming Carnage unlocks a true ending contradict the released-game trophy list and should be treated as misinformation. The endgame is the same on Story, Action, and Carnage; see the [endings page](/onimusha-way-of-the-sword-endings/) for the full post-credits scene breakdown."
+        "body": "No. The game has one fixed ending, and clearing the campaign on Carnage replays the same ending and post-credits scene without unlocking a different cinematic, alternate narrative branch, or “true ending” variant. The post-credits scene plays the same way regardless of difficulty.\n\nWhat Carnage completion DOES give the player is meta-reward content, not story divergence:\n\n- The Bishamon Sword katana appearance — +25% sword damage, wider Issen timing window — a callback to Onimusha: Warlords' Dark Realm reward\n- The gold “True Onimusha” trophy, which is named for difficulty-mastery flavor but is a completion trophy, not an ending-unlock trophy\n- Faster/harder clear times that Carnage-mode speedrun communities track, with no narrative consequence\n\nThe 52-trophy list has zero ending-variant trophies. No trophy is unlocked by “beating the game on Carnage and seeing a different cinematic.” Aggregator guides that claim Carnage unlocks a true ending contradict the released-game trophy list and should be treated as misinformation. The endgame is the same on Story, Action, and Carnage; see the [endings page](/onimusha-way-of-the-sword-endings/) for the full post-credits scene breakdown."
       }
     ],
     "faqIds": [],
@@ -1141,14 +1045,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Does Onimusha Way of the Sword have multiple endings?",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1161,19 +1057,19 @@ export const fixedPages: PageContent[] = [
         "id": "one-ending-not-many",
         "type": "prose",
         "heading": "One ending, not many",
-        "body": "The structural evidence for a single fixed ending is consistent across the released-game trophy list and every reputable walkthrough:\n\n- The 52-trophy list contains zero ending-variant trophies. No “secret ending,” no “true ending,” no ending-dependent platinum criteria appear in PowerPyx, 2UpSkill, or WeHunt trophy lists.\n- No reputable walkthrough documents any in-game choice that alters the finale. There are no dialogue branches at the climax; the path through “The Clash at Rendaino” is fixed.\n- The campaign closes at the summit of Shana-oh Castle during the three-phase duel against Minamoto no Yoshitsune, followed by the credits and then one fixed post-credits scene. A second playthrough replays the same ending; no NG+ ending variant exists.\n\nSeveral AI-generated and aggregator guides conflate the 2024 pre-release announcement trailer post-credits tease (which featured Samanosuke Akechi greeting Musashi with “Who are you?”) with the released-game post-credits scene. The in-game post-credits scene is the Musashi-and-Okuni-at-Rokudo-chinnoji sequence described below, not a Samanosuke revival.\n\nSome SEO sites still circulate a “true ending” claim left over from pre-release interview hints. Treat that framing as misinformation; the released game has one ending and it does not change with difficulty, side-quest completion, or play time."
+        "body": "The structural evidence for a single fixed ending is consistent across the released-game trophy list and every reputable walkthrough:\n\n- The 52-trophy list contains zero ending-variant trophies. No “secret ending,” no “true ending,” no ending-dependent platinum criteria appear in PowerPyx, 2UpSkill, or WeHunt trophy lists.\n- No reputable walkthrough documents any in-game choice that alters the finale. There are no dialogue branches at the climax; the path through “The Clash at Rendaino” is fixed.\n- The campaign closes at the summit of Shana-oh Castle during the three-phase duel against Minamoto no Yoshitsune, followed by the credits and then one fixed post-credits scene. A second playthrough replays the same ending; no NG+ ending variant exists.\n\nSeveral aggregator guides conflate the 2024 pre-release announcement trailer post-credits tease (which featured Samanosuke Akechi greeting Musashi with “Who are you?”) with the released-game post-credits scene. The in-game post-credits scene is the Musashi-and-Okuni-at-Rokudo-chinnoji sequence described below, not a Samanosuke revival.\n\nSome SEO sites still circulate a “true ending” claim left over from pre-release interview hints. Treat that framing as misinformation; the released game has one ending and it does not change with difficulty, side-quest completion, or play time."
       },
       {
         "id": "when-is-the-point-of-no-return",
         "type": "prose",
         "heading": "When is the point of no return?",
-        "body": "The point of no return is the final main mission “The Clash at Rendaino” (sometimes numbered as Chapter 22 by Western guides; the Chinese community lists 23 chapters — treat the exact chapter number as research-date, verify in-game). It is triggered when Musashi speaks with Ono no Takamura at Rokudo-chinnoji Temple (Rakuto, eastern Kyoto) to accept the finale. The game displays an explicit warning popup and Takamura verbally tells Musashi to use the opportunity to finish any remaining tasks. Accepting the prompt locks normal free roam and starts the fixed finale gauntlet.\n\nWhat the locked finale contains:\n\n- A boss gauntlet — Benkei at Rendaino (fully armed), then climb Shana-oh Castle floor by floor, then rematches against Daidara, Byakue, the Blue and Red Nue pair, Greater Nue, and Dohatsu-ten\n- A final three-phase duel against Minamoto no Yoshitsune at the top of the castle, with no checkpoints between phases — all three phases must be cleared in a single run\n- A special rule in Phase 3: normal attacks only chip Yoshitsune's stamina; the only way to deal real damage is via Oni Awakening, the damage-gated Awakening window\n\nThe lock is temporary, not permanent. After the credits roll and the post-credits scene plays, the player is given a Continue prompt that returns the save to its pre-finale state with all progress, enhancements, and items intact. That is why the game has 0 missable trophies per PowerPyx and 2UpSkill guides, and why manual saves plus post-credits Continue give you a full cleanup pass.\n\nOne naming collision to flag: “The Clash at Rendaino” (the late-game point-of-no-return finale) is not the same mission as “The Ruckus at Rendaino” (an earlier chapter that unlocks the Hozuki Pouch). Two different missions, similar English names.\n\nRecommended pre-finale prep:\n\n- Create a manual save (one autosave and twenty manual slots available)\n- Spend Red Souls on permanent upgrades before accepting (raw Red Souls do not carry to NG+)\n- Complete Mysteries of Kyoto, Chance Encounters, Oni Armaments, Charms, Hozuki Pouches, Lion Dogs, and Genma Notes\n- Stock Heavy Restoratives, Stimulants, Mirror of Revival, and Sun-Dried Hozuki\n- Enhance equipment for the current finale plan only — enhancements reset in NG+"
+        "body": "The point of no return is the final main mission “The Clash at Rendaino” (sometimes numbered as Chapter 22 by Western guides; the Chinese community lists 23 chapters — treat the exact chapter number as verify-in-game). It is triggered when Musashi speaks with Ono no Takamura at Rokudo-chinnoji Temple (Rakuto, eastern Kyoto) to accept the finale. The game displays an explicit warning popup and Takamura verbally tells Musashi to use the opportunity to finish any remaining tasks. Accepting the prompt locks normal free roam and starts the fixed finale gauntlet.\n\nWhat the locked finale contains:\n\n- A boss gauntlet — Benkei at Rendaino (fully armed), then climb Shana-oh Castle floor by floor, then rematches against Daidara, Byakue, the Blue and Red Nue pair, Greater Nue, and Dohatsu-ten\n- A final three-phase duel against Minamoto no Yoshitsune at the top of the castle, with no checkpoints between phases — all three phases must be cleared in a single run\n- A special rule in Phase 3: normal attacks only chip Yoshitsune's stamina; the only way to deal real damage is via Oni Awakening, the damage-gated Awakening window\n\nThe lock is temporary, not permanent. After the credits roll and the post-credits scene plays, the player is given a Continue prompt that returns the save to its pre-finale state with all progress, enhancements, and items intact. That is why the game has 0 missable trophies per PowerPyx and 2UpSkill guides, and why manual saves plus post-credits Continue give you a full cleanup pass.\n\nOne naming collision to flag: “The Clash at Rendaino” (the late-game point-of-no-return finale) is not the same mission as “The Ruckus at Rendaino” (an earlier chapter that unlocks the Hozuki Pouch). Two different missions, similar English names.\n\nRecommended pre-finale prep:\n\n- Create a manual save (one autosave and twenty manual slots available)\n- Spend Red Souls on permanent upgrades before accepting (raw Red Souls do not carry to NG+)\n- Complete Mysteries of Kyoto, Chance Encounters, Oni Armaments, Charms, Hozuki Pouches, Lion Dogs, and Genma Notes\n- Stock Heavy Restoratives, Stimulants, Mirror of Revival, and Sun-Dried Hozuki\n- Enhance equipment for the current finale plan only — enhancements reset in NG+"
       },
       {
         "id": "what-does-the-post-credits-scene-show",
         "type": "prose",
         "heading": "What does the post-credits scene show?",
-        "body": "The post-credits scene is short, fixed, and set at Rokudo-chinnoji Temple, where Takamura served as the underworld gatekeeper. It functions as a sequel-setup coda rather than a different ending:\n\n- After the climax of “The Clash at Rendaino,” Musashi confronts and defeats the three-phase Yoshitsune, cutting off his right arm and slaying him. Dokyo then appears and declares her “magnum opus is complete” regardless of Yoshitsune's fate. A revived Sasaki Ganryu, rebuilt by Dokyo using Genma sorcery, stands beside her — clearly set up as an upcoming antagonist. Dokyo shatters the castle, releasing all the trapped souls.\n- Musashi absorbs the released souls, which finally satisfies the Oni Gauntlet and lets him physically remove it from his arm.\n- At Rokudo-chinnoji Temple, Izumo no Okuni has taken Ono no Takamura's Oni Gauntlet and stepped into his role as the new guardian Onimusha of the Oni Gate.\n- The post-credits scene shows Okuni fighting Genma at the temple (cutting through Genma at the wooden bridge). Musashi, who has been tracking Ganryu and Dokyo, arrives to help. Their signature playful bickering resumes; Okuni declares her kabuki-dance line about dancing at the Shijo riverbank.\n- The crucial visual: Musashi unsheathes his katana and the frame deliberately catches the Oni Gauntlet back on his arm. He had removed it after absorbing the released souls, then chose to put it back on — signposting his acceptance of the Onimusha role on his own terms rather than the forced binding of the prologue.\n\nOther character fates closed before the post-credits scene:\n\n- Yoshitsune — removed from the natural cycle, simply ceases to exist\n- Shizuka Gozen (the Oni Lady) — returns to Hell to restore order\n- Ono no Takamura — killed earlier by Yoshitsune via a possessed Okuni; his soul helps in Hell\n- Dokyo — survives, declares her plan successful, escapes with Ganryu\n- Sasaki Ganryu — revived by Dokyo; an upcoming threat (sequel scaffolding)\n\nThe scene reframes the ending's melancholy note into an open road. With Dokyo and a revived Ganryu escaping, plus Musashi keeping the Oni Gauntlet and Okuni installed as the new guardian Onimusha, the post-credits scene is universally treated as deliberate sequel setup rather than closure. Capcom has not officially announced a sequel as of the research date, but the narrative scaffolding is intentional."
+        "body": "The post-credits scene is short, fixed, and set at Rokudo-chinnoji Temple, where Takamura served as the underworld gatekeeper. It functions as a sequel-setup coda rather than a different ending:\n\n- After the climax of “The Clash at Rendaino,” Musashi confronts and defeats the three-phase Yoshitsune, cutting off his right arm and slaying him. Dokyo then appears and declares her “magnum opus is complete” regardless of Yoshitsune's fate. A revived Sasaki Ganryu, rebuilt by Dokyo using Genma sorcery, stands beside her — clearly set up as an upcoming antagonist. Dokyo shatters the castle, releasing all the trapped souls.\n- Musashi absorbs the released souls, which finally satisfies the Oni Gauntlet and lets him physically remove it from his arm.\n- At Rokudo-chinnoji Temple, Izumo no Okuni has taken Ono no Takamura's Oni Gauntlet and stepped into his role as the new guardian Onimusha of the Oni Gate.\n- The post-credits scene shows Okuni fighting Genma at the temple (cutting through Genma at the wooden bridge). Musashi, who has been tracking Ganryu and Dokyo, arrives to help. Their signature playful bickering resumes; Okuni declares her kabuki-dance line about dancing at the Shijo riverbank.\n- The crucial visual: Musashi unsheathes his katana and the frame deliberately catches the Oni Gauntlet back on his arm. He had removed it after absorbing the released souls, then chose to put it back on — signposting his acceptance of the Onimusha role on his own terms rather than the forced binding of the prologue.\n\nOther character fates closed before the post-credits scene:\n\n- Yoshitsune — removed from the natural cycle, simply ceases to exist\n- Shizuka Gozen (the Oni Lady) — returns to Hell to restore order\n- Ono no Takamura — killed earlier by Yoshitsune via a possessed Okuni; his soul helps in Hell\n- Dokyo — survives, declares her plan successful, escapes with Ganryu\n- Sasaki Ganryu — revived by Dokyo; an upcoming threat (sequel scaffolding)\n\nThe scene reframes the ending's melancholy note into an open road. With Dokyo and a revived Ganryu escaping, plus Musashi keeping the Oni Gauntlet and Okuni installed as the new guardian Onimusha, the post-credits scene is universally treated as deliberate sequel setup rather than closure. Capcom has not officially announced a sequel at the time of writing, but the narrative scaffolding is intentional."
       },
       {
         "id": "does-carnage-unlock-a-secret-ending",
@@ -1231,14 +1127,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Characters, first appearances, and the Oni Lady",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1321,14 +1209,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Collectibles: 274 Items Across 11 Categories",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1417,14 +1297,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Genma Notes: All 23 Locations and the Post-Credits Pickup",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1501,14 +1373,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Trophy Guide: 52 Trophies to Peerless",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1597,14 +1461,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Demo Reward: Kubi Akari Charm and Byakue Unlock",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1687,14 +1543,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# Onimusha Way of the Sword Platform Performance: PS5, Xbox, PC, Switch 2",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {
@@ -1777,14 +1625,6 @@ export const fixedPages: PageContent[] = [
     },
     "quickAnswer": "# What did reviewers score for Onimusha Way of the Sword?",
     "keyFacts": [
-      {
-        "label": "Last reviewed",
-        "value": "2026-10-03"
-      },
-      {
-        "label": "Research basis",
-        "value": "Official Capcom + verified guides"
-      }
     ],
     "modules": [
       {

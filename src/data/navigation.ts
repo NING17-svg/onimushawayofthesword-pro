@@ -54,7 +54,7 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
   },
   {
     href: "/onimusha-way-of-the-sword-characters/",
-    labels: { "en-US": "Reference" },
+    labels: { "en-US": "Lore" },
     children: [
       { href: "/onimusha-way-of-the-sword-characters/", labels: { "en-US": "Characters and story roster" } },
       { href: "/onimusha-way-of-the-sword-demo-reward/", labels: { "en-US": "Demo reward" } },

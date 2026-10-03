@@ -8,7 +8,7 @@ export default function NotFound() {
       <section className="not-found-page">
         <p className="eyebrow">404</p>
         <h1>Page Not Found</h1>
-        <p>The requested page is not part of this guide template.</p>
+        <p>The requested page is not part of this guide.</p>
         <Link className="btn" href="/">
           Back to Home
         </Link>
