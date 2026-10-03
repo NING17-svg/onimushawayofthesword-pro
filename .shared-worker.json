@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "site_id": "onimushawayofthesword-pro",
+  "domain": "onimushawayofthesword.pro",
+  "repository": "NING17-svg/onimushawayofthesword-pro",
+  "worker": "game-guide-new-pool-001",
+  "deployment_repository": "NING17-svg/game-guide-new-pool-001",
+  "pool_id": "new-guide-pool-001",
+  "marker_path": "/__deployment.json"
+}
